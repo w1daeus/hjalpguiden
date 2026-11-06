@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }} – {{ 'site.namn' | t(lang) }}</title>
+<meta name="description" content="{{ 'site.beskrivning' | t(lang) }}">
+<meta name="theme-color" content="#17365d">
+<meta name="hg-base" content="{{ '/' | url }}">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+</head>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<a class="skip" href="#main">{{ 'site.hoppaTill' | t(lang) }}</a>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="{{ '/' | langPath(lang) }}">{{ 'site.namn' | t(lang) }}</a>
+    {% if langs.length > 1 %}
+    <nav class="langs" aria-label="{{ 'site.sprak' | t(lang) }}">
+      {% for s in site.sprak %}{% if s.aktiv %}
+        {% if s.kod == lang %}<span aria-current="true">{{ s.namn }}</span>{% else %}<a href="{{ page.url | langSwap(lang, s.kod) }}" lang="{{ s.kod }}" hreflang="{{ s.kod }}">{{ s.namn }}</a>{% endif %}
+      {% endif %}{% endfor %}
+    </nav>
+    {% endif %}
+  </div>
+</header>
+{% if data.ejVerifierade > 0 %}
+<div class="varning" role="note">
+  <div class="wrap">⚠ {{ 'site.ejVerifierad' | t(lang) }}</div>
+</div>
+{% endif %}
+<main id="main" class="wrap">
+{{ content | safe }}
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p>{{ 'site.omSidan' | t(lang) }}</p>
+    <p>{{ 'site.byggd' | t(lang) }} <time datetime="{{ build.datum }}">{{ build.datum }}</time>.{% if site.repo %} <a href="{{ site.repo }}" rel="noopener">{{ 'site.kalla' | t(lang) }}</a>.{% endif %}</p>
+  </div>
+</footer>
+<script type="application/json" id="hg-i18n">{{ lang | jsTexter | json | safe }}</script>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

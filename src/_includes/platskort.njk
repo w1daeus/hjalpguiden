@@ -1,0 +1,42 @@
+{# Förväntar sig: plats, lang #}
+<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}">
+  <h3 class="plats-namn">{{ plats.namn }}</h3>
+  <p class="status" data-status></p>
+  <p class="badges">
+    {% if plats.status == 'verifierad' %}<span class="badge ok">✓ {{ 'plats.verifierad' | t(lang) }}</span>{% else %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span>{% endif %}
+    <span class="badge">{{ ('plats.malgrupp.' + plats.villkor.malgrupp) | t(lang) }}</span>
+    {% if plats.villkor.kraverId %}<span class="badge">{{ 'plats.kraverId' | t(lang) }}</span>{% endif %}
+    {% if plats.villkor.pris and plats.villkor.pris != 'gratis' %}<span class="badge">{{ 'plats.pris' | t(lang, { pris: plats.villkor.pris }) }}</span>{% elif plats.villkor.pris == 'gratis' %}<span class="badge">{{ 'plats.gratis' | t(lang) }}</span>{% endif %}
+  </p>
+  {% set erbjuder = plats.erbjuder[lang] or plats.erbjuder.sv %}
+  {% if erbjuder %}<p class="erbjuder">{{ erbjuder }}</p>{% endif %}
+  {% set ovrigt = plats.villkor.ovrigt[lang] or plats.villkor.ovrigt.sv %}
+  {% if ovrigt %}<p class="villkor"><strong>{{ 'plats.villkor' | t(lang) }}:</strong> {{ ovrigt }}</p>{% endif %}
+  <dl class="fakta">
+    {% if plats.adress and plats.adress.gata %}
+    <dt>{{ 'plats.adress' | t(lang) }}</dt>
+    <dd>{{ plats.adress | adressText }}<br><a class="lank" href="{{ plats.adress | kartUrl }}" rel="noopener">{{ 'plats.karta' | t(lang) }} ↗</a></dd>
+    {% endif %}
+    <dt>{{ 'plats.oppettider' | t(lang) }}</dt>
+    <dd>
+      {% set rader = plats.oppettider | tiderRader(lang) %}
+      {% if rader.length %}
+      <ul class="tider">{% for r in rader %}<li><span class="dagar">{{ r.dagar }}</span> <span class="tid">{{ r.tider }}</span></li>{% endfor %}</ul>
+      {% else %}{{ 'plats.okant' | t(lang) }}{% endif %}
+      {% if plats.sasong %}<span class="sasong">{{ 'plats.sasong' | t(lang, { fran: plats.sasong.fran, till: plats.sasong.till }) }}</span>{% endif %}
+    </dd>
+    {% if plats.telefon %}
+    <dt>{{ 'plats.telefon' | t(lang) }}</dt>
+    <dd><span class="tel">{{ plats.telefon }}</span> <a class="lank" href="{{ plats.telefon | telHref }}">{{ 'plats.ring' | t(lang) }}</a></dd>
+    {% endif %}
+    {% if plats.sprak.length %}
+    <dt>{{ 'plats.sprak' | t(lang) }}</dt>
+    <dd>{{ plats.sprak | sprakNamn(lang) }}</dd>
+    {% endif %}
+    {% if plats.org %}
+    <dt>{{ 'plats.organisation' | t(lang) }}</dt>
+    <dd>{% if plats.webb or plats.org.webb %}<a href="{{ plats.webb or plats.org.webb }}" rel="noopener">{{ plats.org.namn }} ↗</a>{% else %}{{ plats.org.namn }}{% endif %}</dd>
+    {% endif %}
+  </dl>
+  <p class="kontroll">{{ 'plats.senastKontrollerad' | t(lang) }}: <time datetime="{{ plats.senastKontrollerad }}">{{ plats.senastKontrollerad }}</time> <span class="gammal" hidden>· {{ 'plats.gammal' | t(lang) }}</span> · <a href="{{ plats.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a></p>
+</li>

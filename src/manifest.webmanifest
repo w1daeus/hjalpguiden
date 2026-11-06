@@ -1,0 +1,14 @@
+{
+  "name": "Hjälpguiden Stockholm",
+  "short_name": "Hjälpguiden",
+  "description": "Var kan jag sova, äta, duscha och få hjälp just nu?",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#17365d",
+  "lang": "sv",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,59 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ '/hjalpa-till/' | langPath(lang) }}"
+layout: layout.njk
+eleventyComputed:
+  title: "{{ 'nav.hjalpa' | t(lang) }}"
+---
+<nav class="crumb" aria-label="{{ 'site.tillbaka' | t(lang) }}"><a href="{{ '/' | langPath(lang) }}">← {{ 'nav.hem' | t(lang) }}</a></nav>
+<h1>{{ 'hjalpa.rubrik' | t(lang) }}</h1>
+<p>{{ 'hjalpa.intro' | t(lang) }}</p>
+
+<section aria-labelledby="h-pengar">
+  <h2 id="h-pengar">{{ 'hjalpa.pengar.rubrik' | t(lang) }}</h2>
+  <p>{{ 'hjalpa.pengar.text' | t(lang) }}</p>
+  <ul class="orgar">
+  {% for org in data.organisationer %}
+    {% set g = org.gava or {} %}
+    {% if g.swish or g.bankgiro or g.plusgiro or g.url or org.volontar %}
+    <li class="org" id="{{ org.id }}">
+      <h3>{% if org.webb %}<a href="{{ org.webb }}" rel="noopener">{{ org.namn }} ↗</a>{% else %}{{ org.namn }}{% endif %}</h3>
+      <dl class="fakta">
+        {% if g.swish %}<dt>{{ 'hjalpa.swish' | t(lang) }}</dt><dd><span class="tel">{{ g.swish }}</span></dd>{% endif %}
+        {% if g.bankgiro %}<dt>{{ 'hjalpa.bankgiro' | t(lang) }}</dt><dd><span class="tel">{{ g.bankgiro }}</span></dd>{% endif %}
+        {% if g.plusgiro %}<dt>{{ 'hjalpa.plusgiro' | t(lang) }}</dt><dd><span class="tel">{{ g.plusgiro }}</span></dd>{% endif %}
+      </dl>
+      <p class="lankar">
+        {% if g.url %}<a class="knapp" href="{{ g.url }}" rel="noopener">{{ 'hjalpa.gavaUrl' | t(lang) }} ↗</a>{% endif %}
+        {% if org.volontar %}<a class="knapp sekundar" href="{{ org.volontar }}" rel="noopener">{{ 'hjalpa.volontar' | t(lang) }} ↗</a>{% endif %}
+      </p>
+      <p class="kontroll">{% if org.status != 'verifierad' %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span> {% endif %}<a href="{{ org.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a></p>
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</section>
+
+<section aria-labelledby="h-saker">
+  <h2 id="h-saker">{{ 'hjalpa.saker.rubrik' | t(lang) }}</h2>
+  <p>{{ 'hjalpa.saker.text' | t(lang) }}</p>
+  <ul>{% for rad in 'hjalpa.saker.behovs' | t(lang) %}<li>{{ rad }}</li>{% endfor %}</ul>
+  <h3>{{ 'hjalpa.saker.inteRubrik' | t(lang) }}</h3>
+  <ul>{% for rad in 'hjalpa.saker.inte' | t(lang) %}<li>{{ rad }}</li>{% endfor %}</ul>
+</section>
+
+<section aria-labelledby="h-tid">
+  <h2 id="h-tid">{{ 'hjalpa.tid.rubrik' | t(lang) }}</h2>
+  <p>{{ 'hjalpa.tid.text' | t(lang) }}</p>
+  <ul>
+  {% for org in data.organisationer %}{% if org.volontar %}<li><a href="{{ org.volontar }}" rel="noopener">{{ org.namn }} ↗</a></li>{% endif %}{% endfor %}
+  </ul>
+</section>
+
+<section class="kommer" aria-labelledby="h-behov">
+  <h2 id="h-behov">{{ 'hjalpa.behovstavla.rubrik' | t(lang) }}</h2>
+  <p>{{ 'hjalpa.behovstavla.text' | t(lang) }}</p>
+</section>

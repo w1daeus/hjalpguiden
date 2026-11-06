@@ -1,0 +1,2173 @@
+[
+  {
+    "id": "bocenter-akutboende",
+    "namn": "BoCenter – akutboende för män",
+    "organisation": "stockholms-stadsmission",
+    "kategorier": [
+      "sova",
+      "mat",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Trygg plats att sova och vila, varm måltid, individuell vägledning och hjälp med myndighetskontakter och väg till mer varaktigt boende",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Fleminggatan 113",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "man",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Sidan anger inte om man kan komma direkt eller behöver placering via socialtjänsten; porttelefon finns. Våning 2",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-684 232 17",
+    "webb": "https://www.stadsmissionen.se/fa-stod/boende/akutboende/akutboende-for-man",
+    "kalla": "https://www.stadsmissionen.se/fa-stod/boende/akutboende/akutboende-for-man",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Öppettider: Dygnet runt'. Postnummer anges inte på sidan; hitta-till-oss-sidan anger 112 45 för Fleminggatan 113 (folkhögskolan/Rusta och matcha i samma hus). Pris ej angivet."
+  },
+  {
+    "id": "bocenter-dagverksamhet",
+    "namn": "BoCenter – dagverksamhet för män",
+    "organisation": "stockholms-stadsmission",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Frukost (8.30–10.00) och lunch (11.00–12.25) alla dagar, dusch, ombud som hjälper med mål, rättigheter, överklaganden och möten med socialtjänsten, tillgång till telefon, dator, internet och utskrift",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Högbergsgatan 20",
+      "postnummer": "116 20",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        },
+        {
+          "fran": "13:30",
+          "till": "15:30"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        },
+        {
+          "fran": "13:30",
+          "till": "15:30"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        },
+        {
+          "fran": "13:30",
+          "till": "15:30"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        },
+        {
+          "fran": "13:30",
+          "till": "15:30"
+        }
+      ],
+      "son": [
+        {
+          "fran": "08:30",
+          "till": "12:30"
+        },
+        {
+          "fran": "13:30",
+          "till": "15:30"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "man",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Enligt sidan för män i akut hemlöshet med rätt att tillgå välfärdsinsatser",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-684 231 00",
+    "webb": "https://www.stadsmissionen.se/fa-stod/stod-vid-hemloshet/dagverksamheter/dagverksamhet-for-man",
+    "kalla": "https://www.stadsmissionen.se/fa-stod/stod-vid-hemloshet/dagverksamheter/dagverksamhet-for-man",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Måndag, onsdag, fredag-söndag: kl. 8.30-12.30 / stängt 12.30-13.30 / kl.13.30-15.30. Tisdag och torsdag: kl. 8.30-12.30'. MOTSÄGELSE: sidan anger besöksadress Högbergsgatan 20 men intro-texten säger 'Vår öppna dagverksamhet på Fleminggatan'; BoKlara-sidan hänvisar män till 'BoCenter på Fleminggatan 115'; akutboendet BoCenter ligger på Fleminggatan 113. Adressen måste kontrolleras. Pris ej angivet."
+  },
+  {
+    "id": "boklara-akutboende",
+    "namn": "BoKlara – akutboende för kvinnor",
+    "organisation": "stockholms-stadsmission",
+    "kategorier": [
+      "sova",
+      "mat",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Trygg plats att sova och vila, mat och hygienartiklar, samtal och råd, hjälp med kontakt med socialtjänst och myndigheter",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Högbergsgatan 51",
+      "postnummer": "118 26",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "kvinnor",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Sidan anger inte om man kan komma direkt eller behöver placering via socialtjänsten",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-684 232 19",
+    "webb": "https://www.stadsmissionen.se/fa-stod/boende/akutboende/akutboende-for-kvinnor",
+    "kalla": "https://www.stadsmissionen.se/fa-stod/boende/akutboende/akutboende-for-kvinnor",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Öppettider: Dygnet runt'. Två telefonnummer anges: 08-684 232 19 och 08-684 232 18. Pris ej angivet."
+  },
+  {
+    "id": "boklara-dagverksamhet",
+    "namn": "BoKlara – dagverksamhet för kvinnor",
+    "organisation": "stockholms-stadsmission",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Frukost 8.15–9.30 varje dag, lunch 12.00–13.00 (tisdag 11.30–12.30), dusch, tvätt, vila några timmar, ombudsstöd inför socialtjänst/överklaganden, telefon, dator, internet, utskrift",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Högbergsgatan 51",
+      "postnummer": "118 26",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "08:15",
+          "till": "15:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "08:15",
+          "till": "13:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "08:15",
+          "till": "15:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "08:15",
+          "till": "15:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "08:15",
+          "till": "15:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "08:15",
+          "till": "15:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "08:15",
+          "till": "15:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "kvinnor",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-684 231 30",
+    "webb": "https://www.stadsmissionen.se/fa-stod/stod-vid-hemloshet/dagverksamheter/dagverksamhet-for-kvinnor",
+    "kalla": "https://www.stadsmissionen.se/fa-stod/stod-vid-hemloshet/dagverksamheter/dagverksamhet-for-kvinnor",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Måndag–söndag 8.15-15.00 (stänger kl. 13.00 på tisdagar)'. Namnet Klaragården förekommer inte på stadsmissionen.se – verksamheten heter nu BoKlara. E-post boklara@stadsmissionen.se. Pris ej angivet."
+  },
+  {
+    "id": "cafe-clara",
+    "namn": "Café Clara (S:ta Clara kyrka)",
+    "organisation": "foreningen-sta-clara-kyrka",
+    "kategorier": [
+      "mat"
+    ],
+    "erbjuder": {
+      "sv": "Kaffe, fika; smörgåsar och matlådor till den som är hungrig de dagar donationer kommit in",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Klara östra kyrkogata 7-9",
+      "postnummer": "111 52",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "11:00",
+          "till": "15:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "12:00",
+          "till": "15:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "11:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "15:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "13:00",
+          "till": "15:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "11:00",
+          "till": "14:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "11:00",
+          "till": "15:00"
+        }
+      ],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "I Clararummet, norra korsarmen",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "",
+    "webb": "https://clarakyrka.se/cafe-clara/",
+    "kalla": "https://clarakyrka.se/kalender/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Cafésidan säger 'öppet varje vardag och lördag' och hänvisar till kalendern för tider; tiderna ovan är tagna från kalendern. Pris för kaffe anges inte. Sommarcafé 1–31 juli mån–fre 11–15 utanför Lillkyrkan."
+  },
+  {
+    "id": "citydiakoni-sta-clara",
+    "namn": "Citydiakoni i S:ta Clara kyrka",
+    "organisation": "stockholms-domkyrkoforsamling",
+    "kategorier": [
+      "rad",
+      "mat"
+    ],
+    "erbjuder": {
+      "sv": "Samtal, vägledning till myndigheter, juridisk rådgivning, hjälp med vårdkontakt, matutdelning, hjälp med fondansökningar (tisdagar)",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Klara östra kyrkogata 7-9",
+      "postnummer": "111 52",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [],
+      "tis": [
+        {
+          "fran": "12:00",
+          "till": "15:00"
+        }
+      ],
+      "ons": [],
+      "tor": [],
+      "fre": [
+        {
+          "fran": "11:00",
+          "till": "14:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": {
+      "fran": "08-28",
+      "till": "12-18"
+    },
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Fondansökningar: krav att du bor i Stockholm eller dess förorter",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-723 30 53",
+    "webb": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/citydiakoni",
+    "kalla": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/citydiakoni",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Citydiakoni finns i St:a Clara kyrka, tisdag 12.00-15.00, fredag 11.00-14.00 (28/8 t.o.m. 18/12, uppehåll 27/10)'. Årtal anges inte. Gatuadressen är hämtad från clarakyrka.se/kontakta-oss/ (diakonisidan anger ingen gatuadress). Telefon är diakon Pernilla Landin."
+  },
+  {
+    "id": "convictus-hogdalen",
+    "namn": "Convictus Högdalen (Bryggan Vantör)",
+    "organisation": "convictus",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Gratis frukost 9–10, lunch 12–13 för 30 kr, bokningsbar dusch och tvätt, öppen mottagning med hjälp och råd, Gatujuristerna måndagar, präst/diakon/socialtjänst vissa dagar",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Skebokvarnsvägen 341",
+      "postnummer": "124 54",
+      "ort": "Bandhagen"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "frukost gratis, lunch 30 kr",
+      "ovrigt": {
+        "sv": "Riktar sig till personer i hemlöshet med skadligt bruk av alkohol/droger",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-508 203 96",
+    "webb": "https://convictus.org/convictus_vara_verksamheter_serviceverksamheter",
+    "kalla": "https://convictus.org/convictus_vara_verksamheter_serviceverksamheter",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Måndag till fredag, kl. 09.00-15.00'. Sidan anger 'Skebokvarnsvägen 341, Högdalens centrum'; postnummer/ort från kontaktsidan. Ligger utanför innerstan (Högdalen)."
+  },
+  {
+    "id": "convictus-odenplan",
+    "namn": "Convictus Odenplan",
+    "organisation": "convictus",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "klader",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Gratis frukost i två sittningar 9–11 (utesovare prioriteras), dusch, tvätt, kläder och skor efter väder, öppen mottagning med hjälp och råd vardagar 12–15, socialsekreterare onsdagar 9.30–11.30, sprututbytesbuss måndagar udda veckor",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Karlbergsvägen 26B",
+      "postnummer": "113 27",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "15:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "13:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Riktar sig till personer i hemlöshet med skadligt bruk av alkohol/droger",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-668 07 06",
+    "webb": "https://convictus.org/convictus_vara_verksamheter_serviceverksamheter",
+    "kalla": "https://convictus.org/convictus_kontakt",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan (serviceverksamheter): 'Måndag till fredag, kl. 09.00-15.00'. MOTSÄGELSE: kontaktsidan https://convictus.org/convictus_kontakt anger mån–tis 09.00–15.00, ons–tor 09.00–14.00, fre 09.00–13.00. Postnummer från kontaktsidan. Namnet 'Bryggan City' förekommer inte på convictus.org. | Andra insamlingen (https://convictus.org/convictus_kontakt): Kontaktsidan: 'måndag-tisdag kl 09.00-15.00, onsdag-torsdag kl 09.00-14.00, fredag kl 09.00-13.00'. Verksamhetssidan säger i stället 'Måndag till fredag, kl. 09.00-15.00' – motsägelse. Pris för dusch/tvätt anges inte; frukost gratis."
+  },
+  {
+    "id": "fa-eu-center",
+    "namn": "Frälsningsarméns EU-center",
+    "organisation": "fralsningsarmen",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Lunch dagligen, dusch, tvätt, samhällsguidning och råd om uppehålls-/arbetstillstånd och myndigheter, språkträning tis/tor 10–11, klippning onsdagar, Röda Korsets vårdmottagning varannan onsdag",
+      "en": ""
+    },
+    "adress": {
+      "gata": "S:t Göransgatan 61",
+      "postnummer": "112 38",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "eu-medborgare",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "EU-medborgare eller personer med permanent uppehållstillstånd i annat EU-land (även tredjelandsmedborgare med sådant tillstånd). OBS: sidan uppger att EU-center stänger, sista dag 31 december 2026",
+        "en": ""
+      }
+    },
+    "sprak": [
+      "sv",
+      "en",
+      "ro",
+      "pl",
+      "fr",
+      "es",
+      "ru",
+      "ar",
+      "de"
+    ],
+    "telefon": "073-920 68 14",
+    "webb": "https://www.fralsningsarmen.se/eu-center/",
+    "kalla": "https://www.fralsningsarmen.se/eu-center/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Sidan säger bara 'på vardagar' utan klockslag, därför oppettider null. Översiktssidan center-med-dagverksamhet anger ett annat telefonnummer: 08-128 288 00. Adressen skrivs 'St Göransgatan 61'. E-post eucenter@fralsningsarmen.se."
+  },
+  {
+    "id": "fa-eu-harbarget-bromma",
+    "namn": "EU-härbärget Bromma – akutboende (Frälsningsarmén)",
+    "organisation": "fralsningsarmen",
+    "kategorier": [
+      "sova",
+      "mat",
+      "dusch"
+    ],
+    "erbjuder": {
+      "sv": "Säng med rena lakan, varm kvällsmat och frukost, dusch, tvätt, wifi, individuella samtal. Platser fördelas via intag på Korskyrkan, Birger Jarlsgatan 66, mån–fre 10.00–11.30 (biljett för fem nätter, max en per vecka)",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Karlsbodavägen 14",
+      "postnummer": "168 67",
+      "ort": "Bromma"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "19:30",
+          "till": "07:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "eu-medborgare",
+      "kraverId": true,
+      "pris": "10 kr/natt",
+      "ovrigt": {
+        "sv": "Hemlösa med EU-medborgarskap eller permanent uppehållstillstånd i annat EU-land. Registrering med namn och personnummer, ID visas första natten",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "070-093 64 09",
+    "webb": "https://www.fralsningsarmen.se/eu-harbarget-bromma/",
+    "kalla": "https://www.fralsningsarmen.se/eu-harbarget-bromma/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Våra öppettider är 19.30–07.00 måndag-söndag, årets samtliga dagar.' Telefon bemannad 19:30–07:15. MOTSÄGELSE: översiktssidan boenden-for-personer-i-hemloshet säger att platserna 'lottas ut varje dag klockan 11 i Korskyrkan' och anger tel 0764-18 44 81; härbärgets egen sida säger intag mån–fre 10.00–11.30 utan lotteri. Ligger i Bromma men intaget sker i innerstan."
+  },
+  {
+    "id": "fa-sociala-centret-hornstull",
+    "namn": "Frälsningsarméns Sociala center, Hornstull",
+    "organisation": "fralsningsarmen",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "klader",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "En måltid per person och vardag (frukost/lunch), dusch, toalett, tvätt, kläder, wifi och lånedator, matkassar tisdag och fredag, kurator med hjälp vid myndighetskontakter, själavårdssamtal",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Långholmsgatan 32",
+      "postnummer": "117 33",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "13:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "13:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "13:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "13:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "13:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Kaffe 5 kr, allt annat gratis. Riktar sig till personer i hemlöshet och missbruk",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-34 85 98",
+    "webb": "https://www.fralsningsarmen.se/sociala-centret-stockholm/",
+    "kalla": "https://www.fralsningsarmen.se/sociala-centret-stockholm/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Måndag till fredag kl 9:00–13:00.' Postnummer anges som 11733 på centrets sida men 117 38 på översiktssidan center-med-dagverksamhet (117 38 är postadressen Bergsunds Strand 51). Centret har eget Swish 1234578126 och plusgiro 860765-7. E-post soccent.sthlm@fralsningsarmen.se."
+  },
+  {
+    "id": "fa-templet-kafe-i-gemenskap",
+    "namn": "Kafé i Gemenskap, Templet (Frälsningsarmén)",
+    "organisation": "fralsningsarmen",
+    "kategorier": [
+      "mat"
+    ],
+    "erbjuder": {
+      "sv": "Gratis frukost (dubbelmacka, ägg, te/juice/kaffe), matlåda att ta med, akuta matkassar under öppettid, samling 10.30 med sång och musik",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Östermalmsgatan 69",
+      "postnummer": "114 50",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Serveringen slutar 11.45. Templets ekonomiska hjälp söks via telefon 076-065 66 13 mån och ons 10–12",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-662 61 40",
+    "webb": "https://www.fralsningsarmen.se/templet-stockholm/det-sociala-arbetet-pa-templet/kafe-i-gemenskap/",
+    "kalla": "https://www.fralsningsarmen.se/templet-stockholm/det-sociala-arbetet-pa-templet/kafe-i-gemenskap/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Öppet måndag - fredag kl. 9.00-12.00', serveringen slutar 11.45. Språkkafé onsdagar 14–16. Översiktssidan anger telefon 073-98 212 67 för Templets sociala arbete."
+  },
+  {
+    "id": "kulturbiblioteket-kulturhuset",
+    "namn": "Kulturbiblioteket, Kulturhuset",
+    "organisation": "kulturhuset-stadsteatern",
+    "kategorier": [
+      "ladda"
+    ],
+    "erbjuder": {
+      "sv": "Wifi (Stockholms_stadsbibliotek). Fyra datorer på entréplan mot Sergels torg, 30 min drop-in. Fåtöljer för läsning. Ingen utskrift",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Sergels torg",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "11:00",
+          "till": "19:30"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "11:00",
+          "till": "19:30"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "11:00",
+          "till": "19:30"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "11:00",
+          "till": "19:30"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "11:00",
+          "till": "19:30"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "11:00",
+          "till": "17:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "11:00",
+          "till": "17:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Våning 2 i Kulturhuset. Inga studieplatser.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-506 20 122",
+    "webb": "https://kulturhusetstadsteatern.se/bibliotek/kulturbiblioteket",
+    "kalla": "https://kulturhusetstadsteatern.se/bibliotek/kulturbiblioteket",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Måndag–fredag: 11–19:30', 'Lördag–söndag: 11–17', undantag 'Onsdag 18 november: 12–19:30'. Datorer/wifi från biblioteket.stockholm.se/bibliotek/kulturbiblioteket, telefon från dess /kontakt-sida. Eluttag nämns inte. Gatuadress saknas på sidorna."
+  },
+  {
+    "id": "lakare-i-varlden-stockholm",
+    "namn": "Läkare i Världen – mottagning Stockholm (Serafen)",
+    "organisation": "lakare-i-varlden",
+    "kategorier": [
+      "vard"
+    ],
+    "erbjuder": {
+      "sv": "Onsdagar: psykosocialt stöd, barnmorska (jämna veckor), juridisk rådgivning i migrationsfrågor, ibland tandläkare. Torsdagar: medicinsk mottagning med läkare och sjuksköterskor",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Hantverkargatan 2C",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [],
+      "tis": [],
+      "ons": [
+        {
+          "fran": "18:00",
+          "till": "20:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "18:00",
+          "till": "21:00"
+        }
+      ],
+      "fre": [],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "papperslosa",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "För människor som möter hinder i tillgången till vård. Onsdagar: 'Du behöver inte boka tid'.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "010-129 98 09",
+    "webb": "https://lakareivarlden.se/vara-mottagningar/stockholm/",
+    "kalla": "https://lakareivarlden.se/vara-mottagningar/stockholm/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: onsdagar 18:00–20:00, torsdagar 18:00–21:00. Målgrupp 'papperslosa' är tolkning – sidan säger inte papperslösa/EU-medborgare uttryckligen, bara 'hinder i tillgången till vård'. Avgift och språk anges inte. Serafen på Kungsholmen."
+  },
+  {
+    "id": "lp-stockholm-city",
+    "namn": "LP Stockholm City (Citykyrkan)",
+    "organisation": "lp-verksamheten",
+    "kategorier": [
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Drogfri gemenskap, stöd och motivation, hjälp med myndighets- och vårdkontakter",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Adolf Fredriks kyrkogata 10",
+      "postnummer": "111 37",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [],
+      "tis": [],
+      "ons": [],
+      "tor": [
+        {
+          "fran": "16:00",
+          "till": "19:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "16:00",
+          "till": "18:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "För personer med beroendeproblem som vill förändra sin situation. Våning 3",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-534 807 00",
+    "webb": "https://www.lp-verksamheten.se/lp-center/stockholm-city/",
+    "kalla": "https://www.lp-verksamheten.se/lp-center/stockholm-city/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Torsdag: 16:00 – 19:00', 'Fredag: 16:00 – 18:00'. Telefontid 'Mån-Tors 09.00 – 12.00'. Mat/dusch/kläder nämns inte. Pris anges inte."
+  },
+  {
+    "id": "medborgarkontoret-for-hemlosa",
+    "namn": "Medborgarkontoret för personer i hemlöshet",
+    "organisation": "stockholms-stad",
+    "kategorier": [
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Träffa socialsekreterare utan att boka tid, råd i sociala frågor, stöd i kontakt med socialtjänst och andra myndigheter, dator, kopiator och telefon",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Östgötagatan 10",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "10:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "15:30"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Drop-in, ingen tidsbokning behövs. T-bana Medborgarplatsen.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-508 25 645",
+    "webb": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
+    "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: måndag 10.00–12.00, 13.00–16.00; tis–tor 09.00–12.00, 13.00–16.00; fredag 09.00–12.00, 13.00–15.30. Fredagar ojämna veckor öppet eftermiddag 13.00–15.30 (oklart om fredagseftermiddag gäller alla veckor). Telefon vardagar 08.30–12.00 samt 13.00–16.00. E-post medborgarkontoret.for.hemlosa@stockholm.se. Pris 'gratis' är antagande (kommunal service), källan säger inget."
+  },
+  {
+    "id": "mobilt-rad-och-stod",
+    "namn": "Mobilt råd och stöd",
+    "organisation": "stockholms-stadsmission",
+    "kategorier": [
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Individuellt råd och stöd från socionomer och jurist, hjälp med myndighetskontakter (t.ex. Migrationsverket, socialtjänsten)",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Fleminggatan 113",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "För den som befinner sig i socialt och/eller ekonomiskt utanförskap",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-684 231 80",
+    "webb": "https://stadsmissionen.se/motesplats-city",
+    "kalla": "https://stadsmissionen.se/motesplats-city",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Sidan anger bara telefontider: 'måndag, onsdag och fredag kl. 9 – 12'. Inga besökstider. URL:en motesplats-city visar sidan 'Mobilt råd och stöd'; kortet 'EU-medborgare eller tredjelandsmedborgare?' på fa-stod/stod-och-rattigheter länkar hit. E-post radochstod@stadsmissionen.se. | Andra insamlingen (https://www.stadsmissionen.se/mobilt-rad-och-stod): Telefontid: 'måndag, onsdag och fredag kl. 9 – 12'. Inga besökstider; teamet kan mötas på plats som passar. Pris anges inte uttryckligen (tolkat som gratis). Postnummer saknas."
+  },
+  {
+    "id": "motesplats-mariatorget",
+    "namn": "Mötesplats Mariatorget",
+    "organisation": "stockholms-stadsmission",
+    "kategorier": [
+      "mat",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Frukost varje vardag, veckans lunch, samtalsgrupper, kostnadsfria familjekvällar varannan måndag, kulturevenemang",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Mariatorget 10",
+      "postnummer": "118 48",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "08:00",
+          "till": "14:30"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "08:00",
+          "till": "17:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "08:00",
+          "till": "17:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "08:00",
+          "till": "17:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "08:00",
+          "till": "17:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "09:00",
+          "till": "17:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "11:00",
+          "till": "16:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Priser för mat anges inte; kulturevenemang kräver biljett",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-684 233 10",
+    "webb": "https://www.stadsmissionen.se/motesplats-mariatorget",
+    "kalla": "https://www.stadsmissionen.se/motesplats-mariatorget",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Måndag: 8:00-14:30 Tisdag-Fredag: 08:00-17:00 Lördag: 09:00-17:00 Söndag: 11:00-16:00'. Telefon visas som 0868423310, telefontid vardagar 9-12. Gatuadress hämtad från https://www.stadsmissionen.se/hitta-till-oss (verksamhetssidan saknar adress). Dusch/tvätt/kläder nämns inte."
+  },
+  {
+    "id": "nattharbarge-eu-inskrivning-korskyrkan",
+    "namn": "Natthärbärge för utsatta EU-medborgare – inskrivning (Korskyrkan)",
+    "organisation": "stockholms-stad",
+    "kategorier": [
+      "sova"
+    ],
+    "erbjuder": {
+      "sv": "Inskrivning till stadens natthärbärge för EU-medborgare i social utsatthet, som drivs tillsammans med frivilligorganisationer",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Birger Jarlsgatan 66",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "10:00",
+          "till": "11:30"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "10:00",
+          "till": "11:30"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "10:00",
+          "till": "11:30"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "10:00",
+          "till": "11:30"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "10:00",
+          "till": "11:30"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "eu-medborgare",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "",
+    "webb": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
+    "kalla": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: inskrivningskontor Korskyrkan, Birger Jarlsgatan 66, måndag–fredag 10.00–11.30. Sidan markerade kontoret som 'stängt' vid hämtningen – oklart om det betyder stängt just nu eller nedlagt. Härbärgets egen adress, tider och pris anges inte. Ordet 'Vinternatt' används inte på sidan. Extra lokaler öppnas särskilt kalla vinternätter."
+  },
+  {
+    "id": "ng-cafe-kungsholmen",
+    "namn": "Café Kungsholmen (Ny Gemenskap / Den Öppna Dörren)",
+    "organisation": "ny-gemenskap",
+    "kategorier": [
+      "mat",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Eftermiddagscafé med kaffe och smörgås, hjälp med myndighetskontakter, digitala och juridiska frågor, vägledning",
+      "en": ""
+    },
+    "adress": {
+      "gata": "John Ericssonsgatan 11",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "13:00",
+          "till": "17:00"
+        }
+      ],
+      "tis": [],
+      "ons": [
+        {
+          "fran": "13:00",
+          "till": "17:00"
+        }
+      ],
+      "tor": [],
+      "fre": [
+        {
+          "fran": "13:00",
+          "till": "17:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Drivs tillsammans med Den Öppna Dörren",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-650 84 17",
+    "webb": "https://nygemenskap.org/cafe-kungsholmen/",
+    "kalla": "https://nygemenskap.org/cafe-kungsholmen/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'öppet mellan kl 13-17 måndagar, onsdagar och fredagar varje vecka'. Telefonnumret tillhör Den Öppna Dörren (även 072-332 84 17). Pris anges inte. Postnummer saknas. | Andra insamlingen (https://nygemenskap.org/cafe-kungsholmen/): Källan: 'öppet mellan kl 13-17 måndagar, onsdagar och fredagar varje vecka'. Telefon 08-650 84 17 är partnern Den Öppna Dörren (enligt nygemenskap.org/kontakta-oss/). Pris anges inte."
+  },
+  {
+    "id": "ng-cafe-norrmalm",
+    "namn": "Café Norrmalm (Ny Gemenskap)",
+    "organisation": "ny-gemenskap",
+    "kategorier": [
+      "mat",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Frukost på vardagar, samling 10.30 med musik/kultur, möjlighet till rådgivning",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Birger Jarlsgatan 66B",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Toaletterna stängda 23 november–18 december för renovering",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-122 07 023",
+    "webb": "https://nygemenskap.org/cafe-norrmalm/",
+    "kalla": "https://nygemenskap.org/cafe-norrmalm/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'måndag– fredag kl 9-12.00'. Ligger i Korskyrkans lokaler. Postnummer saknas på sidan. 'Gratis' bygger på organisationens uppgift att alla caféer serverar gratis frukost (vara-verksamheter-sidan). | Andra insamlingen (https://nygemenskap.org/cafe-norrmalm/): Källan: 'Vi serverar frukost måndag– fredag kl 9-12.00'. Toaletter renoveras 23 nov–18 dec (årtal ej angivet). Postnummer anges inte."
+  },
+  {
+    "id": "ng-cafe-sodermalm",
+    "namn": "Café Södermalm (Ny Gemenskap)",
+    "organisation": "ny-gemenskap",
+    "kategorier": [
+      "mat",
+      "klader",
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Frukost på vardagar, samvaro, rådgivning, klädutdelning onsdagar i mån av personal, musikcafé med gratis fika torsdagar 13–16",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Blecktornsgränd 13",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "I Söderhöjdskyrkan",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "079-143 92 81",
+    "webb": "https://nygemenskap.org/cafe-sodermalm/",
+    "kalla": "https://nygemenskap.org/cafe-sodermalm/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'måndag– fredag kl 9-12.00' samt 'Musikcafé med livemusik och gratis fika kl. 13-16' torsdagar. I Söderhöjdskyrkans lokal nära Mariatorget. Postnummer saknas. Pris för frukost anges inte på sidan; 'gratis' enligt organisationens generella uppgift. | Andra insamlingen (https://nygemenskap.org/cafe-sodermalm/): Källan: 'Vi serverar frukost måndag– fredag kl 9-12.00'; musikcafé 'Torsdagar 13:00-16:00'. Svenska kyrkan Södermalms sida (svenskakyrkan.se/sodermalm/kafe-i-gemenskap) anger musikkafé 'kl. 13.15-15.30' – motsägelse. Postnummer anges inte."
+  },
+  {
+    "id": "ng-vastberga-gard",
+    "namn": "Västberga gård (Ny Gemenskap)",
+    "organisation": "ny-gemenskap",
+    "kategorier": [
+      "mat",
+      "dusch",
+      "klader",
+      "rad",
+      "vard"
+    ],
+    "erbjuder": {
+      "sv": "Gratis frukost 9–10, lunch 12–13, dusch, tvätt och kläder för hemlösa mån–fre 9–12, stödsamtal, läkar- och socialarbetarbesök ibland, kulturprogram söndagar",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Västberga Gårdsväg 30",
+      "postnummer": "126 30",
+      "ort": "Hägersten"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "09:00",
+          "till": "14:00"
+        }
+      ],
+      "lor": [],
+      "son": [
+        {
+          "fran": "12:00",
+          "till": "14:30"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "frukost gratis, lunch 20 kr",
+      "ovrigt": {
+        "sv": "I första hand för hemlösa och utsatta; söndagsprogrammet öppet för alla",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-122 07 022",
+    "webb": "https://nygemenskap.org/vastberga-gard/",
+    "kalla": "https://nygemenskap.org/vastberga-gard/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Öppettider-avsnittet: 'Måndag – fredag kl 9.00-14.00', 'Lördag stängt', 'Söndag 12.00-14.30'. MOTSÄGELSE på samma sida (FAQ): 'Onsdag 9.00-12.00', 'Söndag kl 12-15.00', lunch 15 kr. Ligger utanför innerstan (Hägersten). Ny Gemenskaps huvudverksamhet; Kammakargatan nämns inte längre på webbplatsen. | Andra insamlingen (https://nygemenskap.org/vastberga-gard/): Ligger utanför innerstan. Källan: 'Måndag – fredag kl 9.00-14.00', 'Lördag stängt', 'Söndag 12.00-14.30' – men FAQ på samma sida säger 'Söndag kl 12-15.00'. Lunchpris 20 kr i huvudtext, 15 kr i FAQ. Motsägelser att kontrollera."
+  },
+  {
+    "id": "omrade-hemloshet-socialforvaltningen",
+    "namn": "Område hemlöshet (Enheten för hemlösa), socialförvaltningen",
+    "organisation": "stockholms-stad",
+    "kategorier": [
+      "rad"
+    ],
+    "erbjuder": {
+      "sv": "Socialtjänst för dig som är hemlös och inte haft kontakt med en stadsdelsförvaltning de senaste två åren: utredning och beslut om boende och annat bistånd",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Östgötagatan 10",
+      "postnummer": "116 25",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Har du haft kontakt med en stadsdelsförvaltning de senaste två åren ska du vända dig dit i stället.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-508 25 301",
+    "webb": "https://socialtstod.stockholm/stod-till-hemlosa/",
+    "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Sidan kallar enheten 'område hemlöshet' vid socialförvaltningen. Inga öppettider anges på sidan. Pris 'gratis' är antagande (myndighet)."
+  },
+  {
+    "id": "pelarbacken",
+    "namn": "Capio Vård för hemlösa Pelarbacken",
+    "organisation": "region-stockholm",
+    "kategorier": [
+      "vard"
+    ],
+    "erbjuder": {
+      "sv": "Primärvård, psykiatri, beroendevård, medicinsk fotvård, hepatit C-behandling och vaccination för dig som lever i akut hemlöshet. Drop-in alla vardagar",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Östgötagatan 10",
+      "postnummer": "116 25",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "08:30",
+          "till": "11:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "15:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "08:30",
+          "till": "11:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "08:30",
+          "till": "11:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "15:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "08:30",
+          "till": "11:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "15:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "08:30",
+          "till": "11:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "14:30"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "För dig som lever i akut hemlöshet.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-598 341 50",
+    "webb": "https://capio.se/hitta-mottagning/specialistvard/vard-for-personer-i-hemloshet/vard-for-hemlosa-pelarbacken/",
+    "kalla": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Vard-for-hemlosa-Pelarbacken-oppenvard-Sodermalm/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Tiderna är drop-in-tider enligt 1177. Telefontider: mån–ons 08.00–16.00, tor 08.00–22.00, fre 08.00–15.00. Drivs av Capio på uppdrag av Region Stockholm. Avgift framgår inte. Tandvård nämns inte."
+  },
+  {
+    "id": "roda-korset-vardformedling-kungsholmen",
+    "namn": "Röda Korsets vårdförmedling, Kungsholmen",
+    "organisation": "roda-korset",
+    "kategorier": [
+      "vard"
+    ],
+    "erbjuder": {
+      "sv": "Vård och vårdrådgivning för papperslösa och migranter. Drop-in, men boka gärna tid",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Lindhagensgatan 126",
+      "postnummer": "104 25",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "09:00",
+          "till": "12:00"
+        },
+        {
+          "fran": "13:00",
+          "till": "16:00"
+        }
+      ],
+      "fre": [],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "papperslosa",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Även mottagning på Frälsningsarméns EU-center, S:t Göransgatan 61, varannan onsdag (ojämna veckor) 09.00–12.00.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "020-211 000",
+    "webb": "https://www.rodakorset.se/var-hjalp-i-sverige/vard-och-behandling/vard-for-papperslosa/stockholm/",
+    "kalla": "https://www.rodakorset.se/var-hjalp-i-sverige/vard-och-behandling/vard-for-papperslosa/stockholm/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: drop-in måndag–torsdag 09.00–12.00 och 13.00–16.00; telefon måndag–fredag 09.00–12.00. Äldre folder angav 020-21 10 00 (samma nummer) och Hornsgatan 54 (gammal adress). Avgift anges inte."
+  },
+  {
+    "id": "situation-sthlm",
+    "namn": "Situation Sthlm – stöd till försäljare",
+    "organisation": "situation-sthlm",
+    "kategorier": [
+      "rad",
+      "klader"
+    ],
+    "erbjuder": {
+      "sv": "Gratis café med bibliotek, datorer och telefon, hjälp med BankID och myndighetskontakter, klädutlämning, c/o-adress för post",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Torkel Knutssongatan 37",
+      "postnummer": "118 49",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "I första hand för registrerade försäljare; försäljare ska ha kontakt med socialtjänst, vård eller psykiatri",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-545 953 81",
+    "webb": "https://www.situationsthlm.se/var-verksamhet/",
+    "kalla": "https://www.situationsthlm.se/var-verksamhet/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Inga öppettider på sidan (nämner 'kvällsöppet' utan schema). Dusch nämns inte. Oklart om verksamheten är öppen för andra än försäljare."
+  },
+  {
+    "id": "socialjouren-stockholm",
+    "namn": "Socialjouren Stockholms stad",
+    "organisation": "stockholms-stad",
+    "kategorier": [
+      "rad",
+      "sova"
+    ],
+    "erbjuder": {
+      "sv": "Akut socialt stöd kvällar, nätter och helger, bland annat akutboende/härbärge och akut ekonomiskt bistånd",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Bangårdsgången 10",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "lor": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ],
+      "son": [
+        {
+          "fran": "00:00",
+          "till": "24:00"
+        }
+      ]
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Ring i första hand. Dagtid vardagar: kontakta din stadsdelsförvaltning.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-508 40 000",
+    "webb": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
+    "kalla": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan: 'Stockholm stads socialjour är öppen dygnet runt' och 'vid akuta sociala situationer som inträffar kvällar, nätter eller helger'. Tiderna är telefonjourens – oklart om besöksadressen är öppen för besök dygnet runt. E-post funktion.sof.socialjouren@stockholm.se. Ligger i kategori 'sova' eftersom socialjouren är vägen till akutboende kvällar/nätter/helger, inte för att man sover där."
+  },
+  {
+    "id": "sta-clara-kaffevagn-sergels-torg",
+    "namn": "S:ta Clara kyrka – Kaffevagn på Sergels torg (Plattan)",
+    "organisation": "foreningen-sta-clara-kyrka",
+    "kategorier": [
+      "mat"
+    ],
+    "erbjuder": {
+      "sv": "Kaffe från vagn på Plattan",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Sergels torg (Plattan)",
+      "postnummer": "",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": {
+      "man": [
+        {
+          "fran": "13:30",
+          "till": "14:30"
+        }
+      ],
+      "tis": [
+        {
+          "fran": "13:30",
+          "till": "14:30"
+        }
+      ],
+      "ons": [
+        {
+          "fran": "13:30",
+          "till": "14:30"
+        }
+      ],
+      "tor": [
+        {
+          "fran": "13:30",
+          "till": "14:30"
+        }
+      ],
+      "fre": [
+        {
+          "fran": "13:30",
+          "till": "14:30"
+        }
+      ],
+      "lor": [],
+      "son": []
+    },
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "",
+    "webb": "https://clarakyrka.se/kalender/",
+    "kalla": "https://clarakyrka.se/kalender/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Kalendern: 'Sergels torg – Plattan (kaffevagn)', 'varje vardag 13.30-14.30'. Vad som delas ut utöver kaffe framgår inte."
+  },
+  {
+    "id": "sta-clara-matutdelning",
+    "namn": "S:ta Clara kyrka – Matutdelning och sopplunch",
+    "organisation": "foreningen-sta-clara-kyrka",
+    "kategorier": [
+      "mat"
+    ],
+    "erbjuder": {
+      "sv": "Matkassar torsdagar, sopplunch tisdagar i Lillkyrkan",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Klara östra kyrkogata 7-9",
+      "postnummer": "111 52",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "",
+    "webb": "https://clarakyrka.se/matutdelning/",
+    "kalla": "https://clarakyrka.se/matutdelning/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Källan anger bara starttider: 'varje torsdag kl 10.30' (matkassar) och 'varje tisdag kl 14.00' (sopplunch i Lillkyrkan). Inga sluttider, därför oppettider null. Pris 'gratis' är tolkning – sidan säger utdelning till behövande, inget pris nämns."
+  },
+  {
+    "id": "sta-clara-nattoppen-kyrka",
+    "namn": "S:ta Clara kyrka – Nattöppen kyrka",
+    "organisation": "foreningen-sta-clara-kyrka",
+    "kategorier": [
+      "sova"
+    ],
+    "erbjuder": {
+      "sv": "Kyrkan öppen kväll och natt måndagar under vintern",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Klara östra kyrkogata 7-9",
+      "postnummer": "111 52",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": {
+      "fran": "11-17",
+      "till": "03-31"
+    },
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "",
+      "ovrigt": {
+        "sv": "Oklart om man kan sova där: kalendern säger bara nattöppen kyrka måndagar. Fråga på plats.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "",
+    "webb": "https://clarakyrka.se/kalender/",
+    "kalla": "https://clarakyrka.se/kalender/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Kalendern listar 'Nattöppen kyrka' måndag kväll/natt '17 nov-31 mars' utan klockslag. Oklart om man får sova där – en äldre TV4-artikel säger att sovplatserna stoppats. Kategori 'sova' är osäker, måste kontrolleras."
+  },
+  {
+    "id": "stadsbiblioteket-spelbomskan",
+    "namn": "Stadsbiblioteket Spelbomskan",
+    "organisation": "stockholms-stadsbibliotek",
+    "kategorier": [
+      "ladda"
+    ],
+    "erbjuder": {
+      "sv": "Wifi (Stockholms_stadsbibliotek), två datorer att låna på plats, utskrift/kopiering. Tillfällig lokal medan Stadsbiblioteket vid Odenplan renoveras",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Odengatan 59",
+      "postnummer": "113 22",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "Inga studieplatser. Toalett 5 kr (gratis för barn och unga). Kontantfritt.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-508 31 105",
+    "webb": "https://biblioteket.stockholm.se/bibliotek/stadsbiblioteket-spelbomskan",
+    "kalla": "https://biblioteket.stockholm.se/bibliotek/stadsbiblioteket-spelbomskan",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Stadsbiblioteket Odengatan 53 är stängt för renovering, återöppning 'början av 2028'. Sidan visade bara 'Öppet idag: 10:00–17:00'; veckotider laddas med javascript och gick inte att läsa. Eluttag nämns inte. Telefon från /kontakt-sidan."
+  },
+  {
+    "id": "transtromerbiblioteket",
+    "namn": "Tranströmerbiblioteket (Medborgarplatsen)",
+    "organisation": "stockholms-stadsbibliotek",
+    "kategorier": [
+      "ladda"
+    ],
+    "erbjuder": {
+      "sv": "Wifi (Stockholms_stadsbibliotek), datorer drop-in på plan 4, utskrift/kopiering, ett trettiotal studieplatser",
+      "en": ""
+    },
+    "adress": {
+      "gata": "Götgatan 54",
+      "postnummer": "118 26",
+      "ort": "Stockholm"
+    },
+    "koordinater": null,
+    "oppettider": null,
+    "sasong": null,
+    "villkor": {
+      "malgrupp": "alla",
+      "kraverId": false,
+      "pris": "gratis",
+      "ovrigt": {
+        "sv": "I Medborgarhuset, en trappa upp från Medborgarplatsen. Toalett på plan 4 kostar 5 kr; gratis på PUNKT och barnavdelningen.",
+        "en": ""
+      }
+    },
+    "sprak": [],
+    "telefon": "08-508 30 800",
+    "webb": "https://biblioteket.stockholm.se/bibliotek/transtromerbiblioteket",
+    "kalla": "https://biblioteket.stockholm.se/bibliotek/transtromerbiblioteket",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad",
+    "anteckning": "Sidan visade bara 'Öppet idag: 10:00–17:00' (PUNKT 12:00–17:00); veckotider laddas med javascript och gick inte att läsa. Eluttag nämns inte. Telefon från /kontakt-sidan. Det finns inget bibliotek som heter 'Medborgarplatsens bibliotek' i stadsbibliotekets lista – Tranströmerbiblioteket är biblioteket vid Medborgarplatsen."
+  }
+]

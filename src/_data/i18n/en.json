@@ -1,0 +1,203 @@
+{
+  "site": {
+    "namn": "",
+    "slogan": "",
+    "beskrivning": "",
+    "ejVerifierad": "",
+    "hoppaTill": "",
+    "sprak": "",
+    "byggd": "",
+    "omSidan": "",
+    "kalla": "",
+    "tillbaka": ""
+  },
+  "nav": {
+    "hem": "",
+    "behover": "",
+    "ser": "",
+    "hjalpa": ""
+  },
+  "start": {
+    "nod": "",
+    "behoverText": "",
+    "serText": "",
+    "hjalpaText": ""
+  },
+  "kat": {
+    "sova": {
+      "namn": "",
+      "kort": ""
+    },
+    "mat": {
+      "namn": "",
+      "kort": ""
+    },
+    "dusch": {
+      "namn": "",
+      "kort": ""
+    },
+    "klader": {
+      "namn": "",
+      "kort": ""
+    },
+    "ladda": {
+      "namn": "",
+      "kort": ""
+    },
+    "vard": {
+      "namn": "",
+      "kort": ""
+    },
+    "rad": {
+      "namn": "",
+      "kort": ""
+    }
+  },
+  "plats": {
+    "oppetNu": "",
+    "stangt": "",
+    "okant": "",
+    "utanforSasong": "",
+    "sasong": "",
+    "stanger": "",
+    "stangerSnart": "",
+    "oppnarIdag": "",
+    "oppnarImorgon": "",
+    "oppnar": "",
+    "oppnarInte": "",
+    "adress": "",
+    "karta": "",
+    "ring": "",
+    "telefon": "",
+    "webb": "",
+    "kalla": "",
+    "erbjuder": "",
+    "villkor": "",
+    "oppettider": "",
+    "sprak": "",
+    "senastKontrollerad": "",
+    "ejVerifierad": "",
+    "verifierad": "",
+    "gammal": "",
+    "kraverId": "",
+    "ingetId": "",
+    "gratis": "",
+    "pris": "",
+    "organisation": "",
+    "filterOppetNu": "",
+    "antal": "",
+    "antalOppna": "",
+    "ingaOppna": "",
+    "ingaPlatser": "",
+    "utanJs": "",
+    "skrivUt": "",
+    "stangtDag": "",
+    "malgrupp": {
+      "alla": "",
+      "kvinnor": "",
+      "man": "",
+      "unga": "",
+      "familjer": "",
+      "eu-medborgare": "",
+      "papperslosa": ""
+    },
+    "dag": {
+      "man": "",
+      "tis": "",
+      "ons": "",
+      "tor": "",
+      "fre": "",
+      "lor": "",
+      "son": ""
+    },
+    "dagKort": {
+      "man": "",
+      "tis": "",
+      "ons": "",
+      "tor": "",
+      "fre": "",
+      "lor": "",
+      "son": ""
+    },
+    "dygnetRunt": ""
+  },
+  "ser": {
+    "rubrik": "",
+    "intro": "",
+    "steg1": {
+      "fraga": "",
+      "hjalp": "",
+      "ja": "",
+      "nej": ""
+    },
+    "steg2": {
+      "fraga": "",
+      "ja": "",
+      "nej": ""
+    },
+    "steg3": {
+      "fraga": "",
+      "text": ""
+    },
+    "tips": {
+      "rubrik": "",
+      "lista": []
+    },
+    "nummer": "",
+    "oppet": ""
+  },
+  "hjalpa": {
+    "rubrik": "",
+    "intro": "",
+    "pengar": {
+      "rubrik": "",
+      "text": ""
+    },
+    "saker": {
+      "rubrik": "",
+      "text": "",
+      "behovs": [],
+      "inteRubrik": "",
+      "inte": []
+    },
+    "tid": {
+      "rubrik": "",
+      "text": ""
+    },
+    "behovstavla": {
+      "rubrik": "",
+      "text": ""
+    },
+    "swish": "",
+    "bankgiro": "",
+    "plusgiro": "",
+    "gavaUrl": "",
+    "volontar": "",
+    "webb": "",
+    "ingaGavor": ""
+  },
+  "skrivUt": {
+    "rubrik": "",
+    "intro": "",
+    "knapp": "",
+    "tillbaka": ""
+  },
+  "sprakNamn": {
+    "sv": "",
+    "en": "",
+    "ro": "",
+    "ar": "",
+    "fa": "",
+    "so": "",
+    "ti": "",
+    "pl": "",
+    "ru": "",
+    "es": "",
+    "fr": "",
+    "de": "",
+    "fi": "",
+    "tr": "",
+    "bg": "",
+    "uk": ""
+  }
+}

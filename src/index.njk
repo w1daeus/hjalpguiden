@@ -1,0 +1,36 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ '/' | langPath(lang) }}"
+layout: layout.njk
+eleventyComputed:
+  title: "{{ 'nav.hem' | t(lang) }}"
+---
+<p class="nod"><a href="tel:112">{{ 'start.nod' | t(lang) }}</a></p>
+<h1 class="slogan">{{ 'site.slogan' | t(lang) }}</h1>
+
+<section class="ingang" aria-labelledby="h-behover">
+  <h2 id="h-behover">{{ 'nav.behover' | t(lang) }}</h2>
+  <p>{{ 'start.behoverText' | t(lang) }}</p>
+  <ul class="katgrid">
+  {% for k in site.kategorier %}
+    <li><a class="kat" href="{{ ('/hjalp/' + k.id + '/') | langPath(lang) }}">
+      <span class="ikon" aria-hidden="true">{{ k.ikon }}</span>
+      <span class="namn">{{ ('kat.' + k.id + '.namn') | t(lang) }}</span>
+      <span class="kort">{{ ('kat.' + k.id + '.kort') | t(lang) }}</span>
+    </a></li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section class="ingang" aria-labelledby="h-ser">
+  <h2 id="h-ser"><a class="stor-lank" href="{{ '/ser-nagon/' | langPath(lang) }}">{{ 'nav.ser' | t(lang) }} →</a></h2>
+  <p>{{ 'start.serText' | t(lang) }}</p>
+</section>
+
+<section class="ingang" aria-labelledby="h-hjalpa">
+  <h2 id="h-hjalpa"><a class="stor-lank" href="{{ '/hjalpa-till/' | langPath(lang) }}">{{ 'nav.hjalpa' | t(lang) }} →</a></h2>
+  <p>{{ 'start.hjalpaText' | t(lang) }}</p>
+</section>

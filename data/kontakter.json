@@ -1,0 +1,291 @@
+[
+  {
+    "id": "112",
+    "namn": "112 – nödnumret",
+    "telefon": "112",
+    "beskrivning": {
+      "sv": "Ring vid akuta nödsituationer då det är fara för liv, egendom eller miljö, t.ex. akut sjukdom, pågående brott eller brand. Ring bara när situationen kräver omedelbar hjälp. Gratis.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://www.sosalarm.se/112-och-andra-viktiga-nummer/viktiga-nummer/112/",
+    "kalla": "https://www.sosalarm.se/112-och-andra-viktiga-nummer/viktiga-nummer/112/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "1177",
+    "namn": "1177 – sjukvårdsrådgivning",
+    "telefon": "1177",
+    "beskrivning": {
+      "sv": "Nationellt nummer för sjukvårdsrådgivning. Sjuksköterskor bedömer vårdbehov, ger råd och hänvisar till rätt vård.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Dygnet runt",
+      "en": ""
+    },
+    "webb": "https://www.1177.se/om-1177/nar-du-ringer-1177/",
+    "kalla": "https://www.1177.se/om-1177/nar-du-ringer-1177/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "socialjouren",
+    "namn": "Socialjouren Stockholms stad",
+    "telefon": "08-508 40 000",
+    "beskrivning": {
+      "sv": "Akuta sociala situationer kvällar, nätter och helger som inte kan vänta till nästa vardag, t.ex. akut behov av boende (akutboende/härbärge) eller akut ekonomiskt bistånd. Dagtid: kontakta din stadsdelsförvaltning.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Dygnet runt",
+      "en": ""
+    },
+    "webb": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
+    "kalla": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "uppsokarteamet",
+    "namn": "Uppsökarteamet, Stockholms stad",
+    "telefon": "08-508 25 673",
+    "beskrivning": {
+      "sv": "Ring stadens uppsökare om du är orolig för en person som lever i hemlöshet eller far illa på stan. E-post uppsokarteamet@stockholm.se.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Uppsökarna arbetar dagar, kvällar och helger",
+      "en": ""
+    },
+    "webb": "https://socialtstod.stockholm/stod-till-hemlosa/",
+    "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "uppsokande-eu-team",
+    "namn": "Uppsökande EU-team, Stockholms stad",
+    "telefon": "08-508 25 690",
+    "beskrivning": {
+      "sv": "Uppsökare som arbetar enbart med EU-medborgare i social utsatthet. E-post eu-teamet@stockholm.se.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
+    "kalla": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "socialradgivningen",
+    "namn": "Socialrådgivningen, Stockholms stad",
+    "telefon": "08-508 25 600",
+    "beskrivning": {
+      "sv": "Socialsekreterare svarar på generella frågor om socialtjänstens stöd, t.ex. hur man ansöker. Går att vara anonym. Har du redan en handläggare, kontakta den i stället.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Dygnet runt, året om (kvällar/nätter/helger kopplas till socialjouren)",
+      "en": ""
+    },
+    "webb": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
+    "kalla": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "medborgarkontoret-for-hemlosa-telefon",
+    "namn": "Medborgarkontoret för personer i hemlöshet",
+    "telefon": "08-508 25 645",
+    "beskrivning": {
+      "sv": "Råd i sociala frågor och hjälp i kontakt med socialtjänst och myndigheter för dig som är hemlös. Besök Östgötagatan 10 utan tidsbokning.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Telefon vardagar 08.30–12.00 samt 13.00–16.00",
+      "en": ""
+    },
+    "webb": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
+    "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "kvinnofridslinjen",
+    "namn": "Kvinnofridslinjen",
+    "telefon": "116 016",
+    "beskrivning": {
+      "sv": "Stödtelefon för dig som utsatts för hot eller våld, och för anhöriga och yrkesverksamma. Alla oavsett ålder kan ringa. Gratis och du kan vara anonym. Vid akut fara: ring 112.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Dygnet runt",
+      "en": ""
+    },
+    "webb": "https://kvinnofridslinjen.se/",
+    "kalla": "https://kvinnofridslinjen.se/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "jourhavande-medmanniska",
+    "namn": "Jourhavande Medmänniska",
+    "telefon": "08-702 16 80",
+    "beskrivning": {
+      "sv": "Ideell förening där du kan hitta någon att prata med, via telefon eller chatt. Anonymt och under tystnadslöfte.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Alla nätter kl. 21.00–06.00",
+      "en": ""
+    },
+    "webb": "https://www.jourhavande-medmanniska.se/",
+    "kalla": "https://www.jourhavande-medmanniska.se/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "polisen-114-14",
+    "namn": "Polisen 114 14",
+    "telefon": "114 14",
+    "beskrivning": {
+      "sv": "För ärenden som inte handlar om pågående eller nyligen inträffade brott och händelser. Vid pågående brott eller fara för liv: ring 112. Svenska och engelska. Inte gratisnummer, samtalstaxa enligt abonnemang.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Dygnet runt, alla dagar (alla ärenden hanteras inte dygnet runt)",
+      "en": ""
+    },
+    "webb": "https://polisen.se/om-polisen/kontakt/polisens-telefonnummer/",
+    "kalla": "https://polisen.se/om-polisen/kontakt/polisens-telefonnummer/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "alla-kvinnors-hus",
+    "namn": "Alla Kvinnors Hus",
+    "telefon": "08-644 09 20",
+    "beskrivning": {
+      "sv": "Stödsamtal och skyddat boende för våldsutsatta. Placering i boendet sker via socialtjänsten eller socialjouren. Samtalsmottagning efter bokning, ingen drop-in.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Personal är på plats vardagar mellan kl 8.30-16 (samtalsmottagning); boendet bemannat dygnet runt",
+      "en": ""
+    },
+    "webb": "https://allakvinnorshus.org/",
+    "kalla": "https://allakvinnorshus.org/kontakt/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "ersta-mojlighet",
+    "namn": "Ersta Möjlighet (skyddat boende)",
+    "telefon": "08-714 64 10",
+    "beskrivning": {
+      "sv": "Skyddat boende för kvinnor utsatta för våld som samtidigt har beroendeproblem. Inget krav på nykterhet. Placering beslutas av socialtjänsten.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/mojlighet/",
+    "kalla": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "ersta-fristad",
+    "namn": "Ersta Fristad (skyddat boende)",
+    "telefon": "070-484 37 08",
+    "beskrivning": {
+      "sv": "Skyddat boende för våldsutsatta kvinnor med eller utan barn, med barnverksamhet. Placering beslutas av socialtjänsten.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/fristad/",
+    "kalla": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "relationsvaldscentrum-stockholm",
+    "namn": "Relationsvåldscentrum Stockholms stad",
+    "telefon": "08-508 25 750",
+    "beskrivning": {
+      "sv": "Stöd för personer utsatta för våld i nära relation. Fyra centrum (Väst, Innerstaden, Sydväst, Sydost) med samma nummer.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "Måndag–torsdag 09.00–15.00, fredag 09.00–14.00, helgdagar stängt",
+      "en": ""
+    },
+    "webb": "https://socialtstod.stockholm/familj-och-barn/hot-och-vald-i-nara-relationer/",
+    "kalla": "https://socialtstod.stockholm/familj-och-barn/hot-och-vald-i-nara-relationer/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "unizon",
+    "namn": "Unizon (riksförbund för kvinnojourer)",
+    "telefon": "08-642 64 01",
+    "beskrivning": {
+      "sv": "Kansli, inte stödlinje. Hänvisar till lokala kvinnojourer via unizonjourer.se/hitta-stod/ och till Kvinnofridslinjen 116 016.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://unizonjourer.se/hitta-stod/",
+    "kalla": "https://www.unizonjourer.se",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "roks",
+    "namn": "Roks (Riksorganisationen för kvinnojourer och tjejjourer)",
+    "telefon": "08-442 99 30",
+    "beskrivning": {
+      "sv": "Kansli, inte stödlinje. Hitta lokal jour via roks.se/fa-stod/hitta-en-jour.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://roks.se/fa-stod/hitta-en-jour",
+    "kalla": "https://www.roks.se",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "vinternatt-ny-gemenskap",
+    "namn": "Vinternatt/Sommarnatt – härbärge för EU-medborgare (Ny Gemenskap)",
+    "telefon": "072-284 12 41",
+    "beskrivning": {
+      "sv": "Härbärgen (26 + 56 platser) öppna året runt samt Extra Kalla Nätter i kyrkor 1 nov–31 mars vid -7 °C eller kallare. Riktar sig till EU-medborgare och tredjelandsmedborgare med vistelsetillstånd i EU. Ny Gemenskap registrerar och fördelar platser.",
+      "en": ""
+    },
+    "oppet": {
+      "sv": "",
+      "en": ""
+    },
+    "webb": "https://nygemenskap.org/vinternatt-sommarnatt/",
+    "kalla": "https://nygemenskap.org/vinternatt-sommarnatt/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  }
+]

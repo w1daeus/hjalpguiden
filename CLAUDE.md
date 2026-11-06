@@ -1,0 +1,49 @@
+# Hjälpguiden Stockholm
+
+Publik, statisk webbsida som hjälper personer i hemlöshet i Stockholm att hitta var de kan sova, äta, duscha och få hjälp **just nu**, och som hjälper allmänheten att agera rätt. Primär användare har ofta gammal mobil, lite data, svagt batteri och talar inte alltid svenska.
+
+Planen finns i `PLAN.md`. Datamodellen finns i `data/README.md`.
+
+## Regler (viktigast först)
+
+1. **Hitta aldrig på adresser, öppettider eller telefonnummer.** Varje post i `data/` ska ha en käll-URL (`kalla`). Hittar du inte en uppgift: lämna fältet tomt och kör `npm run gaps` så hamnar det i `data/ATT-KONTROLLERA.md`.
+2. Allt som samlats in av AI får `status: "ej verifierad"`. Bara en människa sätter `"verifierad"`. Sajten visar statusen tydligt.
+3. Inga uppgifter om enskilda personer. Inga adresser till skyddade boenden (kvinnojourer m.m.), bara telefonnummer.
+4. Ingen inloggning, inga konton, inga cookies, ingen spårning, inga externa skript eller typsnitt. Kartor är vanliga länkar, aldrig inbäddade.
+5. Grundinnehållet ska fungera utan JavaScript. JS används bara för "Öppet nu"-filtret och offline-cache.
+6. Under 100 KB per sida. Mobil först. WCAG AA: minst 44 px tryckytor, kontrast 4.5:1, status aldrig bara via färg.
+7. All UI-text ligger i `src/_data/i18n/<språk>.json`. Skriv aldrig text direkt i mallarna. Svenska (`sv`) är komplett och fallback; `en` och `ro` har samma nycklar.
+8. "Öppet nu" räknas i tidszonen Europe/Stockholm i `lib/opening-hours.js`. Ändringar där kräver tester i `test/`.
+
+## Stack
+
+Eleventy 3 (Nunjucks-mallar), ren CSS, en liten ESM-modul i vanilla JS. Inga andra beroenden. Node 18+.
+
+## Mappar
+
+- `data/` platser, organisationer, kontakter (JSON) + `ATT-KONTROLLERA.md`
+- `lib/opening-hours.js` ren logik, används av både sajt och tester
+- `test/` `node --test`
+- `scripts/validate-data.js` stoppar bygget vid fel i data; `scripts/gaps.js` skriver luckor
+- `src/` Eleventy-input: `_data/` (i18n, site, laddare), `_includes/` (layout, partials), sidmallar, `css/`, `js/`
+- `_site/` byggresultat (ignoreras av git)
+
+## Kommandon
+
+```bash
+npm install
+npm run dev        # http://localhost:8080 med live reload
+npm test           # validerar data + enhetstester
+npm run build      # validerar + bygger till _site/
+npm run gaps       # skriver data/ATT-KONTROLLERA.md
+```
+
+## Publicering
+
+Push till `main` kör `.github/workflows/deploy.yml`: test, bygg med `--pathprefix` satt från GitHub Pages, deploy. Sajten ligger på GitHub Pages för repot.
+
+## Lägga till en plats
+
+1. Lägg till en post i `data/places.json` enligt `data/README.md`. Organisationen måste finnas i `data/organisations.json`.
+2. Sätt `kalla`, `senastKontrollerad` och `status`.
+3. `npm test`, sedan `npm run gaps`.

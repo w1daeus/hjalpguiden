@@ -1,0 +1,38 @@
+---
+permalink: sw.js
+eleventyExcludeFromCollections: true
+---
+// Service worker: gör sidan användbar utan internet efter första besöket.
+// Strategi: sidor (HTML) nätverk först med cache som reserv; övrigt cache först, uppdateras i bakgrunden.
+const VERSION = "hg-{{ build.tid }}";
+const BAS = "{{ '/' | url }}";
+const FORHAND = [BAS, BAS + "css/style.css", BAS + "js/app.js", BAS + "js/opening-hours.js"];
+
+self.addEventListener("install", (e) => {
+  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(FORHAND)).then(() => self.skipWaiting()));
+});
+
+self.addEventListener("activate", (e) => {
+  e.waitUntil(
+    caches.keys().then((nycklar) => Promise.all(nycklar.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener("fetch", (e) => {
+  const req = e.request;
+  if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
+  if (req.mode === "navigate" || req.headers.get("accept")?.includes("text/html")) {
+    e.respondWith(
+      fetch(req)
+        .then((svar) => { const kopia = svar.clone(); caches.open(VERSION).then((c) => c.put(req, kopia)); return svar; })
+        .catch(() => caches.match(req).then((c) => c || caches.match(BAS)))
+    );
+    return;
+  }
+  e.respondWith(
+    caches.match(req).then((cachad) => {
+      const hamta = fetch(req).then((svar) => { if (svar.ok) caches.open(VERSION).then((c) => c.put(req, svar.clone())); return svar; }).catch(() => cachad);
+      return cachad || hamta;
+    })
+  );
+});

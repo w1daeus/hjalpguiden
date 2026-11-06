@@ -1,0 +1,258 @@
+[
+  {
+    "id": "alla-kvinnors-hus",
+    "namn": "Alla Kvinnors Hus",
+    "webb": "https://allakvinnorshus.org/",
+    "telefon": "08-644 09 20",
+    "gava": {
+      "swish": "123 900 45 65",
+      "bankgiro": "900-4565",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "",
+    "kalla": "https://allakvinnorshus.org",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "convictus",
+    "namn": "Convictus",
+    "webb": "https://convictus.org/",
+    "telefon": "08-462 90 20",
+    "gava": {
+      "swish": "",
+      "bankgiro": "",
+      "plusgiro": "",
+      "url": "https://convictus.org/convictus_stod_oss_skank_en_gava_formular"
+    },
+    "volontar": "https://convictus.org/convictus_stod_oss_bli_volontar",
+    "kalla": "https://convictus.org/convictus_kontakt",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "ersta-diakoni",
+    "namn": "Ersta diakoni",
+    "webb": "https://www.erstadiakoni.se/",
+    "telefon": "",
+    "gava": {
+      "swish": "",
+      "bankgiro": "900-0548",
+      "plusgiro": "90 00 54-8",
+      "url": "https://www.erstadiakoni.se/stod-oss/ge-en-gava-direkt/"
+    },
+    "volontar": "",
+    "kalla": "https://www.erstadiakoni.se/stod-oss/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "foreningen-sta-clara-kyrka",
+    "namn": "Föreningen S:ta Clara kyrka",
+    "webb": "https://clarakyrka.se/",
+    "telefon": "",
+    "gava": {
+      "swish": "123 131 28 83",
+      "bankgiro": "748-7366",
+      "plusgiro": "",
+      "url": "https://clarakyrka.se/ge-en-gava/"
+    },
+    "volontar": "https://clarakyrka.se/bli-volontar/",
+    "kalla": "https://clarakyrka.se/kontakta-oss/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "fralsningsarmen",
+    "namn": "Frälsningsarmén",
+    "webb": "https://www.fralsningsarmen.se/",
+    "telefon": "08-562 282 00",
+    "gava": {
+      "swish": "9004805",
+      "bankgiro": "900-4805",
+      "plusgiro": "900480-5",
+      "url": "https://www.fralsningsarmen.se/stockholm/ge-en-gava/"
+    },
+    "volontar": "https://www.fralsningsarmen.se/jobb/volontar-i-fralsningsarmen/",
+    "kalla": "https://www.fralsningsarmen.se/stockholm/ge-en-gava/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "kulturhuset-stadsteatern",
+    "namn": "Kulturhuset Stadsteatern",
+    "webb": "https://kulturhusetstadsteatern.se/",
+    "telefon": "",
+    "gava": {
+      "swish": "",
+      "bankgiro": "",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "",
+    "kalla": "https://kulturhusetstadsteatern.se/bibliotek",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "lakare-i-varlden",
+    "namn": "Läkare i Världen",
+    "webb": "https://lakareivarlden.se/",
+    "telefon": "010-129 98 09",
+    "gava": {
+      "swish": "900 10 90",
+      "bankgiro": "900-1090",
+      "plusgiro": "",
+      "url": "https://lakareivarlden.se/stod-oss/"
+    },
+    "volontar": "https://lakareivarlden.se/bli-volontar/",
+    "kalla": "https://lakareivarlden.se/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "lp-verksamheten",
+    "namn": "LP-verksamheten",
+    "webb": "https://www.lp-verksamheten.se/",
+    "telefon": "08-619 25 10",
+    "gava": {
+      "swish": "9004896",
+      "bankgiro": "900-4896",
+      "plusgiro": "90 04 89-6",
+      "url": "https://www.lp-verksamheten.se/stod-oss/"
+    },
+    "volontar": "",
+    "kalla": "https://lp-verksamheten.se",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "ny-gemenskap",
+    "namn": "Ny Gemenskap",
+    "webb": "https://nygemenskap.org/",
+    "telefon": "08-122 07 022",
+    "gava": {
+      "swish": "900 53 31",
+      "bankgiro": "",
+      "plusgiro": "900 533-1",
+      "url": "https://nygemenskap.org/ge-en-gava/"
+    },
+    "volontar": "https://nygemenskap.org/bli-volontar/",
+    "kalla": "https://nygemenskap.org/kontakta-oss/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "region-stockholm",
+    "namn": "Region Stockholm",
+    "webb": "https://www.1177.se/Stockholm/",
+    "telefon": "1177",
+    "gava": {
+      "swish": "",
+      "bankgiro": "",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "",
+    "kalla": "https://www.1177.se/om-1177/nar-du-ringer-1177/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "roda-korset",
+    "namn": "Svenska Röda Korset",
+    "webb": "https://www.rodakorset.se/",
+    "telefon": "08-452 46 00",
+    "gava": {
+      "swish": "900 80 95",
+      "bankgiro": "900-8004",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "https://www.rodakorset.se/bli-volontar/",
+    "kalla": "https://www.rodakorset.se/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "situation-sthlm",
+    "namn": "Situation Sthlm",
+    "webb": "https://www.situationsthlm.se/",
+    "telefon": "08-545 953 81",
+    "gava": {
+      "swish": "",
+      "bankgiro": "431-2252",
+      "plusgiro": "",
+      "url": "https://www.situationsthlm.se/stod-situation-sthlm/skank-en-gava/"
+    },
+    "volontar": "",
+    "kalla": "https://www.situationsthlm.se/stod-situation-sthlm/skank-en-gava/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "stockholms-domkyrkoforsamling",
+    "namn": "Stockholms domkyrkoförsamling (Svenska kyrkan)",
+    "webb": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling",
+    "telefon": "08-723 30 00",
+    "gava": {
+      "swish": "1234363503",
+      "bankgiro": "",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "",
+    "kalla": "https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/citydiakoni",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "stockholms-stad",
+    "namn": "Stockholms stad",
+    "webb": "https://start.stockholm/",
+    "telefon": "08-508 00 508",
+    "gava": {
+      "swish": "",
+      "bankgiro": "",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "",
+    "kalla": "https://start.stockholm/kontakta-oss/",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "stockholms-stadsbibliotek",
+    "namn": "Stockholms stadsbibliotek",
+    "webb": "https://biblioteket.stockholm.se/",
+    "telefon": "08-508 30 900",
+    "gava": {
+      "swish": "",
+      "bankgiro": "",
+      "plusgiro": "",
+      "url": ""
+    },
+    "volontar": "",
+    "kalla": "https://biblioteket.stockholm.se/bibliotek/transtromerbiblioteket/kontakt",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  },
+  {
+    "id": "stockholms-stadsmission",
+    "namn": "Stockholms Stadsmission",
+    "webb": "https://www.stadsmissionen.se/",
+    "telefon": "08-684 230 00",
+    "gava": {
+      "swish": "900 35 18",
+      "bankgiro": "900-3518",
+      "plusgiro": "900351-8",
+      "url": "https://www.stadsmissionen.se/ge-stod/ge-en-gava-skank-valfritt-belopp-privatperson"
+    },
+    "volontar": "https://www.stadsmissionen.se/engagemang/bli-volontar",
+    "kalla": "https://www.stadsmissionen.se/ge-stod",
+    "senastKontrollerad": "2026-11-06",
+    "status": "ej verifierad"
+  }
+]

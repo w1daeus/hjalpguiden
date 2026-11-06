@@ -1,0 +1,29 @@
+---
+pagination:
+  data: combos
+  size: 1
+  alias: combo
+permalink: "{{ ('/hjalp/' + combo.kat.id + '/') | langPath(combo.lang) }}"
+layout: layout.njk
+eleventyComputed:
+  lang: "{{ combo.lang }}"
+  title: "{{ ('kat.' + combo.kat.id + '.namn') | t(combo.lang) }}"
+---
+{% set platser = data.platser | iKategori(combo.kat.id) %}
+<nav class="crumb" aria-label="{{ 'site.tillbaka' | t(lang) }}"><a href="{{ '/' | langPath(lang) }}">← {{ 'nav.hem' | t(lang) }}</a></nav>
+<h1><span aria-hidden="true">{{ combo.kat.ikon }}</span> {{ title }}</h1>
+
+{% if platser.length %}
+<form class="filter" data-filter hidden>
+  <label class="check"><input type="checkbox" data-oppet-nu checked> {{ 'plats.filterOppetNu' | t(lang) }}</label>
+  <span class="antal" data-antal aria-live="polite"></span>
+</form>
+<noscript><p class="info">{{ 'plats.utanJs' | t(lang) }}</p></noscript>
+<p class="info" data-inga hidden>{{ 'plats.ingaOppna' | t(lang) }}</p>
+<ul class="platser" data-platser>
+{% for plats in platser %}{% include "platskort.njk" %}{% endfor %}
+</ul>
+<p><a class="knapp sekundar" href="{{ ('/skriv-ut/' + combo.kat.id + '/') | langPath(lang) }}">🖨 {{ 'plats.skrivUt' | t(lang) }}</a></p>
+{% else %}
+<p class="info">{{ 'plats.ingaPlatser' | t(lang) }}</p>
+{% endif %}

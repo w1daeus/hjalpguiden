@@ -1,0 +1,52 @@
+{
+  "namn": "Hjälpguiden Stockholm",
+  "sprak": [
+    {
+      "kod": "sv",
+      "namn": "Svenska",
+      "aktiv": true
+    },
+    {
+      "kod": "en",
+      "namn": "English",
+      "aktiv": false
+    },
+    {
+      "kod": "ro",
+      "namn": "Română",
+      "aktiv": false
+    }
+  ],
+  "kategorier": [
+    {
+      "id": "sova",
+      "ikon": "🛏"
+    },
+    {
+      "id": "mat",
+      "ikon": "🍲"
+    },
+    {
+      "id": "dusch",
+      "ikon": "🚿"
+    },
+    {
+      "id": "klader",
+      "ikon": "🧥"
+    },
+    {
+      "id": "ladda",
+      "ikon": "🔌"
+    },
+    {
+      "id": "vard",
+      "ikon": "🩺"
+    },
+    {
+      "id": "rad",
+      "ikon": "💬"
+    }
+  ],
+  "inaktuellEfterDagar": 90,
+  "repo": "https://github.com/w1daeus/hjalpguiden"
+}

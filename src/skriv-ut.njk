@@ -1,0 +1,32 @@
+---
+pagination:
+  data: combos
+  size: 1
+  alias: combo
+permalink: "{{ ('/skriv-ut/' + combo.kat.id + '/') | langPath(combo.lang) }}"
+layout: print.njk
+eleventyComputed:
+  lang: "{{ combo.lang }}"
+  title: "{{ ('kat.' + combo.kat.id + '.namn') | t(combo.lang) }}"
+---
+{% set platser = data.platser | iKategori(combo.kat.id) %}
+<p class="noprint"><a href="{{ ('/hjalp/' + combo.kat.id + '/') | langPath(lang) }}">← {{ 'skrivUt.tillbaka' | t(lang) }}</a> <button type="button" class="knapp" onclick="window.print()">🖨 {{ 'skrivUt.knapp' | t(lang) }}</button></p>
+<h1>{{ 'skrivUt.rubrik' | t(lang, { kat: title }) }}</h1>
+<p>{{ 'site.namn' | t(lang) }}. {{ 'skrivUt.intro' | t(lang, { datum: build.datum }) }}</p>
+<ol class="utskrift-lista">
+{% for plats in platser %}
+  <li>
+    <strong>{{ plats.namn }}</strong>{% if plats.status != 'verifierad' %} <em>({{ 'plats.ejVerifierad' | t(lang) }})</em>{% endif %}
+    <span>{{ ('plats.malgrupp.' + plats.villkor.malgrupp) | t(lang) }}{% if plats.villkor.kraverId %}. {{ 'plats.kraverId' | t(lang) }}{% endif %}{% if plats.villkor.pris and plats.villkor.pris != 'gratis' %}. {{ 'plats.pris' | t(lang, { pris: plats.villkor.pris }) }}{% endif %}</span>
+    {% set erbjuder = plats.erbjuder[lang] or plats.erbjuder.sv %}
+    {% if erbjuder %}<span>{{ erbjuder }}</span>{% endif %}
+    {% if plats.adress and plats.adress.gata %}<span>{{ 'plats.adress' | t(lang) }}: {{ plats.adress | adressText }}</span>{% endif %}
+    {% set rader = plats.oppettider | tiderRader(lang) %}
+    <span>{{ 'plats.oppettider' | t(lang) }}: {% if rader.length %}{% for r in rader %}{{ r.dagar }} {{ r.tider }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}{{ 'plats.okant' | t(lang) }}{% endif %}{% if plats.sasong %}. {{ 'plats.sasong' | t(lang, { fran: plats.sasong.fran, till: plats.sasong.till }) }}{% endif %}</span>
+    {% if plats.telefon %}<span>{{ 'plats.telefon' | t(lang) }}: {{ plats.telefon }}</span>{% endif %}
+    {% set ovrigt = plats.villkor.ovrigt[lang] or plats.villkor.ovrigt.sv %}
+    {% if ovrigt %}<span>{{ 'plats.villkor' | t(lang) }}: {{ ovrigt }}</span>{% endif %}
+    <span class="liten">{{ 'plats.senastKontrollerad' | t(lang) }} {{ plats.senastKontrollerad }}</span>
+  </li>
+{% endfor %}
+</ol>

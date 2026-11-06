@@ -1,0 +1,220 @@
+{
+  "site": {
+    "namn": "Hjälpguiden Stockholm",
+    "slogan": "Var kan jag sova, äta, duscha och få hjälp – just nu?",
+    "beskrivning": "Hitta härbärgen, mat, dusch, kläder, laddning, vård och stöd i Stockholm. Visar vad som är öppet just nu.",
+    "ejVerifierad": "Uppgifterna kommer från organisationernas webbplatser och är ännu inte kontrollerade av oss. Ring gärna innan du går långt.",
+    "hoppaTill": "Hoppa till innehållet",
+    "sprak": "Språk",
+    "byggd": "Sidan uppdaterades",
+    "omSidan": "Sidan har inga konton, inga cookies och ingen spårning. Den fungerar utan internet när du besökt den en gång.",
+    "kalla": "Källkod och felanmälan",
+    "tillbaka": "Tillbaka till start"
+  },
+  "nav": {
+    "hem": "Start",
+    "behover": "Jag behöver hjälp",
+    "ser": "Jag ser någon som behöver hjälp",
+    "hjalpa": "Jag vill hjälpa till"
+  },
+  "start": {
+    "nod": "Livsfara? Ring 112.",
+    "behoverText": "Välj vad du behöver. Vi visar vad som är öppet nu.",
+    "serText": "Vad du kan göra just nu och vem du ringer.",
+    "hjalpaText": "Ge pengar, saker eller tid till dem som gör jobbet."
+  },
+  "kat": {
+    "sova": {
+      "namn": "Sova i natt",
+      "kort": "Härbärgen och akutboende"
+    },
+    "mat": {
+      "namn": "Mat",
+      "kort": "Frukost, lunch, middag, matkassar"
+    },
+    "dusch": {
+      "namn": "Dusch & tvätt",
+      "kort": "Dusch, tvättmaskin, hygien"
+    },
+    "klader": {
+      "namn": "Kläder",
+      "kort": "Varma kläder, skor, sovsäckar"
+    },
+    "ladda": {
+      "namn": "Ladda mobil, wifi, dator",
+      "kort": "Eluttag, internet, datorer"
+    },
+    "vard": {
+      "namn": "Vård",
+      "kort": "Läkare, sjuksköterska, tandvård"
+    },
+    "rad": {
+      "namn": "Råd & stöd",
+      "kort": "Socialtjänst, rådgivning, samtal"
+    }
+  },
+  "plats": {
+    "oppetNu": "Öppet nu",
+    "stangt": "Stängt",
+    "okant": "Öppettider okända, ring först",
+    "utanforSasong": "Säsongsstängt just nu",
+    "sasong": "Säsongsöppet {fran} till {till}",
+    "stanger": "Stänger {tid}",
+    "stangerSnart": "Stänger snart, {tid}",
+    "oppnarIdag": "Öppnar {tid} i dag",
+    "oppnarImorgon": "Öppnar i morgon {tid}",
+    "oppnar": "Öppnar {dag} {tid}",
+    "oppnarInte": "Inga öppettider angivna",
+    "adress": "Adress",
+    "karta": "Visa på karta",
+    "ring": "Ring",
+    "telefon": "Telefon",
+    "webb": "Webbplats",
+    "kalla": "Källa",
+    "erbjuder": "Erbjuder",
+    "villkor": "Villkor",
+    "oppettider": "Öppettider",
+    "sprak": "Språk som talas",
+    "senastKontrollerad": "Senast kontrollerad",
+    "ejVerifierad": "Ej verifierad",
+    "verifierad": "Verifierad",
+    "gammal": "Kan vara inaktuell",
+    "kraverId": "Kräver legitimation",
+    "ingetId": "Ingen legitimation krävs",
+    "gratis": "Gratis",
+    "pris": "Pris: {pris}",
+    "organisation": "Drivs av",
+    "filterOppetNu": "Visa bara det som är öppet nu",
+    "antal": "{n} platser",
+    "antalOppna": "{n} öppna just nu",
+    "ingaOppna": "Inget i den här kategorin är öppet just nu. Bocka ur filtret för att se när platserna öppnar.",
+    "ingaPlatser": "Vi har inga platser i den här kategorin än.",
+    "utanJs": "Din webbläsare kör inte JavaScript, så vi kan inte filtrera på vad som är öppet just nu. Här är alla platser med sina öppettider.",
+    "skrivUt": "Skriv ut listan",
+    "stangtDag": "stängt",
+    "malgrupp": {
+      "alla": "Öppet för alla",
+      "kvinnor": "Endast kvinnor",
+      "man": "Endast män",
+      "unga": "Unga",
+      "familjer": "Familjer",
+      "eu-medborgare": "EU-medborgare och tredjelandsmedborgare",
+      "papperslosa": "Papperslösa"
+    },
+    "dag": {
+      "man": "måndag",
+      "tis": "tisdag",
+      "ons": "onsdag",
+      "tor": "torsdag",
+      "fre": "fredag",
+      "lor": "lördag",
+      "son": "söndag"
+    },
+    "dagKort": {
+      "man": "mån",
+      "tis": "tis",
+      "ons": "ons",
+      "tor": "tors",
+      "fre": "fre",
+      "lor": "lör",
+      "son": "sön"
+    },
+    "dygnetRunt": "Öppet dygnet runt"
+  },
+  "ser": {
+    "rubrik": "Jag ser någon som behöver hjälp",
+    "intro": "Tre frågor. Svaren leder dig rätt. Telefonnumren går att markera och kopiera.",
+    "steg1": {
+      "fraga": "1. Är personen i livsfara?",
+      "hjalp": "Till exempel: svarar inte när du ropar och skakar lätt i axeln, andas inte normalt, är skadad, är mycket kall och förvirrad, eller har tagit något och mår akut dåligt.",
+      "ja": "Ring 112 direkt. Stanna kvar tills hjälpen kommer. Är personen medvetslös men andas: lägg i stabilt sidoläge och håll varm.",
+      "nej": "Annars, nästa fråga."
+    },
+    "steg2": {
+      "fraga": "2. Är det kallt ute och personen har inget tak över huvudet i natt?",
+      "ja": "Ring socialjouren. De kan ordna plats för natten eller skicka ut uppsökare. Berätta var personen är och hur hen ser ut.",
+      "nej": "Annars, nästa fråga."
+    },
+    "steg3": {
+      "fraga": "3. Vill personen ha hjälp?",
+      "text": "Fråga. Ett enkelt \"Hej, behöver du något?\" räcker. Respektera ett nej."
+    },
+    "tips": {
+      "rubrik": "Det här kan du göra",
+      "lista": [
+        "Erbjud något konkret: en varm dryck, något att äta, ett par strumpor.",
+        "Visa den här sidan och berätta om närmaste ställe som är öppet nu.",
+        "Köp tidningen Situation Stockholm av en försäljare med legitimation.",
+        "Ge pengar om du vill. Det är personens sak hur de används.",
+        "Ta inte bilder. Tryck inte på. Ett samtal är ofta värt mer än du tror."
+      ]
+    },
+    "nummer": "Telefonnummer",
+    "oppet": "Öppet"
+  },
+  "hjalpa": {
+    "rubrik": "Jag vill hjälpa till",
+    "intro": "Det som hjälper mest är ofta det minst synliga: pengar till dem som redan gör jobbet.",
+    "pengar": {
+      "rubrik": "Ge pengar",
+      "text": "Organisationerna nedan driver härbärgen, mat och mottagningar i Stockholm. Uppgifterna är hämtade från deras egna webbplatser."
+    },
+    "saker": {
+      "rubrik": "Skänka saker",
+      "text": "Fråga alltid organisationen först vad de behöver just nu. Det som ofta efterfrågas:",
+      "behovs": [
+        "Nya strumpor och underkläder",
+        "Varma vinterkläder i bra skick, särskilt i stora storlekar",
+        "Sovsäckar och liggunderlag",
+        "Hygienartiklar: tandborste, tandkräm, deodorant, bindor",
+        "Presentkort på mat eller SL-biljetter"
+      ],
+      "inteRubrik": "Skänk inte",
+      "inte": [
+        "Trasiga, smutsiga eller slitna kläder. De kostar tid och pengar att sortera bort.",
+        "Öppnade eller utgångna livsmedel.",
+        "Mediciner.",
+        "Möbler och stora saker utan att fråga först."
+      ]
+    },
+    "tid": {
+      "rubrik": "Ge tid",
+      "text": "De flesta organisationer tar emot volontärer. Länkarna går till deras egna sidor."
+    },
+    "behovstavla": {
+      "rubrik": "Behovstavla",
+      "text": "Här kommer organisationerna själva kunna lägga upp vad de behöver just nu. Funktionen är inte klar än."
+    },
+    "swish": "Swish",
+    "bankgiro": "Bankgiro",
+    "plusgiro": "Plusgiro",
+    "gavaUrl": "Ge en gåva",
+    "volontar": "Bli volontär",
+    "webb": "Webbplats",
+    "ingaGavor": "Inga gåvouppgifter inlagda än."
+  },
+  "skrivUt": {
+    "rubrik": "{kat}: lista att skriva ut",
+    "intro": "Lista från {datum}. Uppgifterna kan ha ändrats, kontrollera på plats eller per telefon.",
+    "knapp": "Skriv ut",
+    "tillbaka": "Tillbaka till listan"
+  },
+  "sprakNamn": {
+    "sv": "svenska",
+    "en": "engelska",
+    "ro": "rumänska",
+    "ar": "arabiska",
+    "fa": "persiska",
+    "so": "somaliska",
+    "ti": "tigrinja",
+    "pl": "polska",
+    "ru": "ryska",
+    "es": "spanska",
+    "fr": "franska",
+    "de": "tyska",
+    "fi": "finska",
+    "tr": "turkiska",
+    "bg": "bulgariska",
+    "uk": "ukrainska"
+  }
+}
