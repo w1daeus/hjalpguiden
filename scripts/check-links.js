@@ -1,5 +1,6 @@
 // Kontrollerar att alla URL:er i data/ fortfarande svarar (kalla, webb, volontar, gava.url).
-// Skriver en Markdown-rapport till stdout. Avslutar med kod 2 om någon länk inte svarar, annars 0.
+// Skriver en Markdown-rapport till stdout. Avslutar med kod 2 om någon länk är död (404/410, serverfel, okänd domän), annars 0.
+// Timeout, 403 och 429 rapporteras som osäkra utan att larma, eftersom många sajter blockerar GitHubs servrar.
 // Körs varje vecka av .github/workflows/lankkoll.yml och manuellt med `npm run links`.
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -39,10 +40,14 @@ async function kolla(url) {
     let r = await hamta(url, "HEAD");
     if (r.status === 405 || r.status === 403 || r.status === 404) r = await hamta(url, "GET");
     if (r.status >= 200 && r.status < 400) return { ok: true, status: r.status };
-    if (r.status === 429) return { ok: true, status: r.status, osaker: "begränsad (429), kontrollera manuellt" };
+    // 403 och 429 betyder oftast att sajten stoppar robotar, inte att sidan är borta. Rapporteras som osäkra.
+    if (r.status === 403 || r.status === 429) return { ok: true, status: r.status, osaker: `svarade ${r.status} (blockerar troligen robotar), kontrollera manuellt` };
     return { ok: false, status: r.status };
   } catch (e) {
-    return { ok: false, status: 0, fel: e.name === "AbortError" ? "timeout" : (e.cause?.code || e.message) };
+    const kod = e.name === "AbortError" ? "timeout" : (e.cause?.code || e.message);
+    // Timeout och nekad anslutning från GitHubs servrar är oftast geoblockering. Bara okänd domän räknas som död.
+    if (kod === "ENOTFOUND" || kod === "EAI_AGAIN") return { ok: false, status: 0, fel: `domänen finns inte (${kod})` };
+    return { ok: true, status: 0, osaker: `nådde inte sajten (${kod}), kontrollera manuellt` };
   }
 }
 
