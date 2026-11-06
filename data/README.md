@@ -18,7 +18,7 @@ Allt innehåll om platser, organisationer och telefonnummer ligger här. Sajten 
   "namn": "Klaragården",
   "organisation": "stockholms-stadsmission",
   "kategorier": ["mat", "dusch"],
-  "erbjuder": { "sv": "Frukost, lunch, dusch, tvätt", "en": "" },
+  "erbjuder": { "sv": "Frukost, lunch, dusch, tvätt", "en": "", "ro": "" },
   "adress": { "gata": "Klara Östra Kyrkogata 10", "postnummer": "111 52", "ort": "Stockholm" },
   "koordinater": null,
   "oppettider": {
@@ -26,7 +26,7 @@ Allt innehåll om platser, organisationer och telefonnummer ligger här. Sajten 
     "tis": [], "ons": [], "tor": [], "fre": [], "lor": [], "son": []
   },
   "sasong": null,
-  "villkor": { "malgrupp": "kvinnor", "kraverId": false, "pris": "gratis", "ovrigt": { "sv": "", "en": "" } },
+  "villkor": { "malgrupp": "kvinnor", "kraverId": false, "pris": "gratis", "ovrigt": { "sv": "", "en": "", "ro": "" } },
   "sprak": ["sv", "en"],
   "telefon": "",
   "webb": "",
@@ -72,8 +72,8 @@ Allt innehåll om platser, organisationer och telefonnummer ligger här. Sajten 
   "id": "socialjouren",
   "namn": "Socialjouren Stockholm",
   "telefon": "",
-  "beskrivning": { "sv": "", "en": "" },
-  "oppet": { "sv": "", "en": "" },
+  "beskrivning": { "sv": "", "en": "", "ro": "" },
+  "oppet": { "sv": "", "en": "", "ro": "" },
   "webb": "",
   "kalla": "",
   "senastKontrollerad": "2026-11-06",

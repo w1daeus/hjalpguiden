@@ -10,7 +10,8 @@
     ],
     "erbjuder": {
       "sv": "Trygg plats att sova och vila, varm måltid, individuell vägledning och hjälp med myndighetskontakter och väg till mer varaktigt boende",
-      "en": ""
+      "en": "A safe place to sleep and rest, a hot meal, individual guidance and help with contacting authorities and finding a way to more permanent housing",
+      "ro": "Un loc sigur unde să dormiți și să vă odihniți, o masă caldă, îndrumare individuală și ajutor în contactul cu autoritățile și pentru a găsi o locuință mai stabilă"
     },
     "adress": {
       "gata": "Fleminggatan 113",
@@ -69,7 +70,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Sidan anger inte om man kan komma direkt eller behöver placering via socialtjänsten; porttelefon finns. Våning 2",
-        "en": ""
+        "en": "The website does not say whether you can come directly or need a referral from social services; there is an entry phone. Floor 2",
+        "ro": "Site-ul nu spune dacă puteți veni direct sau aveți nevoie de trimitere de la serviciile sociale; există interfon. Etajul 2"
       }
     },
     "sprak": [],
@@ -91,7 +93,8 @@
     ],
     "erbjuder": {
       "sv": "Frukost (8.30–10.00) och lunch (11.00–12.25) alla dagar, dusch, ombud som hjälper med mål, rättigheter, överklaganden och möten med socialtjänsten, tillgång till telefon, dator, internet och utskrift",
-      "en": ""
+      "en": "Breakfast (8.30–10.00) and lunch (11.00–12.25) every day, shower, advocates who help with goals, rights, appeals and meetings with social services, access to phone, computer, internet and printing",
+      "ro": "Mic dejun (8.30–10.00) și prânz (11.00–12.25) în fiecare zi, duș, consilieri care ajută cu obiective, drepturi, contestații și întâlniri cu serviciile sociale, acces la telefon, calculator, internet și imprimantă"
     },
     "adress": {
       "gata": "Högbergsgatan 20",
@@ -170,7 +173,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Enligt sidan för män i akut hemlöshet med rätt att tillgå välfärdsinsatser",
-        "en": ""
+        "en": "According to the website, for men in acute homelessness who are entitled to welfare services",
+        "ro": "Conform site-ului, pentru bărbați fără adăpost cu drept la servicii sociale"
       }
     },
     "sprak": [],
@@ -192,7 +196,8 @@
     ],
     "erbjuder": {
       "sv": "Trygg plats att sova och vila, mat och hygienartiklar, samtal och råd, hjälp med kontakt med socialtjänst och myndigheter",
-      "en": ""
+      "en": "A safe place to sleep and rest, food and toiletries, conversation and advice, help contacting social services and authorities",
+      "ro": "Un loc sigur unde să dormiți și să vă odihniți, mâncare și produse de igienă, discuții și sfaturi, ajutor în contactul cu serviciile sociale și autoritățile"
     },
     "adress": {
       "gata": "Högbergsgatan 51",
@@ -251,7 +256,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Sidan anger inte om man kan komma direkt eller behöver placering via socialtjänsten",
-        "en": ""
+        "en": "The website does not say whether you can come directly or need a referral from social services",
+        "ro": "Site-ul nu spune dacă puteți veni direct sau aveți nevoie de trimitere de la serviciile sociale"
       }
     },
     "sprak": [],
@@ -273,7 +279,8 @@
     ],
     "erbjuder": {
       "sv": "Frukost 8.15–9.30 varje dag, lunch 12.00–13.00 (tisdag 11.30–12.30), dusch, tvätt, vila några timmar, ombudsstöd inför socialtjänst/överklaganden, telefon, dator, internet, utskrift",
-      "en": ""
+      "en": "Breakfast 8.15–9.30 every day, lunch 12.00–13.00 (Tuesday 11.30–12.30), shower, laundry, rest for a few hours, advocacy support before social services/appeals, phone, computer, internet, printing",
+      "ro": "Mic dejun 8.15–9.30 în fiecare zi, prânz 12.00–13.00 (marți 11.30–12.30), duș, spălat rufe, odihnă câteva ore, sprijin în relația cu serviciile sociale/contestații, telefon, calculator, internet, imprimantă"
     },
     "adress": {
       "gata": "Högbergsgatan 51",
@@ -332,7 +339,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "",
-        "en": ""
+        "en": "",
+        "ro": ""
       }
     },
     "sprak": [],
@@ -352,7 +360,8 @@
     ],
     "erbjuder": {
       "sv": "Kaffe, fika; smörgåsar och matlådor till den som är hungrig de dagar donationer kommit in",
-      "en": ""
+      "en": "Coffee and snacks; sandwiches and food boxes for the hungry on days when donations have come in",
+      "ro": "Cafea, gustări; sandvișuri și pachete cu mâncare pentru cei flămânzi în zilele în care au venit donații"
     },
     "adress": {
       "gata": "Klara östra kyrkogata 7-9",
@@ -410,7 +419,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "I Clararummet, norra korsarmen",
-        "en": ""
+        "en": "In the Clara room, north transept",
+        "ro": "În sala Clara, aripa de nord a bisericii"
       }
     },
     "sprak": [],
@@ -431,7 +441,8 @@
     ],
     "erbjuder": {
       "sv": "Samtal, vägledning till myndigheter, juridisk rådgivning, hjälp med vårdkontakt, matutdelning, hjälp med fondansökningar (tisdagar)",
-      "en": ""
+      "en": "Conversation, guidance with authorities, legal advice, help contacting health care, food distribution, help with fund applications (Tuesdays)",
+      "ro": "Discuții, îndrumare pentru autorități, consiliere juridică, ajutor pentru contactul cu serviciile medicale, distribuire de alimente, ajutor cu cereri de fonduri (marțea)"
     },
     "adress": {
       "gata": "Klara östra kyrkogata 7-9",
@@ -468,7 +479,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Fondansökningar: krav att du bor i Stockholm eller dess förorter",
-        "en": ""
+        "en": "Fund applications: you must live in Stockholm or its suburbs",
+        "ro": "Cereri de fonduri: trebuie să locuiți în Stockholm sau în suburbiile sale"
       }
     },
     "sprak": [],
@@ -490,7 +502,8 @@
     ],
     "erbjuder": {
       "sv": "Gratis frukost 9–10, lunch 12–13 för 30 kr, bokningsbar dusch och tvätt, öppen mottagning med hjälp och råd, Gatujuristerna måndagar, präst/diakon/socialtjänst vissa dagar",
-      "en": ""
+      "en": "Free breakfast 9–10, lunch 12–13 for 30 SEK, bookable shower and laundry, open reception with help and advice, street lawyers (Gatujuristerna) on Mondays, priest/deacon/social services on certain days",
+      "ro": "Mic dejun gratuit 9–10, prânz 12–13 pentru 30 SEK, duș și spălat rufe cu programare, recepție deschisă cu ajutor și sfaturi, juriști de stradă (Gatujuristerna) lunea, preot/diacon/servicii sociale în anumite zile"
     },
     "adress": {
       "gata": "Skebokvarnsvägen 341",
@@ -539,7 +552,8 @@
       "pris": "frukost gratis, lunch 30 kr",
       "ovrigt": {
         "sv": "Riktar sig till personer i hemlöshet med skadligt bruk av alkohol/droger",
-        "en": ""
+        "en": "For people in homelessness with harmful use of alcohol/drugs",
+        "ro": "Pentru persoane fără adăpost cu consum dăunător de alcool/droguri"
       }
     },
     "sprak": [],
@@ -562,7 +576,8 @@
     ],
     "erbjuder": {
       "sv": "Gratis frukost i två sittningar 9–11 (utesovare prioriteras), dusch, tvätt, kläder och skor efter väder, öppen mottagning med hjälp och råd vardagar 12–15, socialsekreterare onsdagar 9.30–11.30, sprututbytesbuss måndagar udda veckor",
-      "en": ""
+      "en": "Free breakfast in two sittings 9–11 (rough sleepers given priority), shower, laundry, clothes and shoes depending on the weather, open reception with help and advice weekdays 12–15, social worker Wednesdays 9.30–11.30, needle exchange bus on Mondays in odd weeks",
+      "ro": "Mic dejun gratuit în două serii 9–11 (prioritate pentru cei care dorm afară), duș, spălat rufe, haine și încălțăminte în funcție de vreme, recepție deschisă cu ajutor și sfaturi în zilele lucrătoare 12–15, asistent social miercurea 9.30–11.30, autobuz pentru schimb de seringi lunea în săptămânile impare"
     },
     "adress": {
       "gata": "Karlbergsvägen 26B",
@@ -611,7 +626,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Riktar sig till personer i hemlöshet med skadligt bruk av alkohol/droger",
-        "en": ""
+        "en": "For people in homelessness with harmful use of alcohol/drugs",
+        "ro": "Pentru persoane fără adăpost cu consum dăunător de alcool/droguri"
       }
     },
     "sprak": [],
@@ -633,7 +649,8 @@
     ],
     "erbjuder": {
       "sv": "Lunch dagligen, dusch, tvätt, samhällsguidning och råd om uppehålls-/arbetstillstånd och myndigheter, språkträning tis/tor 10–11, klippning onsdagar, Röda Korsets vårdmottagning varannan onsdag",
-      "en": ""
+      "en": "Lunch daily, shower, laundry, guidance about Swedish society and advice on residence/work permits and authorities, language practice Tue/Thu 10–11, haircuts on Wednesdays, Red Cross health clinic every other Wednesday",
+      "ro": "Prânz zilnic, duș, spălat rufe, îndrumare despre societatea suedeză și sfaturi despre permise de ședere/muncă și autorități, exerciții de limbă mar/joi 10–11, tuns miercurea, cabinet medical al Crucii Roșii din două în două miercuri"
     },
     "adress": {
       "gata": "S:t Göransgatan 61",
@@ -649,7 +666,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "EU-medborgare eller personer med permanent uppehållstillstånd i annat EU-land (även tredjelandsmedborgare med sådant tillstånd). OBS: sidan uppger att EU-center stänger, sista dag 31 december 2026",
-        "en": ""
+        "en": "EU citizens or people with permanent residence in another EU country (including third-country nationals with such a permit). NOTE: the website says the EU centre is closing, last day 31 December 2026",
+        "ro": "Cetățeni UE sau persoane cu drept de ședere permanentă în altă țară UE (inclusiv cetățeni din țări terțe cu un astfel de permis). ATENȚIE: site-ul spune că centrul EU se închide, ultima zi 31 decembrie 2026"
       }
     },
     "sprak": [
@@ -681,7 +699,8 @@
     ],
     "erbjuder": {
       "sv": "Säng med rena lakan, varm kvällsmat och frukost, dusch, tvätt, wifi, individuella samtal. Platser fördelas via intag på Korskyrkan, Birger Jarlsgatan 66, mån–fre 10.00–11.30 (biljett för fem nätter, max en per vecka)",
-      "en": ""
+      "en": "Bed with clean sheets, hot evening meal and breakfast, shower, laundry, wifi, individual conversations. Places are allocated through intake at Korskyrkan, Birger Jarlsgatan 66, Mon–Fri 10.00–11.30 (ticket for five nights, max one per week)",
+      "ro": "Pat cu lenjerie curată, cină caldă și mic dejun, duș, spălat rufe, wifi, discuții individuale. Locurile se distribuie prin înscriere la Korskyrkan, Birger Jarlsgatan 66, lun–vin 10.00–11.30 (bilet pentru cinci nopți, maxim unul pe săptămână)"
     },
     "adress": {
       "gata": "Karlsbodavägen 14",
@@ -740,7 +759,8 @@
       "pris": "10 kr/natt",
       "ovrigt": {
         "sv": "Hemlösa med EU-medborgarskap eller permanent uppehållstillstånd i annat EU-land. Registrering med namn och personnummer, ID visas första natten",
-        "en": ""
+        "en": "Homeless people with EU citizenship or permanent residence in another EU country. Registration with name and personal identity number, ID shown on the first night",
+        "ro": "Persoane fără adăpost cu cetățenie UE sau drept de ședere permanentă în altă țară UE. Înregistrare cu nume și cod numeric personal, actul de identitate se arată în prima noapte"
       }
     },
     "sprak": [],
@@ -763,7 +783,8 @@
     ],
     "erbjuder": {
       "sv": "En måltid per person och vardag (frukost/lunch), dusch, toalett, tvätt, kläder, wifi och lånedator, matkassar tisdag och fredag, kurator med hjälp vid myndighetskontakter, själavårdssamtal",
-      "en": ""
+      "en": "One meal per person per weekday (breakfast/lunch), shower, toilet, laundry, clothes, wifi and a computer to borrow, food bags on Tuesday and Friday, counsellor who helps with contacting authorities, pastoral conversations",
+      "ro": "O masă de persoană pe zi lucrătoare (mic dejun/prânz), duș, toaletă, spălat rufe, haine, wifi și calculator de împrumut, pachete cu alimente marți și vineri, consilier care ajută în contactul cu autoritățile, discuții pastorale"
     },
     "adress": {
       "gata": "Långholmsgatan 32",
@@ -812,7 +833,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Kaffe 5 kr, allt annat gratis. Riktar sig till personer i hemlöshet och missbruk",
-        "en": ""
+        "en": "Coffee 5 SEK, everything else free. For people in homelessness and addiction",
+        "ro": "Cafea 5 SEK, restul gratuit. Pentru persoane fără adăpost și cu dependențe"
       }
     },
     "sprak": [],
@@ -832,7 +854,8 @@
     ],
     "erbjuder": {
       "sv": "Gratis frukost (dubbelmacka, ägg, te/juice/kaffe), matlåda att ta med, akuta matkassar under öppettid, samling 10.30 med sång och musik",
-      "en": ""
+      "en": "Free breakfast (double sandwich, egg, tea/juice/coffee), food box to take away, emergency food bags during opening hours, gathering at 10.30 with song and music",
+      "ro": "Mic dejun gratuit (sandviș dublu, ou, ceai/suc/cafea), pachet cu mâncare la pachet, pachete de alimente de urgență în timpul programului, întâlnire la 10.30 cu cântece și muzică"
     },
     "adress": {
       "gata": "Östermalmsgatan 69",
@@ -881,7 +904,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Serveringen slutar 11.45. Templets ekonomiska hjälp söks via telefon 076-065 66 13 mån och ons 10–12",
-        "en": ""
+        "en": "Serving ends at 11.45. Financial help from Templet is applied for by phone 076-065 66 13 Mon and Wed 10–12",
+        "ro": "Servirea se termină la 11.45. Ajutorul financiar de la Templet se solicită prin telefon la 076-065 66 13 lun și mie 10–12"
       }
     },
     "sprak": [],
@@ -901,7 +925,8 @@
     ],
     "erbjuder": {
       "sv": "Wifi (Stockholms_stadsbibliotek). Fyra datorer på entréplan mot Sergels torg, 30 min drop-in. Fåtöljer för läsning. Ingen utskrift",
-      "en": ""
+      "en": "Wifi (Stockholms_stadsbibliotek). Four computers on the entrance floor facing Sergels torg, 30 min drop-in. Armchairs for reading. No printing",
+      "ro": "Wifi (Stockholms_stadsbibliotek). Patru calculatoare la parter, spre Sergels torg, 30 min fără programare. Fotolii pentru citit. Fără imprimantă"
     },
     "adress": {
       "gata": "Sergels torg",
@@ -960,7 +985,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Våning 2 i Kulturhuset. Inga studieplatser.",
-        "en": ""
+        "en": "Floor 2 of Kulturhuset. No study places.",
+        "ro": "Etajul 2 din Kulturhuset. Fără locuri de studiu."
       }
     },
     "sprak": [],
@@ -980,7 +1006,8 @@
     ],
     "erbjuder": {
       "sv": "Onsdagar: psykosocialt stöd, barnmorska (jämna veckor), juridisk rådgivning i migrationsfrågor, ibland tandläkare. Torsdagar: medicinsk mottagning med läkare och sjuksköterskor",
-      "en": ""
+      "en": "Wednesdays: psychosocial support, midwife (even weeks), legal advice on migration issues, sometimes a dentist. Thursdays: medical clinic with doctors and nurses",
+      "ro": "Miercurea: sprijin psihosocial, moașă (săptămâni pare), consiliere juridică pe probleme de migrație, uneori dentist. Joia: cabinet medical cu medici și asistenți"
     },
     "adress": {
       "gata": "Hantverkargatan 2C",
@@ -1014,7 +1041,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "För människor som möter hinder i tillgången till vård. Onsdagar: 'Du behöver inte boka tid'.",
-        "en": ""
+        "en": "For people who face barriers in accessing health care. Wednesdays: 'No appointment needed'.",
+        "ro": "Pentru persoane care întâmpină obstacole în accesul la îngrijire medicală. Miercurea: „Nu este nevoie de programare”."
       }
     },
     "sprak": [],
@@ -1034,7 +1062,8 @@
     ],
     "erbjuder": {
       "sv": "Drogfri gemenskap, stöd och motivation, hjälp med myndighets- och vårdkontakter",
-      "en": ""
+      "en": "Drug-free community, support and motivation, help contacting authorities and health care",
+      "ro": "Comunitate fără droguri, sprijin și motivare, ajutor în contactul cu autoritățile și serviciile medicale"
     },
     "adress": {
       "gata": "Adolf Fredriks kyrkogata 10",
@@ -1068,7 +1097,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "För personer med beroendeproblem som vill förändra sin situation. Våning 3",
-        "en": ""
+        "en": "For people with addiction problems who want to change their situation. Floor 3",
+        "ro": "Pentru persoane cu probleme de dependență care vor să-și schimbe situația. Etajul 3"
       }
     },
     "sprak": [],
@@ -1088,7 +1118,8 @@
     ],
     "erbjuder": {
       "sv": "Träffa socialsekreterare utan att boka tid, råd i sociala frågor, stöd i kontakt med socialtjänst och andra myndigheter, dator, kopiator och telefon",
-      "en": ""
+      "en": "Meet a social worker without an appointment, advice on social issues, support in contact with social services and other authorities, computer, copier and phone",
+      "ro": "Întâlnire cu un asistent social fără programare, sfaturi în probleme sociale, sprijin în contactul cu serviciile sociale și alte autorități, calculator, copiator și telefon"
     },
     "adress": {
       "gata": "Östgötagatan 10",
@@ -1157,7 +1188,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Drop-in, ingen tidsbokning behövs. T-bana Medborgarplatsen.",
-        "en": ""
+        "en": "Drop-in, no appointment needed. Metro Medborgarplatsen.",
+        "ro": "Fără programare. Metrou Medborgarplatsen."
       }
     },
     "sprak": [],
@@ -1177,7 +1209,8 @@
     ],
     "erbjuder": {
       "sv": "Individuellt råd och stöd från socionomer och jurist, hjälp med myndighetskontakter (t.ex. Migrationsverket, socialtjänsten)",
-      "en": ""
+      "en": "Individual advice and support from social workers and a lawyer, help contacting authorities (e.g. the Migration Agency, social services)",
+      "ro": "Sfaturi și sprijin individual de la asistenți sociali și un jurist, ajutor în contactul cu autoritățile (de ex. Agenția pentru Migrație, serviciile sociale)"
     },
     "adress": {
       "gata": "Fleminggatan 113",
@@ -1193,7 +1226,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "För den som befinner sig i socialt och/eller ekonomiskt utanförskap",
-        "en": ""
+        "en": "For people in social and/or financial exclusion",
+        "ro": "Pentru persoane în excluziune socială și/sau financiară"
       }
     },
     "sprak": [],
@@ -1214,7 +1248,8 @@
     ],
     "erbjuder": {
       "sv": "Frukost varje vardag, veckans lunch, samtalsgrupper, kostnadsfria familjekvällar varannan måndag, kulturevenemang",
-      "en": ""
+      "en": "Breakfast every weekday, lunch of the week, discussion groups, free family evenings every other Monday, cultural events",
+      "ro": "Mic dejun în fiecare zi lucrătoare, prânzul săptămânii, grupuri de discuții, seri gratuite pentru familii din două în două luni, evenimente culturale"
     },
     "adress": {
       "gata": "Mariatorget 10",
@@ -1273,7 +1308,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Priser för mat anges inte; kulturevenemang kräver biljett",
-        "en": ""
+        "en": "Food prices are not stated; cultural events require a ticket",
+        "ro": "Prețurile pentru mâncare nu sunt afișate; evenimentele culturale necesită bilet"
       }
     },
     "sprak": [],
@@ -1293,7 +1329,8 @@
     ],
     "erbjuder": {
       "sv": "Inskrivning till stadens natthärbärge för EU-medborgare i social utsatthet, som drivs tillsammans med frivilligorganisationer",
-      "en": ""
+      "en": "Registration for the city's night shelter for EU citizens in social vulnerability, run together with voluntary organisations",
+      "ro": "Înscriere la adăpostul de noapte al orașului pentru cetățeni UE în situație socială vulnerabilă, administrat împreună cu organizații de voluntari"
     },
     "adress": {
       "gata": "Birger Jarlsgatan 66",
@@ -1342,7 +1379,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "",
-        "en": ""
+        "en": "",
+        "ro": ""
       }
     },
     "sprak": [],
@@ -1363,7 +1401,8 @@
     ],
     "erbjuder": {
       "sv": "Eftermiddagscafé med kaffe och smörgås, hjälp med myndighetskontakter, digitala och juridiska frågor, vägledning",
-      "en": ""
+      "en": "Afternoon café with coffee and sandwiches, help with contacting authorities, digital and legal questions, guidance",
+      "ro": "Cafenea de după-amiază cu cafea și sandvișuri, ajutor în contactul cu autoritățile, întrebări digitale și juridice, îndrumare"
     },
     "adress": {
       "gata": "John Ericssonsgatan 11",
@@ -1402,7 +1441,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Drivs tillsammans med Den Öppna Dörren",
-        "en": ""
+        "en": "Run together with Den Öppna Dörren",
+        "ro": "Administrat împreună cu Den Öppna Dörren"
       }
     },
     "sprak": [],
@@ -1423,7 +1463,8 @@
     ],
     "erbjuder": {
       "sv": "Frukost på vardagar, samling 10.30 med musik/kultur, möjlighet till rådgivning",
-      "en": ""
+      "en": "Breakfast on weekdays, gathering at 10.30 with music/culture, possibility of counselling",
+      "ro": "Mic dejun în zilele lucrătoare, întâlnire la 10.30 cu muzică/cultură, posibilitate de consiliere"
     },
     "adress": {
       "gata": "Birger Jarlsgatan 66B",
@@ -1472,7 +1513,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Toaletterna stängda 23 november–18 december för renovering",
-        "en": ""
+        "en": "Toilets closed 23 November–18 December for renovation",
+        "ro": "Toaletele sunt închise 23 noiembrie–18 decembrie pentru renovare"
       }
     },
     "sprak": [],
@@ -1494,7 +1536,8 @@
     ],
     "erbjuder": {
       "sv": "Frukost på vardagar, samvaro, rådgivning, klädutdelning onsdagar i mån av personal, musikcafé med gratis fika torsdagar 13–16",
-      "en": ""
+      "en": "Breakfast on weekdays, company, counselling, clothes distribution on Wednesdays when staff allow, music café with free coffee and snacks Thursdays 13–16",
+      "ro": "Mic dejun în zilele lucrătoare, companie, consiliere, distribuire de haine miercurea în funcție de personal, cafenea muzicală cu gustări gratuite joia 13–16"
     },
     "adress": {
       "gata": "Blecktornsgränd 13",
@@ -1547,7 +1590,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "I Söderhöjdskyrkan",
-        "en": ""
+        "en": "In Söderhöjdskyrkan",
+        "ro": "În biserica Söderhöjdskyrkan"
       }
     },
     "sprak": [],
@@ -1571,7 +1615,8 @@
     ],
     "erbjuder": {
       "sv": "Gratis frukost 9–10, lunch 12–13, dusch, tvätt och kläder för hemlösa mån–fre 9–12, stödsamtal, läkar- och socialarbetarbesök ibland, kulturprogram söndagar",
-      "en": ""
+      "en": "Free breakfast 9–10, lunch 12–13, shower, laundry and clothes for homeless people Mon–Fri 9–12, support conversations, occasional visits by doctors and social workers, cultural programme on Sundays",
+      "ro": "Mic dejun gratuit 9–10, prânz 12–13, duș, spălat rufe și haine pentru persoane fără adăpost lun–vin 9–12, discuții de sprijin, vizite ocazionale ale medicilor și asistenților sociali, program cultural duminica"
     },
     "adress": {
       "gata": "Västberga Gårdsväg 30",
@@ -1625,7 +1670,8 @@
       "pris": "frukost gratis, lunch 20 kr",
       "ovrigt": {
         "sv": "I första hand för hemlösa och utsatta; söndagsprogrammet öppet för alla",
-        "en": ""
+        "en": "Primarily for homeless and vulnerable people; the Sunday programme is open to all",
+        "ro": "În primul rând pentru persoane fără adăpost și vulnerabile; programul de duminică este deschis tuturor"
       }
     },
     "sprak": [],
@@ -1645,7 +1691,8 @@
     ],
     "erbjuder": {
       "sv": "Socialtjänst för dig som är hemlös och inte haft kontakt med en stadsdelsförvaltning de senaste två åren: utredning och beslut om boende och annat bistånd",
-      "en": ""
+      "en": "Social services for you who are homeless and have not been in contact with a district administration in the last two years: assessment and decisions on housing and other assistance",
+      "ro": "Servicii sociale pentru persoane fără adăpost care nu au avut contact cu o administrație de district în ultimii doi ani: evaluare și decizii privind locuința și alte ajutoare"
     },
     "adress": {
       "gata": "Östgötagatan 10",
@@ -1661,7 +1708,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Har du haft kontakt med en stadsdelsförvaltning de senaste två åren ska du vända dig dit i stället.",
-        "en": ""
+        "en": "If you have been in contact with a district administration in the last two years, go there instead.",
+        "ro": "Dacă ați avut contact cu o administrație de district în ultimii doi ani, adresați-vă acolo."
       }
     },
     "sprak": [],
@@ -1681,7 +1729,8 @@
     ],
     "erbjuder": {
       "sv": "Primärvård, psykiatri, beroendevård, medicinsk fotvård, hepatit C-behandling och vaccination för dig som lever i akut hemlöshet. Drop-in alla vardagar",
-      "en": ""
+      "en": "Primary care, psychiatry, addiction care, medical foot care, hepatitis C treatment and vaccination for people in acute homelessness. Drop-in every weekday",
+      "ro": "Medicină primară, psihiatrie, tratament pentru dependențe, îngrijire medicală a picioarelor, tratament pentru hepatita C și vaccinare pentru persoane fără adăpost. Fără programare în fiecare zi lucrătoare"
     },
     "adress": {
       "gata": "Östgötagatan 10",
@@ -1746,7 +1795,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "För dig som lever i akut hemlöshet.",
-        "en": ""
+        "en": "For people living in acute homelessness.",
+        "ro": "Pentru persoane fără adăpost."
       }
     },
     "sprak": [],
@@ -1766,7 +1816,8 @@
     ],
     "erbjuder": {
       "sv": "Vård och vårdrådgivning för papperslösa och migranter. Drop-in, men boka gärna tid",
-      "en": ""
+      "en": "Health care and health advice for undocumented people and migrants. Drop-in, but booking an appointment is recommended",
+      "ro": "Îngrijire medicală și sfaturi medicale pentru persoane fără acte și migranți. Fără programare, dar programarea este recomandată"
     },
     "adress": {
       "gata": "Lindhagensgatan 126",
@@ -1826,7 +1877,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Även mottagning på Frälsningsarméns EU-center, S:t Göransgatan 61, varannan onsdag (ojämna veckor) 09.00–12.00.",
-        "en": ""
+        "en": "Also a clinic at the Salvation Army EU centre, S:t Göransgatan 61, every other Wednesday (odd weeks) 09.00–12.00.",
+        "ro": "Cabinet și la centrul EU al Armatei Salvării, S:t Göransgatan 61, din două în două miercuri (săptămâni impare) 09.00–12.00."
       }
     },
     "sprak": [],
@@ -1847,7 +1899,8 @@
     ],
     "erbjuder": {
       "sv": "Gratis café med bibliotek, datorer och telefon, hjälp med BankID och myndighetskontakter, klädutlämning, c/o-adress för post",
-      "en": ""
+      "en": "Free café with library, computers and phone, help with BankID and contacting authorities, clothes distribution, c/o address for mail",
+      "ro": "Cafenea gratuită cu bibliotecă, calculatoare și telefon, ajutor cu BankID și contactul cu autoritățile, distribuire de haine, adresă c/o pentru corespondență"
     },
     "adress": {
       "gata": "Torkel Knutssongatan 37",
@@ -1863,7 +1916,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "I första hand för registrerade försäljare; försäljare ska ha kontakt med socialtjänst, vård eller psykiatri",
-        "en": ""
+        "en": "Primarily for registered vendors; vendors must be in contact with social services, health care or psychiatry",
+        "ro": "În primul rând pentru vânzători înregistrați; vânzătorii trebuie să fie în contact cu serviciile sociale, serviciile medicale sau psihiatria"
       }
     },
     "sprak": [],
@@ -1884,7 +1938,8 @@
     ],
     "erbjuder": {
       "sv": "Akut socialt stöd kvällar, nätter och helger, bland annat akutboende/härbärge och akut ekonomiskt bistånd",
-      "en": ""
+      "en": "Emergency social support evenings, nights and weekends, including emergency housing/shelter and emergency financial assistance",
+      "ro": "Sprijin social de urgență seara, noaptea și în weekend, inclusiv cazare de urgență/adăpost și ajutor financiar de urgență"
     },
     "adress": {
       "gata": "Bangårdsgången 10",
@@ -1943,7 +1998,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Ring i första hand. Dagtid vardagar: kontakta din stadsdelsförvaltning.",
-        "en": ""
+        "en": "Call first. Daytime on weekdays: contact your district administration.",
+        "ro": "Sunați mai întâi. În timpul zilei în zilele lucrătoare: contactați administrația de district."
       }
     },
     "sprak": [],
@@ -1963,7 +2019,8 @@
     ],
     "erbjuder": {
       "sv": "Kaffe från vagn på Plattan",
-      "en": ""
+      "en": "Coffee from a cart on Plattan (Sergels torg)",
+      "ro": "Cafea de la un cărucior pe Plattan (Sergels torg)"
     },
     "adress": {
       "gata": "Sergels torg (Plattan)",
@@ -2012,7 +2069,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "",
-        "en": ""
+        "en": "",
+        "ro": ""
       }
     },
     "sprak": [],
@@ -2032,7 +2090,8 @@
     ],
     "erbjuder": {
       "sv": "Matkassar torsdagar, sopplunch tisdagar i Lillkyrkan",
-      "en": ""
+      "en": "Food bags on Thursdays, soup lunch on Tuesdays in Lillkyrkan",
+      "ro": "Pachete cu alimente joia, prânz cu supă marțea în Lillkyrkan"
     },
     "adress": {
       "gata": "Klara östra kyrkogata 7-9",
@@ -2048,7 +2107,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "",
-        "en": ""
+        "en": "",
+        "ro": ""
       }
     },
     "sprak": [],
@@ -2068,7 +2128,8 @@
     ],
     "erbjuder": {
       "sv": "Kyrkan öppen kväll och natt måndagar under vintern",
-      "en": ""
+      "en": "The church is open in the evening and at night on Mondays during winter",
+      "ro": "Biserica este deschisă seara și noaptea lunea, în timpul iernii"
     },
     "adress": {
       "gata": "Klara östra kyrkogata 7-9",
@@ -2087,7 +2148,8 @@
       "pris": "",
       "ovrigt": {
         "sv": "Oklart om man kan sova där: kalendern säger bara nattöppen kyrka måndagar. Fråga på plats.",
-        "en": ""
+        "en": "Unclear whether you can sleep there: the calendar only says the church is open at night on Mondays. Ask on site.",
+        "ro": "Nu este clar dacă se poate dormi acolo: calendarul spune doar că biserica este deschisă noaptea lunea. Întrebați la fața locului."
       }
     },
     "sprak": [],
@@ -2107,7 +2169,8 @@
     ],
     "erbjuder": {
       "sv": "Wifi (Stockholms_stadsbibliotek), två datorer att låna på plats, utskrift/kopiering. Tillfällig lokal medan Stadsbiblioteket vid Odenplan renoveras",
-      "en": ""
+      "en": "Wifi (Stockholms_stadsbibliotek), two computers to use on site, printing/copying. Temporary premises while the City Library at Odenplan is being renovated",
+      "ro": "Wifi (Stockholms_stadsbibliotek), două calculatoare de folosit pe loc, imprimare/copiere. Sediu temporar cât timp Biblioteca Orașului de la Odenplan este în renovare"
     },
     "adress": {
       "gata": "Odengatan 59",
@@ -2123,7 +2186,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "Inga studieplatser. Toalett 5 kr (gratis för barn och unga). Kontantfritt.",
-        "en": ""
+        "en": "No study places. Toilet 5 SEK (free for children and young people). Cashless.",
+        "ro": "Fără locuri de studiu. Toaletă 5 SEK (gratuit pentru copii și tineri). Fără numerar."
       }
     },
     "sprak": [],
@@ -2143,7 +2207,8 @@
     ],
     "erbjuder": {
       "sv": "Wifi (Stockholms_stadsbibliotek), datorer drop-in på plan 4, utskrift/kopiering, ett trettiotal studieplatser",
-      "en": ""
+      "en": "Wifi (Stockholms_stadsbibliotek), drop-in computers on floor 4, printing/copying, around thirty study places",
+      "ro": "Wifi (Stockholms_stadsbibliotek), calculatoare fără programare la etajul 4, imprimare/copiere, aproximativ treizeci de locuri de studiu"
     },
     "adress": {
       "gata": "Götgatan 54",
@@ -2159,7 +2224,8 @@
       "pris": "gratis",
       "ovrigt": {
         "sv": "I Medborgarhuset, en trappa upp från Medborgarplatsen. Toalett på plan 4 kostar 5 kr; gratis på PUNKT och barnavdelningen.",
-        "en": ""
+        "en": "In Medborgarhuset, one floor up from Medborgarplatsen. Toilet on floor 4 costs 5 SEK; free at PUNKT and in the children's section.",
+        "ro": "În Medborgarhuset, un etaj mai sus de Medborgarplatsen. Toaleta de la etajul 4 costă 5 SEK; gratuit la PUNKT și în secția pentru copii."
       }
     },
     "sprak": [],

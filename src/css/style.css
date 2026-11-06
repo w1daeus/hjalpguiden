@@ -39,8 +39,9 @@ ul, ol { padding-left: 1.2rem; }
 .skip:focus { left: 0.5rem; top: 0.5rem; }
 
 .top { background: var(--mork); color: var(--mork-text); }
-.top-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: var(--tryck); }
+.top-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; column-gap: 1rem; min-height: var(--tryck); }
 .brand { color: var(--mork-text); font-weight: 700; text-decoration: none; padding: 0.6rem 0; display: inline-block; }
+.langs { display: flex; flex-wrap: wrap; margin-left: -0.4rem; }
 .langs a, .langs span { color: var(--mork-text); padding: 0.6rem 0.4rem; display: inline-block; }
 .langs span[aria-current] { font-weight: 700; text-decoration: underline; }
 

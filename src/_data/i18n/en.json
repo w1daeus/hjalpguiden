@@ -1,203 +1,220 @@
 {
   "site": {
-    "namn": "",
-    "slogan": "",
-    "beskrivning": "",
-    "ejVerifierad": "",
-    "hoppaTill": "",
-    "sprak": "",
-    "byggd": "",
-    "omSidan": "",
-    "kalla": "",
-    "tillbaka": ""
+    "namn": "Help Guide Stockholm",
+    "slogan": "Where can I sleep, eat, shower and get help – right now?",
+    "beskrivning": "Find shelters, food, showers, clothes, charging, health care and support in Stockholm. Shows what is open right now.",
+    "ejVerifierad": "The information comes from the organisations' own websites and has not yet been checked by us. Please call before travelling far.",
+    "hoppaTill": "Skip to content",
+    "sprak": "Language",
+    "byggd": "Page updated",
+    "omSidan": "This site has no accounts, no cookies and no tracking. It works without internet once you have visited it.",
+    "kalla": "Source code and error reports",
+    "tillbaka": "Back to start"
   },
   "nav": {
-    "hem": "",
-    "behover": "",
-    "ser": "",
-    "hjalpa": ""
+    "hem": "Start",
+    "behover": "I need help",
+    "ser": "I see someone who needs help",
+    "hjalpa": "I want to help"
   },
   "start": {
-    "nod": "",
-    "behoverText": "",
-    "serText": "",
-    "hjalpaText": ""
+    "nod": "Life in danger? Call 112.",
+    "behoverText": "Choose what you need. We show what is open now.",
+    "serText": "What you can do right now and who to call.",
+    "hjalpaText": "Give money, things or time to those doing the work."
   },
   "kat": {
     "sova": {
-      "namn": "",
-      "kort": ""
+      "namn": "Sleep tonight",
+      "kort": "Shelters and emergency housing"
     },
     "mat": {
-      "namn": "",
-      "kort": ""
+      "namn": "Food",
+      "kort": "Breakfast, lunch, dinner, food bags"
     },
     "dusch": {
-      "namn": "",
-      "kort": ""
+      "namn": "Shower & laundry",
+      "kort": "Shower, washing machine, hygiene"
     },
     "klader": {
-      "namn": "",
-      "kort": ""
+      "namn": "Clothes",
+      "kort": "Warm clothes, shoes, sleeping bags"
     },
     "ladda": {
-      "namn": "",
-      "kort": ""
+      "namn": "Charge phone, wifi, computer",
+      "kort": "Power sockets, internet, computers"
     },
     "vard": {
-      "namn": "",
-      "kort": ""
+      "namn": "Health care",
+      "kort": "Doctor, nurse, dentist"
     },
     "rad": {
-      "namn": "",
-      "kort": ""
+      "namn": "Advice & support",
+      "kort": "Social services, counselling, someone to talk to"
     }
   },
   "plats": {
-    "oppetNu": "",
-    "stangt": "",
-    "okant": "",
-    "utanforSasong": "",
-    "sasong": "",
-    "stanger": "",
-    "stangerSnart": "",
-    "oppnarIdag": "",
-    "oppnarImorgon": "",
-    "oppnar": "",
-    "oppnarInte": "",
-    "adress": "",
-    "karta": "",
-    "ring": "",
-    "telefon": "",
-    "webb": "",
-    "kalla": "",
-    "erbjuder": "",
-    "villkor": "",
-    "oppettider": "",
-    "sprak": "",
-    "senastKontrollerad": "",
-    "ejVerifierad": "",
-    "verifierad": "",
-    "gammal": "",
-    "kraverId": "",
-    "ingetId": "",
-    "gratis": "",
-    "pris": "",
-    "organisation": "",
-    "filterOppetNu": "",
-    "antal": "",
-    "antalOppna": "",
-    "ingaOppna": "",
-    "ingaPlatser": "",
-    "utanJs": "",
-    "skrivUt": "",
-    "stangtDag": "",
+    "oppetNu": "Open now",
+    "stangt": "Closed",
+    "okant": "Opening hours unknown, call first",
+    "utanforSasong": "Closed for the season",
+    "sasong": "Seasonal, open {fran} to {till}",
+    "stanger": "Closes {tid}",
+    "stangerSnart": "Closing soon, {tid}",
+    "oppnarIdag": "Opens {tid} today",
+    "oppnarImorgon": "Opens tomorrow {tid}",
+    "oppnar": "Opens {dag} {tid}",
+    "oppnarInte": "No opening hours given",
+    "adress": "Address",
+    "karta": "Show on map",
+    "ring": "Call",
+    "telefon": "Phone",
+    "webb": "Website",
+    "kalla": "Source",
+    "erbjuder": "Offers",
+    "villkor": "Conditions",
+    "oppettider": "Opening hours",
+    "sprak": "Languages spoken",
+    "senastKontrollerad": "Last checked",
+    "ejVerifierad": "Not verified",
+    "verifierad": "Verified",
+    "gammal": "May be out of date",
+    "kraverId": "ID required",
+    "ingetId": "No ID required",
+    "gratis": "Free",
+    "pris": "Price: {pris}",
+    "organisation": "Run by",
+    "filterOppetNu": "Only show what is open now",
+    "antal": "{n} places",
+    "antalOppna": "{n} open right now",
+    "ingaOppna": "Nothing in this category is open right now. Untick the filter to see when places open.",
+    "ingaPlatser": "We have no places in this category yet.",
+    "utanJs": "Your browser is not running JavaScript, so we cannot filter by what is open right now. Here are all places with their opening hours.",
+    "skrivUt": "Print the list",
+    "stangtDag": "closed",
     "malgrupp": {
-      "alla": "",
-      "kvinnor": "",
-      "man": "",
-      "unga": "",
-      "familjer": "",
-      "eu-medborgare": "",
-      "papperslosa": ""
+      "alla": "Open to everyone",
+      "kvinnor": "Women only",
+      "man": "Men only",
+      "unga": "Young people",
+      "familjer": "Families",
+      "eu-medborgare": "EU citizens and third-country nationals",
+      "papperslosa": "Undocumented people"
     },
     "dag": {
-      "man": "",
-      "tis": "",
-      "ons": "",
-      "tor": "",
-      "fre": "",
-      "lor": "",
-      "son": ""
+      "man": "Monday",
+      "tis": "Tuesday",
+      "ons": "Wednesday",
+      "tor": "Thursday",
+      "fre": "Friday",
+      "lor": "Saturday",
+      "son": "Sunday"
     },
     "dagKort": {
-      "man": "",
-      "tis": "",
-      "ons": "",
-      "tor": "",
-      "fre": "",
-      "lor": "",
-      "son": ""
+      "man": "Mon",
+      "tis": "Tue",
+      "ons": "Wed",
+      "tor": "Thu",
+      "fre": "Fri",
+      "lor": "Sat",
+      "son": "Sun"
     },
-    "dygnetRunt": ""
+    "dygnetRunt": "Open 24 hours"
   },
   "ser": {
-    "rubrik": "",
-    "intro": "",
+    "rubrik": "I see someone who needs help",
+    "intro": "Three questions. The answers point you the right way. The phone numbers can be selected and copied.",
     "steg1": {
-      "fraga": "",
-      "hjalp": "",
-      "ja": "",
-      "nej": ""
+      "fraga": "1. Is the person's life in danger?",
+      "hjalp": "For example: does not respond when you call out and gently shake their shoulder, is not breathing normally, is injured, is very cold and confused, or has taken something and is acutely unwell.",
+      "ja": "Call 112 right away. Stay until help arrives. If the person is unconscious but breathing: place them in the recovery position and keep them warm.",
+      "nej": "Otherwise, next question."
     },
     "steg2": {
-      "fraga": "",
-      "ja": "",
-      "nej": ""
+      "fraga": "2. Is it cold outside and the person has nowhere to sleep tonight?",
+      "ja": "Call the social emergency service (socialjouren). They can arrange a place for the night or send outreach workers. Say where the person is and what they look like.",
+      "nej": "Otherwise, next question."
     },
     "steg3": {
-      "fraga": "",
-      "text": ""
+      "fraga": "3. Does the person want help?",
+      "text": "Ask. A simple \"Hi, do you need anything?\" is enough. Respect a no."
     },
     "tips": {
-      "rubrik": "",
-      "lista": []
+      "rubrik": "What you can do",
+      "lista": [
+        "Offer something concrete: a hot drink, something to eat, a pair of socks.",
+        "Show this page and tell them about the nearest place that is open now.",
+        "Buy the magazine Situation Stockholm from a vendor with an ID badge.",
+        "Give money if you want to. How it is used is the person's own business.",
+        "Do not take photos. Do not push. A conversation is often worth more than you think."
+      ]
     },
-    "nummer": "",
-    "oppet": ""
+    "nummer": "Phone numbers",
+    "oppet": "Open"
   },
   "hjalpa": {
-    "rubrik": "",
-    "intro": "",
+    "rubrik": "I want to help",
+    "intro": "What helps most is often the least visible: money to those already doing the work.",
     "pengar": {
-      "rubrik": "",
-      "text": ""
+      "rubrik": "Give money",
+      "text": "The organisations below run shelters, meals and clinics in Stockholm. The details are taken from their own websites."
     },
     "saker": {
-      "rubrik": "",
-      "text": "",
-      "behovs": [],
-      "inteRubrik": "",
-      "inte": []
+      "rubrik": "Donate things",
+      "text": "Always ask the organisation first what they need right now. Often requested:",
+      "behovs": [
+        "New socks and underwear",
+        "Warm winter clothes in good condition, especially large sizes",
+        "Sleeping bags and sleeping mats",
+        "Toiletries: toothbrush, toothpaste, deodorant, sanitary pads",
+        "Gift cards for food or SL public transport tickets"
+      ],
+      "inteRubrik": "Do not donate",
+      "inte": [
+        "Torn, dirty or worn-out clothes. Sorting them out costs time and money.",
+        "Opened or expired food.",
+        "Medicines.",
+        "Furniture and large items without asking first."
+      ]
     },
     "tid": {
-      "rubrik": "",
-      "text": ""
+      "rubrik": "Give time",
+      "text": "Most organisations welcome volunteers. The links go to their own pages."
     },
     "behovstavla": {
-      "rubrik": "",
-      "text": ""
+      "rubrik": "Needs board",
+      "text": "Here the organisations themselves will be able to post what they need right now. This feature is not ready yet."
     },
-    "swish": "",
-    "bankgiro": "",
-    "plusgiro": "",
-    "gavaUrl": "",
-    "volontar": "",
-    "webb": "",
-    "ingaGavor": ""
+    "swish": "Swish",
+    "bankgiro": "Bankgiro",
+    "plusgiro": "Plusgiro",
+    "gavaUrl": "Donate",
+    "volontar": "Volunteer",
+    "webb": "Website",
+    "ingaGavor": "No donation details added yet."
   },
   "skrivUt": {
-    "rubrik": "",
-    "intro": "",
-    "knapp": "",
-    "tillbaka": ""
+    "rubrik": "{kat}: list to print",
+    "intro": "List from {datum}. Details may have changed, check on site or by phone.",
+    "knapp": "Print",
+    "tillbaka": "Back to the list"
   },
   "sprakNamn": {
-    "sv": "",
-    "en": "",
-    "ro": "",
-    "ar": "",
-    "fa": "",
-    "so": "",
-    "ti": "",
-    "pl": "",
-    "ru": "",
-    "es": "",
-    "fr": "",
-    "de": "",
-    "fi": "",
-    "tr": "",
-    "bg": "",
-    "uk": ""
+    "sv": "Swedish",
+    "en": "English",
+    "ro": "Romanian",
+    "ar": "Arabic",
+    "fa": "Persian",
+    "so": "Somali",
+    "ti": "Tigrinya",
+    "pl": "Polish",
+    "ru": "Russian",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "fi": "Finnish",
+    "tr": "Turkish",
+    "bg": "Bulgarian",
+    "uk": "Ukrainian"
   }
 }

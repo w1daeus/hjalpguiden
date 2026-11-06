@@ -5,11 +5,13 @@
     "telefon": "112",
     "beskrivning": {
       "sv": "Ring vid akuta nödsituationer då det är fara för liv, egendom eller miljö, t.ex. akut sjukdom, pågående brott eller brand. Ring bara när situationen kräver omedelbar hjälp. Gratis.",
-      "en": ""
+      "en": "Call in acute emergencies where life, property or the environment is in danger, e.g. acute illness, a crime in progress or fire. Only call when the situation needs immediate help. Free.",
+      "ro": "Sunați în urgențe acute când viața, bunurile sau mediul sunt în pericol, de ex. boală acută, infracțiune în curs sau incendiu. Sunați doar când situația cere ajutor imediat. Gratuit."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://www.sosalarm.se/112-och-andra-viktiga-nummer/viktiga-nummer/112/",
     "kalla": "https://www.sosalarm.se/112-och-andra-viktiga-nummer/viktiga-nummer/112/",
@@ -22,11 +24,13 @@
     "telefon": "1177",
     "beskrivning": {
       "sv": "Nationellt nummer för sjukvårdsrådgivning. Sjuksköterskor bedömer vårdbehov, ger råd och hänvisar till rätt vård.",
-      "en": ""
+      "en": "National number for health care advice. Nurses assess your need for care, give advice and refer you to the right care.",
+      "ro": "Număr național pentru sfaturi medicale. Asistenții medicali evaluează nevoia de îngrijire, dau sfaturi și vă îndrumă către îngrijirea potrivită."
     },
     "oppet": {
       "sv": "Dygnet runt",
-      "en": ""
+      "en": "24 hours",
+      "ro": "Non-stop"
     },
     "webb": "https://www.1177.se/om-1177/nar-du-ringer-1177/",
     "kalla": "https://www.1177.se/om-1177/nar-du-ringer-1177/",
@@ -39,11 +43,13 @@
     "telefon": "08-508 40 000",
     "beskrivning": {
       "sv": "Akuta sociala situationer kvällar, nätter och helger som inte kan vänta till nästa vardag, t.ex. akut behov av boende (akutboende/härbärge) eller akut ekonomiskt bistånd. Dagtid: kontakta din stadsdelsförvaltning.",
-      "en": ""
+      "en": "Urgent social situations evenings, nights and weekends that cannot wait until the next weekday, e.g. urgent need of housing (emergency housing/shelter) or emergency financial assistance. Daytime: contact your district administration.",
+      "ro": "Situații sociale urgente seara, noaptea și în weekend, care nu pot aștepta până în următoarea zi lucrătoare, de ex. nevoie urgentă de cazare (cazare de urgență/adăpost) sau ajutor financiar de urgență. În timpul zilei: contactați administrația de district."
     },
     "oppet": {
       "sv": "Dygnet runt",
-      "en": ""
+      "en": "24 hours",
+      "ro": "Non-stop"
     },
     "webb": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
     "kalla": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
@@ -56,11 +62,13 @@
     "telefon": "08-508 25 673",
     "beskrivning": {
       "sv": "Ring stadens uppsökare om du är orolig för en person som lever i hemlöshet eller far illa på stan. E-post uppsokarteamet@stockholm.se.",
-      "en": ""
+      "en": "Call the city's outreach workers if you are worried about a person living in homelessness or coming to harm in the city. Email uppsokarteamet@stockholm.se.",
+      "ro": "Sunați echipa de teren a orașului dacă sunteți îngrijorat pentru o persoană fără adăpost sau care este în pericol în oraș. E-mail uppsokarteamet@stockholm.se."
     },
     "oppet": {
       "sv": "Uppsökarna arbetar dagar, kvällar och helger",
-      "en": ""
+      "en": "The outreach workers work days, evenings and weekends",
+      "ro": "Echipa de teren lucrează ziua, seara și în weekend"
     },
     "webb": "https://socialtstod.stockholm/stod-till-hemlosa/",
     "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/",
@@ -73,11 +81,13 @@
     "telefon": "08-508 25 690",
     "beskrivning": {
       "sv": "Uppsökare som arbetar enbart med EU-medborgare i social utsatthet. E-post eu-teamet@stockholm.se.",
-      "en": ""
+      "en": "Outreach workers who work only with EU citizens in social vulnerability. Email eu-teamet@stockholm.se.",
+      "ro": "Echipă de teren care lucrează doar cu cetățeni UE în situație socială vulnerabilă. E-mail eu-teamet@stockholm.se."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
     "kalla": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
@@ -90,11 +100,13 @@
     "telefon": "08-508 25 600",
     "beskrivning": {
       "sv": "Socialsekreterare svarar på generella frågor om socialtjänstens stöd, t.ex. hur man ansöker. Går att vara anonym. Har du redan en handläggare, kontakta den i stället.",
-      "en": ""
+      "en": "Social workers answer general questions about social services support, e.g. how to apply. You can stay anonymous. If you already have a case worker, contact them instead.",
+      "ro": "Asistenții sociali răspund la întrebări generale despre sprijinul serviciilor sociale, de ex. cum se depune o cerere. Puteți rămâne anonim. Dacă aveți deja un responsabil de caz, contactați-l pe acesta."
     },
     "oppet": {
       "sv": "Dygnet runt, året om (kvällar/nätter/helger kopplas till socialjouren)",
-      "en": ""
+      "en": "24 hours, all year (evenings/nights/weekends are routed to the social emergency service)",
+      "ro": "Non-stop, tot anul (seara/noaptea/weekend se redirecționează la serviciul social de urgență)"
     },
     "webb": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
     "kalla": "https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/",
@@ -107,11 +119,13 @@
     "telefon": "08-508 25 645",
     "beskrivning": {
       "sv": "Råd i sociala frågor och hjälp i kontakt med socialtjänst och myndigheter för dig som är hemlös. Besök Östgötagatan 10 utan tidsbokning.",
-      "en": ""
+      "en": "Advice on social issues and help contacting social services and authorities for people who are homeless. Visit Östgötagatan 10 without an appointment.",
+      "ro": "Sfaturi în probleme sociale și ajutor în contactul cu serviciile sociale și autoritățile pentru persoane fără adăpost. Vizitați Östgötagatan 10 fără programare."
     },
     "oppet": {
       "sv": "Telefon vardagar 08.30–12.00 samt 13.00–16.00",
-      "en": ""
+      "en": "Phone weekdays 08.30–12.00 and 13.00–16.00",
+      "ro": "Telefon în zilele lucrătoare 08.30–12.00 și 13.00–16.00"
     },
     "webb": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
     "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
@@ -124,11 +138,13 @@
     "telefon": "116 016",
     "beskrivning": {
       "sv": "Stödtelefon för dig som utsatts för hot eller våld, och för anhöriga och yrkesverksamma. Alla oavsett ålder kan ringa. Gratis och du kan vara anonym. Vid akut fara: ring 112.",
-      "en": ""
+      "en": "Helpline for people who have been threatened or subjected to violence, and for relatives and professionals. Anyone of any age can call. Free and you can stay anonymous. In acute danger: call 112.",
+      "ro": "Linie de sprijin pentru persoane amenințate sau supuse violenței, precum și pentru rude și profesioniști. Poate suna oricine, indiferent de vârstă. Gratuit și puteți rămâne anonim. În pericol acut: sunați la 112."
     },
     "oppet": {
       "sv": "Dygnet runt",
-      "en": ""
+      "en": "24 hours",
+      "ro": "Non-stop"
     },
     "webb": "https://kvinnofridslinjen.se/",
     "kalla": "https://kvinnofridslinjen.se/",
@@ -141,11 +157,13 @@
     "telefon": "08-702 16 80",
     "beskrivning": {
       "sv": "Ideell förening där du kan hitta någon att prata med, via telefon eller chatt. Anonymt och under tystnadslöfte.",
-      "en": ""
+      "en": "Non-profit association where you can find someone to talk to, by phone or chat. Anonymous and confidential.",
+      "ro": "Asociație non-profit unde puteți găsi pe cineva cu care să vorbiți, prin telefon sau chat. Anonim și confidențial."
     },
     "oppet": {
       "sv": "Alla nätter kl. 21.00–06.00",
-      "en": ""
+      "en": "Every night 21.00–06.00",
+      "ro": "În fiecare noapte 21.00–06.00"
     },
     "webb": "https://www.jourhavande-medmanniska.se/",
     "kalla": "https://www.jourhavande-medmanniska.se/",
@@ -158,11 +176,13 @@
     "telefon": "114 14",
     "beskrivning": {
       "sv": "För ärenden som inte handlar om pågående eller nyligen inträffade brott och händelser. Vid pågående brott eller fara för liv: ring 112. Svenska och engelska. Inte gratisnummer, samtalstaxa enligt abonnemang.",
-      "en": ""
+      "en": "For matters that are not about crimes or incidents in progress or just occurred. For a crime in progress or danger to life: call 112. Swedish and English. Not a free number, standard call charges apply.",
+      "ro": "Pentru probleme care nu privesc infracțiuni sau evenimente în curs sau abia petrecute. Pentru infracțiuni în curs sau pericol de moarte: sunați la 112. Suedeză și engleză. Nu este un număr gratuit, se aplică tariful abonamentului."
     },
     "oppet": {
       "sv": "Dygnet runt, alla dagar (alla ärenden hanteras inte dygnet runt)",
-      "en": ""
+      "en": "24 hours, every day (not all matters are handled around the clock)",
+      "ro": "Non-stop, în fiecare zi (nu toate problemele se rezolvă non-stop)"
     },
     "webb": "https://polisen.se/om-polisen/kontakt/polisens-telefonnummer/",
     "kalla": "https://polisen.se/om-polisen/kontakt/polisens-telefonnummer/",
@@ -175,11 +195,13 @@
     "telefon": "08-644 09 20",
     "beskrivning": {
       "sv": "Stödsamtal och skyddat boende för våldsutsatta. Placering i boendet sker via socialtjänsten eller socialjouren. Samtalsmottagning efter bokning, ingen drop-in.",
-      "en": ""
+      "en": "Support conversations and sheltered housing for people subjected to violence. Placement in the housing is arranged through social services or the social emergency service. Counselling by appointment, no drop-in.",
+      "ro": "Discuții de sprijin și locuință protejată pentru persoane supuse violenței. Plasarea în locuință se face prin serviciile sociale sau serviciul social de urgență. Consiliere cu programare, nu fără programare."
     },
     "oppet": {
       "sv": "Personal är på plats vardagar mellan kl 8.30-16 (samtalsmottagning); boendet bemannat dygnet runt",
-      "en": ""
+      "en": "Staff are present weekdays 8.30–16 (counselling); the housing is staffed around the clock",
+      "ro": "Personalul este prezent în zilele lucrătoare 8.30–16 (consiliere); locuința este supravegheată non-stop"
     },
     "webb": "https://allakvinnorshus.org/",
     "kalla": "https://allakvinnorshus.org/kontakt/",
@@ -192,11 +214,13 @@
     "telefon": "08-714 64 10",
     "beskrivning": {
       "sv": "Skyddat boende för kvinnor utsatta för våld som samtidigt har beroendeproblem. Inget krav på nykterhet. Placering beslutas av socialtjänsten.",
-      "en": ""
+      "en": "Sheltered housing for women subjected to violence who also have addiction problems. No sobriety requirement. Placement is decided by social services.",
+      "ro": "Locuință protejată pentru femei supuse violenței care au și probleme de dependență. Nu se cere abstinență. Plasarea este decisă de serviciile sociale."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/mojlighet/",
     "kalla": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/",
@@ -209,11 +233,13 @@
     "telefon": "070-484 37 08",
     "beskrivning": {
       "sv": "Skyddat boende för våldsutsatta kvinnor med eller utan barn, med barnverksamhet. Placering beslutas av socialtjänsten.",
-      "en": ""
+      "en": "Sheltered housing for women subjected to violence, with or without children, with activities for children. Placement is decided by social services.",
+      "ro": "Locuință protejată pentru femei supuse violenței, cu sau fără copii, cu activități pentru copii. Plasarea este decisă de serviciile sociale."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/fristad/",
     "kalla": "https://www.erstadiakoni.se/lss-socialt-stod/skyddat-boende/",
@@ -226,11 +252,13 @@
     "telefon": "08-508 25 750",
     "beskrivning": {
       "sv": "Stöd för personer utsatta för våld i nära relation. Fyra centrum (Väst, Innerstaden, Sydväst, Sydost) med samma nummer.",
-      "en": ""
+      "en": "Support for people subjected to violence in close relationships. Four centres (West, Inner City, South-West, South-East) with the same number.",
+      "ro": "Sprijin pentru persoane supuse violenței în relații apropiate. Patru centre (Vest, Centru, Sud-Vest, Sud-Est) cu același număr."
     },
     "oppet": {
       "sv": "Måndag–torsdag 09.00–15.00, fredag 09.00–14.00, helgdagar stängt",
-      "en": ""
+      "en": "Monday–Thursday 09.00–15.00, Friday 09.00–14.00, closed on public holidays",
+      "ro": "Luni–joi 09.00–15.00, vineri 09.00–14.00, închis în sărbătorile legale"
     },
     "webb": "https://socialtstod.stockholm/familj-och-barn/hot-och-vald-i-nara-relationer/",
     "kalla": "https://socialtstod.stockholm/familj-och-barn/hot-och-vald-i-nara-relationer/",
@@ -243,11 +271,13 @@
     "telefon": "08-642 64 01",
     "beskrivning": {
       "sv": "Kansli, inte stödlinje. Hänvisar till lokala kvinnojourer via unizonjourer.se/hitta-stod/ och till Kvinnofridslinjen 116 016.",
-      "en": ""
+      "en": "Head office, not a helpline. Refers to local women's shelters via unizonjourer.se/hitta-stod/ and to Kvinnofridslinjen 116 016.",
+      "ro": "Sediu central, nu linie de sprijin. Îndrumă către adăposturi locale pentru femei prin unizonjourer.se/hitta-stod/ și către Kvinnofridslinjen 116 016."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://unizonjourer.se/hitta-stod/",
     "kalla": "https://www.unizonjourer.se",
@@ -260,11 +290,13 @@
     "telefon": "08-442 99 30",
     "beskrivning": {
       "sv": "Kansli, inte stödlinje. Hitta lokal jour via roks.se/fa-stod/hitta-en-jour.",
-      "en": ""
+      "en": "Head office, not a helpline. Find a local shelter via roks.se/fa-stod/hitta-en-jour.",
+      "ro": "Sediu central, nu linie de sprijin. Găsiți un adăpost local prin roks.se/fa-stod/hitta-en-jour."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://roks.se/fa-stod/hitta-en-jour",
     "kalla": "https://www.roks.se",
@@ -277,11 +309,13 @@
     "telefon": "072-284 12 41",
     "beskrivning": {
       "sv": "Härbärgen (26 + 56 platser) öppna året runt samt Extra Kalla Nätter i kyrkor 1 nov–31 mars vid -7 °C eller kallare. Riktar sig till EU-medborgare och tredjelandsmedborgare med vistelsetillstånd i EU. Ny Gemenskap registrerar och fördelar platser.",
-      "en": ""
+      "en": "Shelters (26 + 56 places) open all year, plus Extra Cold Nights in churches 1 Nov–31 March at -7 °C or colder. For EU citizens and third-country nationals with a residence permit in the EU. Ny Gemenskap registers and allocates places.",
+      "ro": "Adăposturi (26 + 56 de locuri) deschise tot anul, plus Nopți Extra Reci în biserici 1 nov–31 martie la -7 °C sau mai frig. Pentru cetățeni UE și cetățeni din țări terțe cu permis de ședere în UE. Ny Gemenskap înregistrează și distribuie locurile."
     },
     "oppet": {
       "sv": "",
-      "en": ""
+      "en": "",
+      "ro": ""
     },
     "webb": "https://nygemenskap.org/vinternatt-sommarnatt/",
     "kalla": "https://nygemenskap.org/vinternatt-sommarnatt/",

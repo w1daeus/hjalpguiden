@@ -1,203 +1,220 @@
 {
   "site": {
-    "namn": "",
-    "slogan": "",
-    "beskrivning": "",
-    "ejVerifierad": "",
-    "hoppaTill": "",
-    "sprak": "",
-    "byggd": "",
-    "omSidan": "",
-    "kalla": "",
-    "tillbaka": ""
+    "namn": "Ghidul de ajutor Stockholm",
+    "slogan": "Unde pot să dorm, să mănânc, să fac duș și să primesc ajutor – chiar acum?",
+    "beskrivning": "Găsește adăposturi, mâncare, duș, haine, încărcare telefon, îngrijire medicală și sprijin în Stockholm. Arată ce este deschis chiar acum.",
+    "ejVerifierad": "Informațiile provin de pe site-urile organizațiilor și nu au fost încă verificate de noi. Sunați înainte de a merge departe.",
+    "hoppaTill": "Sari la conținut",
+    "sprak": "Limbă",
+    "byggd": "Pagina a fost actualizată",
+    "omSidan": "Acest site nu are conturi, cookie-uri sau urmărire. Funcționează fără internet după ce l-ați vizitat o dată.",
+    "kalla": "Cod sursă și raportare erori",
+    "tillbaka": "Înapoi la început"
   },
   "nav": {
-    "hem": "",
-    "behover": "",
-    "ser": "",
-    "hjalpa": ""
+    "hem": "Început",
+    "behover": "Am nevoie de ajutor",
+    "ser": "Văd pe cineva care are nevoie de ajutor",
+    "hjalpa": "Vreau să ajut"
   },
   "start": {
-    "nod": "",
-    "behoverText": "",
-    "serText": "",
-    "hjalpaText": ""
+    "nod": "Pericol de moarte? Sunați la 112.",
+    "behoverText": "Alegeți ce aveți nevoie. Vă arătăm ce este deschis acum.",
+    "serText": "Ce puteți face chiar acum și pe cine să sunați.",
+    "hjalpaText": "Dați bani, lucruri sau timp celor care fac această muncă."
   },
   "kat": {
     "sova": {
-      "namn": "",
-      "kort": ""
+      "namn": "Unde dorm la noapte",
+      "kort": "Adăposturi de noapte și cazare de urgență"
     },
     "mat": {
-      "namn": "",
-      "kort": ""
+      "namn": "Mâncare",
+      "kort": "Mic dejun, prânz, cină, pachete cu alimente"
     },
     "dusch": {
-      "namn": "",
-      "kort": ""
+      "namn": "Duș & spălat rufe",
+      "kort": "Duș, mașină de spălat, igienă"
     },
     "klader": {
-      "namn": "",
-      "kort": ""
+      "namn": "Haine",
+      "kort": "Haine calde, încălțăminte, saci de dormit"
     },
     "ladda": {
-      "namn": "",
-      "kort": ""
+      "namn": "Încărcare telefon, wifi, calculator",
+      "kort": "Prize, internet, calculatoare"
     },
     "vard": {
-      "namn": "",
-      "kort": ""
+      "namn": "Îngrijire medicală",
+      "kort": "Medic, asistent medical, dentist"
     },
     "rad": {
-      "namn": "",
-      "kort": ""
+      "namn": "Sfaturi & sprijin",
+      "kort": "Servicii sociale, consiliere, cineva cu care să vorbiți"
     }
   },
   "plats": {
-    "oppetNu": "",
-    "stangt": "",
-    "okant": "",
-    "utanforSasong": "",
-    "sasong": "",
-    "stanger": "",
-    "stangerSnart": "",
-    "oppnarIdag": "",
-    "oppnarImorgon": "",
-    "oppnar": "",
-    "oppnarInte": "",
-    "adress": "",
-    "karta": "",
-    "ring": "",
-    "telefon": "",
-    "webb": "",
-    "kalla": "",
-    "erbjuder": "",
-    "villkor": "",
-    "oppettider": "",
-    "sprak": "",
-    "senastKontrollerad": "",
-    "ejVerifierad": "",
-    "verifierad": "",
-    "gammal": "",
-    "kraverId": "",
-    "ingetId": "",
-    "gratis": "",
-    "pris": "",
-    "organisation": "",
-    "filterOppetNu": "",
-    "antal": "",
-    "antalOppna": "",
-    "ingaOppna": "",
-    "ingaPlatser": "",
-    "utanJs": "",
-    "skrivUt": "",
-    "stangtDag": "",
+    "oppetNu": "Deschis acum",
+    "stangt": "Închis",
+    "okant": "Program necunoscut, sunați mai întâi",
+    "utanforSasong": "Închis în acest sezon",
+    "sasong": "Sezonier, deschis de la {fran} până la {till}",
+    "stanger": "Se închide la {tid}",
+    "stangerSnart": "Se închide în curând, la {tid}",
+    "oppnarIdag": "Se deschide azi la {tid}",
+    "oppnarImorgon": "Se deschide mâine la {tid}",
+    "oppnar": "Se deschide {dag} la {tid}",
+    "oppnarInte": "Nu există program afișat",
+    "adress": "Adresă",
+    "karta": "Arată pe hartă",
+    "ring": "Sună",
+    "telefon": "Telefon",
+    "webb": "Site web",
+    "kalla": "Sursă",
+    "erbjuder": "Oferă",
+    "villkor": "Condiții",
+    "oppettider": "Program",
+    "sprak": "Limbi vorbite",
+    "senastKontrollerad": "Verificat ultima dată",
+    "ejVerifierad": "Neverificat",
+    "verifierad": "Verificat",
+    "gammal": "Poate fi depășit",
+    "kraverId": "Este nevoie de act de identitate",
+    "ingetId": "Nu este nevoie de act de identitate",
+    "gratis": "Gratuit",
+    "pris": "Preț: {pris}",
+    "organisation": "Administrat de",
+    "filterOppetNu": "Arată doar ce este deschis acum",
+    "antal": "{n} locuri",
+    "antalOppna": "{n} deschise chiar acum",
+    "ingaOppna": "Nimic din această categorie nu este deschis chiar acum. Debifați filtrul ca să vedeți când se deschid locurile.",
+    "ingaPlatser": "Nu avem încă locuri în această categorie.",
+    "utanJs": "Browserul dvs. nu rulează JavaScript, așa că nu putem filtra după ce este deschis chiar acum. Iată toate locurile cu programul lor.",
+    "skrivUt": "Tipărește lista",
+    "stangtDag": "închis",
     "malgrupp": {
-      "alla": "",
-      "kvinnor": "",
-      "man": "",
-      "unga": "",
-      "familjer": "",
-      "eu-medborgare": "",
-      "papperslosa": ""
+      "alla": "Deschis pentru toți",
+      "kvinnor": "Doar femei",
+      "man": "Doar bărbați",
+      "unga": "Tineri",
+      "familjer": "Familii",
+      "eu-medborgare": "Cetățeni UE și cetățeni din țări terțe",
+      "papperslosa": "Persoane fără acte"
     },
     "dag": {
-      "man": "",
-      "tis": "",
-      "ons": "",
-      "tor": "",
-      "fre": "",
-      "lor": "",
-      "son": ""
+      "man": "luni",
+      "tis": "marți",
+      "ons": "miercuri",
+      "tor": "joi",
+      "fre": "vineri",
+      "lor": "sâmbătă",
+      "son": "duminică"
     },
     "dagKort": {
-      "man": "",
-      "tis": "",
-      "ons": "",
-      "tor": "",
-      "fre": "",
-      "lor": "",
-      "son": ""
+      "man": "lun",
+      "tis": "mar",
+      "ons": "mie",
+      "tor": "joi",
+      "fre": "vin",
+      "lor": "sâm",
+      "son": "dum"
     },
-    "dygnetRunt": ""
+    "dygnetRunt": "Deschis non-stop"
   },
   "ser": {
-    "rubrik": "",
-    "intro": "",
+    "rubrik": "Văd pe cineva care are nevoie de ajutor",
+    "intro": "Trei întrebări. Răspunsurile vă îndrumă. Numerele de telefon pot fi selectate și copiate.",
     "steg1": {
-      "fraga": "",
-      "hjalp": "",
-      "ja": "",
-      "nej": ""
+      "fraga": "1. Persoana este în pericol de moarte?",
+      "hjalp": "De exemplu: nu răspunde când strigați și o scuturați ușor de umăr, nu respiră normal, este rănită, este foarte înfrigurată și confuză, sau a luat ceva și se simte foarte rău.",
+      "ja": "Sunați imediat la 112. Rămâneți până sosește ajutorul. Dacă persoana este inconștientă dar respiră: așezați-o în poziție laterală de siguranță și țineți-o la cald.",
+      "nej": "Altfel, următoarea întrebare."
     },
     "steg2": {
-      "fraga": "",
-      "ja": "",
-      "nej": ""
+      "fraga": "2. Este frig afară și persoana nu are unde să doarmă la noapte?",
+      "ja": "Sunați la serviciul social de urgență (socialjouren). Ei pot găsi un loc pentru noapte sau pot trimite echipa de teren. Spuneți unde se află persoana și cum arată.",
+      "nej": "Altfel, următoarea întrebare."
     },
     "steg3": {
-      "fraga": "",
-      "text": ""
+      "fraga": "3. Persoana vrea ajutor?",
+      "text": "Întrebați. Un simplu „Bună, aveți nevoie de ceva?” este suficient. Respectați un nu."
     },
     "tips": {
-      "rubrik": "",
-      "lista": []
+      "rubrik": "Ce puteți face",
+      "lista": [
+        "Oferiți ceva concret: o băutură caldă, ceva de mâncare, o pereche de șosete.",
+        "Arătați această pagină și spuneți care este cel mai apropiat loc deschis acum.",
+        "Cumpărați revista Situation Stockholm de la un vânzător cu legitimație.",
+        "Dați bani dacă doriți. Cum sunt folosiți este treaba persoanei.",
+        "Nu faceți poze. Nu insistați. O conversație valorează adesea mai mult decât credeți."
+      ]
     },
-    "nummer": "",
-    "oppet": ""
+    "nummer": "Numere de telefon",
+    "oppet": "Deschis"
   },
   "hjalpa": {
-    "rubrik": "",
-    "intro": "",
+    "rubrik": "Vreau să ajut",
+    "intro": "Ceea ce ajută cel mai mult este adesea cel mai puțin vizibil: bani pentru cei care deja fac această muncă.",
     "pengar": {
-      "rubrik": "",
-      "text": ""
+      "rubrik": "Dați bani",
+      "text": "Organizațiile de mai jos administrează adăposturi, mese și cabinete în Stockholm. Datele sunt preluate de pe site-urile lor."
     },
     "saker": {
-      "rubrik": "",
-      "text": "",
-      "behovs": [],
-      "inteRubrik": "",
-      "inte": []
+      "rubrik": "Donați lucruri",
+      "text": "Întrebați întotdeauna organizația mai întâi de ce are nevoie chiar acum. Se cer des:",
+      "behovs": [
+        "Șosete și lenjerie intimă noi",
+        "Haine de iarnă calde, în stare bună, mai ales mărimi mari",
+        "Saci de dormit și saltele izolante",
+        "Produse de igienă: periuță și pastă de dinți, deodorant, absorbante",
+        "Carduri cadou pentru mâncare sau bilete SL (transport public)"
+      ],
+      "inteRubrik": "Nu donați",
+      "inte": [
+        "Haine rupte, murdare sau uzate. Sortarea lor costă timp și bani.",
+        "Alimente deschise sau expirate.",
+        "Medicamente.",
+        "Mobilă și obiecte mari fără să întrebați mai întâi."
+      ]
     },
     "tid": {
-      "rubrik": "",
-      "text": ""
+      "rubrik": "Dați timp",
+      "text": "Majoritatea organizațiilor primesc voluntari. Linkurile duc la paginile lor."
     },
     "behovstavla": {
-      "rubrik": "",
-      "text": ""
+      "rubrik": "Panoul de nevoi",
+      "text": "Aici organizațiile vor putea publica singure de ce au nevoie chiar acum. Funcția nu este încă gata."
     },
-    "swish": "",
-    "bankgiro": "",
-    "plusgiro": "",
-    "gavaUrl": "",
-    "volontar": "",
-    "webb": "",
-    "ingaGavor": ""
+    "swish": "Swish",
+    "bankgiro": "Bankgiro",
+    "plusgiro": "Plusgiro",
+    "gavaUrl": "Donează",
+    "volontar": "Devino voluntar",
+    "webb": "Site web",
+    "ingaGavor": "Nu există încă date pentru donații."
   },
   "skrivUt": {
-    "rubrik": "",
-    "intro": "",
-    "knapp": "",
-    "tillbaka": ""
+    "rubrik": "{kat}: listă de tipărit",
+    "intro": "Listă din {datum}. Datele se pot schimba, verificați la fața locului sau prin telefon.",
+    "knapp": "Tipărește",
+    "tillbaka": "Înapoi la listă"
   },
   "sprakNamn": {
-    "sv": "",
-    "en": "",
-    "ro": "",
-    "ar": "",
-    "fa": "",
-    "so": "",
-    "ti": "",
-    "pl": "",
-    "ru": "",
-    "es": "",
-    "fr": "",
-    "de": "",
-    "fi": "",
-    "tr": "",
-    "bg": "",
-    "uk": ""
+    "sv": "suedeză",
+    "en": "engleză",
+    "ro": "română",
+    "ar": "arabă",
+    "fa": "persană",
+    "so": "somaleză",
+    "ti": "tigrinya",
+    "pl": "poloneză",
+    "ru": "rusă",
+    "es": "spaniolă",
+    "fr": "franceză",
+    "de": "germană",
+    "fi": "finlandeză",
+    "tr": "turcă",
+    "bg": "bulgară",
+    "uk": "ucraineană"
   }
 }

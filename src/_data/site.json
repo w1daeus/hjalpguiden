@@ -9,12 +9,12 @@
     {
       "kod": "en",
       "namn": "English",
-      "aktiv": false
+      "aktiv": true
     },
     {
       "kod": "ro",
       "namn": "Română",
-      "aktiv": false
+      "aktiv": true
     }
   ],
   "kategorier": [
