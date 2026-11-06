@@ -40,7 +40,16 @@ npm run gaps       # skriver data/ATT-KONTROLLERA.md
 
 ## Publicering
 
-Push till `main` kör `.github/workflows/deploy.yml`: test, bygg med `--pathprefix` satt från GitHub Pages, deploy. Sajten ligger på GitHub Pages för repot.
+- Repo: https://github.com/w1daeus/hjalpguiden (publikt)
+- Sajt: https://w1daeus.github.io/hjalpguiden/
+
+Push till `main` kör `.github/workflows/deploy.yml`: test, bygg med `--pathprefix` satt från GitHub Pages, deploy. Workflowet använder `npm install` (inte `npm ci`) eftersom lockfilen från Windows listar fsevents utan optional-flagga, vilket får `npm ci` att falla på Linux.
+
+Alla interna länkar skrivs som absoluta sökvägar (`/css/style.css`); Eleventys HtmlBasePlugin lägger på prefixet `/hjalpguiden/` vid bygge i CI. Lokalt (`npm run dev`) är prefixet `/`.
+
+## Datainsamling hittills
+
+Första insamlingen gjordes 2026-11-06 av AI-agenter från organisationernas egna webbplatser. Luckor och motsägelser står i `data/INSAMLING-2026-11-06.md`. Inget är verifierat av en människa än.
 
 ## Lägga till en plats
 

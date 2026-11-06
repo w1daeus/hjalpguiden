@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 {% set platser = data.platser | iKategori(combo.kat.id) %}
 <p class="noprint"><a href="{{ ('/hjalp/' + combo.kat.id + '/') | langPath(lang) }}">← {{ 'skrivUt.tillbaka' | t(lang) }}</a> <button type="button" class="knapp" onclick="window.print()">🖨 {{ 'skrivUt.knapp' | t(lang) }}</button></p>
-<h1>{{ 'skrivUt.rubrik' | t(lang, { kat: title }) }}</h1>
+<h1>{{ 'skrivUt.rubrik' | t(lang, { kat: title }) | safe }}</h1>
 <p>{{ 'site.namn' | t(lang) }}. {{ 'skrivUt.intro' | t(lang, { datum: build.datum }) }}</p>
 <ol class="utskrift-lista">
 {% for plats in platser %}

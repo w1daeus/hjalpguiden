@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 {% set platser = data.platser | iKategori(combo.kat.id) %}
 <nav class="crumb" aria-label="{{ 'site.tillbaka' | t(lang) }}"><a href="{{ '/' | langPath(lang) }}">← {{ 'nav.hem' | t(lang) }}</a></nav>
-<h1><span aria-hidden="true">{{ combo.kat.ikon }}</span> {{ title }}</h1>
+<h1><span aria-hidden="true">{{ combo.kat.ikon }}</span> {{ title | safe }}</h1>
 
 {% if platser.length %}
 <form class="filter" data-filter hidden>
