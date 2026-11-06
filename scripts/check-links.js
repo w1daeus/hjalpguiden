@@ -24,6 +24,7 @@ for (const o of las("organisations.json")) {
   notera(o.kalla, `organisation ${o.id} (källa)`); notera(o.webb, `organisation ${o.id} (webb)`);
   notera(o.volontar, `organisation ${o.id} (volontär)`); notera(o.gava?.url, `organisation ${o.id} (gåva)`);
 }
+for (const d of las("guide.json")) for (const s of d.steg) { notera(s.kalla, `guide ${s.id} (källa)`); notera(s.lank?.url, `guide ${s.id} (länk)`); }
 for (const k of las("kontakter.json")) { notera(k.kalla, `kontakt ${k.id} (källa)`); notera(k.webb, `kontakt ${k.id} (webb)`); }
 
 async function hamta(url, metod) {

@@ -30,6 +30,7 @@ eleventyComputed:
   {% endfor %}
   </ul>
 </section>
+<p class="guide-lank"><a class="stor-lank" href="{{ '/guide/' | langPath(lang) }}">🧭 {{ 'nav.guide' | t(lang) }} →</a><span class="kort">{{ 'start.guideText' | t(lang) }}</span></p>
 <script type="application/json" id="hg-oppet">{{ data.platser | platserKompakt | json | safe }}</script>
 
 <section class="ingang" aria-labelledby="h-ser">

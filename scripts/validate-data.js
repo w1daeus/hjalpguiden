@@ -30,6 +30,7 @@ function kollaPass(pass, v, var_) {
 const platser = las("places.json");
 const orgs = las("organisations.json");
 const kontakter = las("kontakter.json");
+const guide = las("guide.json");
 const orgIds = new Set(orgs.map((o) => o.id));
 
 function kollaGemensamt(p, var_) {
@@ -84,8 +85,31 @@ for (const k of kontakter) {
   kolla(!("adress" in k) || k.adress === null, `${v}: kontakter får inte ha adress (regel 4)`);
 }
 
+const kontaktIds = new Set(kontakter.map((k) => k.id));
+const stegIds = new Set();
+for (const del of guide) {
+  const v = `guide.json → ${del.id || "(utan id)"}`;
+  kolla(ID.test(del.id || ""), `${v}: ogiltigt id`);
+  kolla(del.rubrik && typeof del.rubrik.sv === "string" && del.rubrik.sv.trim(), `${v}: rubrik.sv saknas`);
+  kolla(Array.isArray(del.steg) && del.steg.length > 0, `${v}: steg måste vara en icke-tom lista`);
+  for (const s of del.steg || []) {
+    const w = `${v} → ${s.id || "(utan id)"}`;
+    kolla(ID.test(s.id || ""), `${w}: ogiltigt id`);
+    kolla(!stegIds.has(s.id), `${w}: dubblett-id`);
+    stegIds.add(s.id);
+    kolla(s.rubrik && typeof s.rubrik.sv === "string" && s.rubrik.sv.trim(), `${w}: rubrik.sv saknas`);
+    kolla(s.text && typeof s.text.sv === "string" && s.text.sv.trim(), `${w}: text.sv saknas`);
+    kolla(STATUS.includes(s.status), `${w}: status måste vara ${STATUS.join(" eller ")}`);
+    kolla(DATUM.test(s.senastKontrollerad || ""), `${w}: senastKontrollerad måste vara ÅÅÅÅ-MM-DD`);
+    kolla(typeof s.kalla === "string" && /^https?:\/\//.test(s.kalla), `${w}: kalla måste vara en URL (regel 1)`);
+    kolla(!s.kontakt || kontaktIds.has(s.kontakt), `${w}: kontakt "${s.kontakt}" finns inte i kontakter.json`);
+    kolla(!s.intern || s.intern.startsWith("/"), `${w}: intern måste vara en sökväg som börjar med /`);
+    kolla(!s.lank || (/^https?:\/\//.test(s.lank.url || "") && s.lank.text && s.lank.text.sv), `${w}: lank måste ha url och text.sv`);
+  }
+}
+
 if (fel.length) {
   console.error(`✗ ${fel.length} fel i data/:\n  ` + fel.join("\n  "));
   process.exit(1);
 }
-console.log(`✓ data ok: ${platser.length} platser, ${orgs.length} organisationer, ${kontakter.length} kontakter`);
+console.log(`✓ data ok: ${platser.length} platser, ${orgs.length} organisationer, ${kontakter.length} kontakter, ${guide.flatMap((d) => d.steg).length} guidesteg`);

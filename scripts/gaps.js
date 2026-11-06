@@ -8,6 +8,7 @@ const las = (f) => JSON.parse(readFileSync(path.join(root, "data", f), "utf8"));
 const platser = las("places.json");
 const orgs = las("organisations.json");
 const kontakter = las("kontakter.json");
+const guide = las("guide.json");
 const idag = new Date().toISOString().slice(0, 10);
 
 const rader = [
@@ -54,6 +55,15 @@ for (const o of orgs) {
 rader.push("", `## Kontakter / telefonnummer (${kontakter.length})`, "");
 for (const k of kontakter) {
   rader.push(`- **${k.namn}** (${k.id}) – ${stat(k)}, telefon: ${k.telefon || "SAKNAS"}, källa: ${k.kalla || "SAKNAS"}`);
+}
+
+rader.push("", `## Guiden "Nyss blivit hemlös" (${guide.flatMap((d) => d.steg).length} steg)`, "", "Läs källan och kontrollera att texten återger den rätt. Sätt sedan `status` och `senastKontrollerad` på steget.", "");
+for (const del of guide) {
+  rader.push(`### ${del.rubrik.sv}`, "");
+  for (const s of del.steg) {
+    rader.push(`- **${s.rubrik.sv}** (${s.id}) – ${stat(s)}, kontrollerad ${s.senastKontrollerad}, källa: ${s.kalla}${s.anteckning ? `, anteckning: ${s.anteckning}` : ""}`);
+  }
+  rader.push("");
 }
 
 writeFileSync(path.join(root, "data", "ATT-KONTROLLERA.md"), rader.join("\n") + "\n");

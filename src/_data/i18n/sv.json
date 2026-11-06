@@ -20,13 +20,15 @@
     "behover": "Jag behöver hjälp",
     "ser": "Jag ser någon som behöver hjälp",
     "hjalpa": "Jag vill hjälpa till",
-    "sok": "Sök plats"
+    "sok": "Sök plats",
+    "guide": "Nyss blivit hemlös? Vad gör jag nu?"
   },
   "start": {
     "nod": "Livsfara? Ring 112.",
     "behoverText": "Välj vad du behöver. Vi visar vad som är öppet nu.",
     "serText": "Vad du kan göra just nu och vem du ringer.",
-    "hjalpaText": "Ge pengar, saker eller tid till dem som gör jobbet."
+    "hjalpaText": "Ge pengar, saker eller tid till dem som gör jobbet.",
+    "guideText": "Stegen i rätt ordning: tak över huvudet, pengar, post, legitimation, bankkonto och vård. Med källa på varje punkt."
   },
   "kat": {
     "sova": {
@@ -187,6 +189,14 @@
     },
     "nummer": "Telefonnummer",
     "oppet": "Öppet"
+  },
+  "guide": {
+    "rubrik": "Nyss blivit hemlös: vad gör jag nu?",
+    "intro": "Stegen i den ordning de oftast behöver tas. Du behöver inte göra allt på en gång. Det viktigaste först: tak över huvudet i natt.",
+    "kallor": "Varje punkt har en källa hos myndigheten eller staden. Uppgifterna är hämtade från källorna men ännu inte kontrollerade av oss. Ring innan du går långt.",
+    "innehall": "Innehåll",
+    "visaPlatser": "Visa platser",
+    "slut": "Ser du någon annan som behöver hjälp?"
   },
   "hjalpa": {
     "rubrik": "Jag vill hjälpa till",

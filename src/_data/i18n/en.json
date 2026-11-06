@@ -20,13 +20,15 @@
     "behover": "I need help",
     "ser": "I see someone who needs help",
     "hjalpa": "I want to help",
-    "sok": "Search places"
+    "sok": "Search places",
+    "guide": "Just became homeless? What do I do now?"
   },
   "start": {
     "nod": "Life in danger? Call 112.",
     "behoverText": "Choose what you need. We show what is open now.",
     "serText": "What you can do right now and who to call.",
-    "hjalpaText": "Give money, things or time to those doing the work."
+    "hjalpaText": "Give money, things or time to those doing the work.",
+    "guideText": "The steps in the right order: a roof tonight, money, mail, ID, bank account and health care. With a source for every point."
   },
   "kat": {
     "sova": {
@@ -187,6 +189,14 @@
     },
     "nummer": "Phone numbers",
     "oppet": "Open"
+  },
+  "guide": {
+    "rubrik": "Just became homeless: what do I do now?",
+    "intro": "The steps in the order they usually need to be taken. You do not have to do everything at once. The most important first: a roof over your head tonight.",
+    "kallor": "Every point has a source at the authority or the city. The details are taken from the sources but not yet checked by us. Call before travelling far.",
+    "innehall": "Contents",
+    "visaPlatser": "Show places",
+    "slut": "Do you see someone else who needs help?"
   },
   "hjalpa": {
     "rubrik": "I want to help",

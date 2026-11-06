@@ -21,7 +21,7 @@ Eleventy 3 (Nunjucks-mallar), ren CSS, en liten ESM-modul i vanilla JS. Inga and
 
 ## Mappar
 
-- `data/` platser, organisationer, kontakter (JSON) + `ATT-KONTROLLERA.md`
+- `data/` platser, organisationer, kontakter och guiden "Nyss blivit hemlös" (JSON) + `ATT-KONTROLLERA.md`
 - `lib/opening-hours.js` ren logik, används av både sajt och tester
 - `test/` `node --test`
 - `scripts/validate-data.js` stoppar bygget vid fel i data; `scripts/gaps.js` skriver luckor; `scripts/geocode.js` hämtar koordinater från adresserna (OpenStreetMap, rapport i `data/GEOKODNING-<datum>.md`); `scripts/check-links.js` kontrollerar att alla URL:er i data svarar
@@ -51,6 +51,8 @@ Push till `main` kör `.github/workflows/deploy.yml`: test, bygg med `--pathpref
 `.github/workflows/lankkoll.yml` kör länkkollen varje måndag och öppnar ett ärende med etiketten `lankkoll` om någon länk inte svarar. Varje platskort har länken "Stämmer inte? Anmäl" som öppnar ett förifyllt ärende i repot (kräver GitHub-konto).
 
 Service workern förhandscachar startsidan, kategorisidorna och "Jag ser någon" för det språk som besöks (listan i `src/_data/karna.js`), så att guiden fungerar offline efter ett enda besök. Mörkt läge följer systemet via `prefers-color-scheme`; alla färger är tokens i `:root` och ska hålla AA i båda lägena.
+
+`/guide/` är guiden "Nyss blivit hemlös: vad gör jag nu?" från `data/guide.json`. Varje steg har källa, status och datum precis som platserna, och texten ska återge källan utan egna tolkningar.
 
 `/affisch/` är en utskriftsaffisch i A4 med QR-kod till sajten. QR-koden genereras vid bygget av `lib/qr.js` (ingen extern tjänst).
 

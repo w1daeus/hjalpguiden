@@ -1,0 +1,286 @@
+[
+  {
+    "id": "i-natt",
+    "rubrik": { "sv": "Tak över huvudet i natt", "en": "A roof over your head tonight" },
+    "steg": [
+      {
+        "id": "stadsdel",
+        "rubrik": { "sv": "Dagtid: ring socialtjänsten i den stadsdel där du senast var skriven", "en": "Daytime: call social services in the district where you were last registered" },
+        "text": {
+          "sv": "Stockholms stad skriver att den som lever i hemlöshet i första hand ska söka hjälp hos stadsdelsförvaltningen där hen senast var skriven. Stadsdelsförvaltningarna har öppet kontorstid. Vet du inte vilken stadsdel du tillhör kan du slå upp den på stadens webbplats.",
+          "en": "The City of Stockholm says that a person living in homelessness should first seek help from the district administration (stadsdelsförvaltning) where they were last registered. District offices are open during office hours. If you do not know your district, you can look it up on the city's website."
+        },
+        "lank": { "url": "https://start.stockholm/om-stockholms-stad/organisation/stadsdelsforvaltningar/hitta-din-stadsdel/", "text": { "sv": "Hitta din stadsdelsförvaltning", "en": "Find your district administration" } },
+        "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "socialjouren",
+        "rubrik": { "sv": "Kväll, natt och helg: ring socialjouren", "en": "Evenings, nights and weekends: call the social emergency service" },
+        "text": {
+          "sv": "Socialjouren är bemannad dygnet runt och tar emot akuta sociala ärenden som inte kan vänta till nästa vardag, till exempel att du saknar tak över huvudet i natt.",
+          "en": "The social emergency service (socialjouren) is staffed around the clock and handles urgent social matters that cannot wait until the next weekday, for example having nowhere to sleep tonight."
+        },
+        "kontakt": "socialjouren",
+        "kalla": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/tak-over-huvudet-garantin/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "tak-over-huvudet",
+        "rubrik": { "sv": "Tak över huvudet-garantin: nattlogi för enstaka nätter", "en": "The roof-over-your-head guarantee: a bed for single nights" },
+        "text": {
+          "sv": "Enligt staden ska den som är i en akut situation och inte själv kan ordna boende erbjudas nattlogi. Garantin gäller den som tillhör Stockholms stad, är ett bistånd enligt socialtjänstlagen och beviljas bara för enstaka nätter. Du får den genom stadsdelsförvaltningen eller, på kvällar och helger, socialjouren.",
+          "en": "According to the city, anyone in an acute situation who cannot arrange housing themselves shall be offered a bed for the night. The guarantee applies to people who belong to the City of Stockholm, is assistance under the Social Services Act and is granted only for single nights. You get it through the district administration or, in the evening and at weekends, the social emergency service."
+        },
+        "intern": "/hjalp/sova/",
+        "kalla": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/tak-over-huvudet-garantin/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "omrade-hemloshet",
+        "rubrik": { "sv": "Ingen kontakt med en stadsdelsförvaltning på två år? Gå till Område hemlöshet", "en": "No contact with a district administration for two years? Go to Område hemlöshet" },
+        "text": {
+          "sv": "Personer som inte har haft kontakt med en stadsdelsförvaltning under de senaste två åren ska enligt staden vända sig till socialförvaltningens Område hemlöshet på Östgötagatan 10, telefon 08-508 25 301. De utreder behovet och beslutar om bistånd till boende.",
+          "en": "People who have had no contact with a district administration in the last two years should, according to the city, turn to the social administration's Område hemlöshet at Östgötagatan 10, phone 08-508 25 301. They assess the need and decide on housing assistance."
+        },
+        "intern": "/hjalp/rad/",
+        "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "eu-medborgare",
+        "rubrik": { "sv": "EU-medborgare: härbärge via inskrivning och ett eget uppsökarteam", "en": "EU citizens: shelter through registration and a dedicated outreach team" },
+        "text": {
+          "sv": "Staden erbjuder natthärbärge för socialt utsatta EU-medborgare tillsammans med frivilligorganisationer. Inskrivning sker via socialförvaltningen på Korskyrkan, Birger Jarlsgatan 66, måndag till fredag 10.00–11.30. Vid särskilt kalla nätter på vintern öppnar staden fler lokaler. Stadens uppsökande EU-team arbetar enbart med EU-medborgare. Socialrådgivningen svarar dygnet runt på 08-508 25 600 och du kan vara anonym.",
+          "en": "The city offers a night shelter for socially vulnerable EU citizens together with voluntary organisations. Registration is handled by the social administration at Korskyrkan, Birger Jarlsgatan 66, Monday to Friday 10.00–11.30. On especially cold winter nights the city opens more premises. The city's outreach EU team works only with EU citizens. Social advice (Socialrådgivningen) answers around the clock on 08-508 25 600 and you can stay anonymous."
+        },
+        "kontakt": "uppsokande-eu-team",
+        "intern": "/hjalp/sova/",
+        "kalla": "https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad",
+        "anteckning": "Stadens sida är daterad 2020-11-10. Inskrivningstider kan ha ändrats."
+      },
+      {
+        "id": "under-18",
+        "rubrik": { "sv": "Under 18 år? Ring Bris, dygnet runt", "en": "Under 18? Call Bris, around the clock" },
+        "text": {
+          "sv": "Bris stödlinje 116 111 för dig under 18 är öppen alltid, även på natten. Du kan ringa, sms:a eller chatta, det kostar inget, syns inte på telefonräkningen och du behöver inte säga vem du är. Kuratorerna kan hjälpa dig vidare till socialtjänsten.",
+          "en": "The Bris helpline 116 111 for people under 18 is always open, even at night. You can call, text or chat, it is free, does not show on the phone bill and you do not have to say who you are. The counsellors can help you on to social services."
+        },
+        "lank": { "url": "https://www.bris.se/for-barn-och-unga/prata-med-oss/", "text": { "sv": "Bris: prata med oss", "en": "Bris: talk to us" } },
+        "kalla": "https://www.bris.se/for-barn-och-unga/prata-med-oss/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      }
+    ]
+  },
+  {
+    "id": "pengar",
+    "rubrik": { "sv": "Pengar till mat och det nödvändigaste", "en": "Money for food and essentials" },
+    "steg": [
+      {
+        "id": "ekonomiskt-bistand",
+        "rubrik": { "sv": "Ekonomiskt bistånd: ring stadsdelsförvaltningen, akut hjälp kan ges samma dag", "en": "Financial assistance: call the district administration, urgent help can be given the same day" },
+        "text": {
+          "sv": "Du kan ansöka om ekonomiskt bistånd om du är över 18 år, bor i Stockholms stad och inte kan betala nödvändiga kostnader som mat, hyra eller el. Första gången ringer du socialtjänsten i din stadsdelsförvaltning. I akuta situationer kan du få tillfälligt bistånd samma dag, till exempel till mat. Du kan ansöka även om du inte har alla papper; handläggaren säger vad som saknas. Första beslutet kan ta upp till tre veckor.",
+          "en": "You can apply for financial assistance if you are over 18, live in the City of Stockholm and cannot pay necessary costs such as food, rent or electricity. The first time, you call social services in your district administration. In urgent situations you can get temporary assistance the same day, for example for food. You can apply even without all your documents; the case worker will tell you what is missing. The first decision can take up to three weeks."
+        },
+        "kalla": "https://socialtstod.stockholm/ekonomi-och-pengar/ekonomiskt-bistand/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "mat-nu",
+        "rubrik": { "sv": "Mat i dag utan papper", "en": "Food today, no paperwork" },
+        "text": {
+          "sv": "Flera organisationer serverar gratis frukost och lunch utan krav på beslut eller legitimation. Kategorin Mat visar vad som är öppet just nu.",
+          "en": "Several organisations serve free breakfast and lunch with no decision or ID required. The Food category shows what is open right now."
+        },
+        "intern": "/hjalp/mat/",
+        "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/dagverksamheter-for-hemlosa/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "skuldradgivning",
+        "rubrik": { "sv": "Skulder: gratis budget- och skuldrådgivning med sekretess", "en": "Debts: free budget and debt counselling, confidential" },
+        "text": {
+          "sv": "Stadens budget- och skuldrådgivning är gratis och har sekretess. För dig som lever i hemlöshet finns rådgivning via Område hemlöshet på telefon 08-508 25 000, med drop-in måndagar 13.00–15.30 och annars bokad tid. Rådgivning finns också i varje stadsdelsförvaltning.",
+          "en": "The city's budget and debt counselling is free and confidential. For people in homelessness there is counselling through Område hemlöshet on 08-508 25 000, with drop-in on Mondays 13.00–15.30 and otherwise by appointment. Counselling is also available in every district administration."
+        },
+        "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      }
+    ]
+  },
+  {
+    "id": "vrakning",
+    "rubrik": { "sv": "Om du riskerar att vräkas", "en": "If you risk eviction" },
+    "steg": [
+      {
+        "id": "betala-tre-veckor",
+        "rubrik": { "sv": "Hyresskuld: betalar du inom tre veckor från kravbrevet får du oftast behålla bostaden", "en": "Rent debt: if you pay within three weeks of the demand letter you can usually keep your home" },
+        "text": {
+          "sv": "Enligt Kronofogden kan du få tillbaka lägenheten om du betalar hyresskulden inom tre veckor från den dag du tagit emot brevet med kravet. Betalar du hela skulden ska hyresvärden dra tillbaka sin ansökan. Undantag finns för hyresavtal som börjar gälla 1 juli 2026 eller senare när hyresvärden är en privatperson. Anser du att beslutet är fel kan du inom en månad begära att domstolen prövar det (återvinning) och samtidigt be att vräkningen stoppas tillfälligt (inhibition).",
+          "en": "According to the Enforcement Authority (Kronofogden), you can get the flat back if you pay the rent debt within three weeks from the day you received the letter with the claim. If you pay the whole debt, the landlord must withdraw the application. There are exceptions for tenancies starting on or after 1 July 2026 where the landlord is a private person. If you think the decision is wrong, you can within one month ask the court to review it (återvinning) and at the same time ask for the eviction to be paused (inhibition)."
+        },
+        "kalla": "https://kronofogden.se/nagon-har-krav-mot-dig/du-har-fatt-ett-krav-forelaggande/hyresvarden-vill-vraka-dig",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "socialtjansten-vid-vrakning",
+        "rubrik": { "sv": "Kontakta socialtjänsten tidigt, de ska redan ha fått veta", "en": "Contact social services early, they should already have been told" },
+        "text": {
+          "sv": "Hyresvärden ska meddela kommunens socialtjänst att du inte betalat hyran eller stört grannar innan Kronofogden skickar kravbrevet. Kronofogden skickar också sin information till socialtjänsten. Ta själv kontakt med socialtjänsten i din stadsdel så tidigt som möjligt och be om hjälp; de kan ge stöd innan det gått så långt som till vräkning.",
+          "en": "The landlord must notify the municipal social services that you have not paid the rent or have disturbed neighbours before the Enforcement Authority sends the demand letter. The Enforcement Authority also sends its information to social services. Contact social services in your district yourself as early as possible and ask for help; they can give support before it goes as far as eviction."
+        },
+        "kalla": "https://kronofogden.se/nagon-har-krav-mot-dig/du-har-fatt-ett-krav-forelaggande/hyresvarden-vill-vraka-dig",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      }
+    ]
+  },
+  {
+    "id": "post-och-adress",
+    "rubrik": { "sv": "Post, adress och folkbokföring", "en": "Mail, address and population registration" },
+    "steg": [
+      {
+        "id": "flyttanmalan",
+        "rubrik": { "sv": "Gör flyttanmälan till Skatteverket även om du saknar bostad", "en": "Report your move to the Tax Agency even if you have no home" },
+        "text": {
+          "sv": "Skatteverket skriver att den som inte har någon bostad alls ska lämna så utförlig information som möjligt om var hen vistas på en flyttanmälan, och lämna kontaktuppgifter så att Skatteverket kan nå dig. Saknar du e-legitimation använder du blanketten SKV 7845. Skatteverket bedömer sedan var du ska vara folkbokförd. Att vara folkbokförd är en förutsättning för id-kort och för mycket annat.",
+          "en": "The Tax Agency (Skatteverket) writes that a person with no home at all should give as detailed information as possible about where they stay on a change-of-address notification, and provide contact details so the agency can reach you. If you have no e-ID, use form SKV 7845. The Tax Agency then decides where you should be registered. Being registered is a requirement for an ID card and for much else."
+        },
+        "kalla": "https://www.skatteverket.se/privat/folkbokforing/flyttanmalan/folkbokfordparattadress.4.5b35a6251761e691420599d.html",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "sarskild-postadress",
+        "rubrik": { "sv": "Folkbokförd på kommunen? Anmäl en särskild postadress så att du får din post", "en": "Registered only in the municipality? Register a special postal address so you get your mail" },
+        "text": {
+          "sv": "Om Skatteverket inte kunnat folkbokföra dig på en fastighet men kunnat knyta dig till en kommun blir du folkbokförd på kommunen. Då riskerar du att inte få brev och annan post, vilket kan påverka kontakter med myndigheter och beslut som bostadsbidrag. Skatteverket skriver att du behöver anmäla en särskild postadress under den tid du är folkbokförd på kommunen.",
+          "en": "If the Tax Agency could not register you at a property but could link you to a municipality, you are registered in the municipality. You then risk not receiving letters and other mail, which can affect contacts with authorities and decisions such as housing allowance. The Tax Agency writes that you need to register a special postal address while you are registered in the municipality."
+        },
+        "kalla": "https://www.skatteverket.se/privat/folkbokforing/flyttanmalan/folkbokfordpakommunen.4.6e8a1495181dad5408414f3.html",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "co-adress",
+        "rubrik": { "sv": "Postadress att få brev till", "en": "A postal address to receive letters" },
+        "text": {
+          "sv": "Situation Sthlm erbjuder c/o-adress för post till sina registrerade försäljare, tillsammans med hjälp med BankID och myndighetskontakter. Fråga också din stadsdelsförvaltning eller Medborgarkontoret för hemlösa om de kan hjälpa dig med posten.",
+          "en": "Situation Sthlm offers a c/o address for mail to its registered vendors, together with help with BankID and contacting authorities. Also ask your district administration or the Citizens' Office for homeless people whether they can help you with your mail."
+        },
+        "intern": "/sok/?q=Situation",
+        "kalla": "https://www.situationsthlm.se/var-verksamhet/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "medborgarkontoret",
+        "rubrik": { "sv": "Medborgarkontoret för hemlösa: hjälp med myndigheter, dator, kopiator och telefon", "en": "The Citizens' Office for homeless people: help with authorities, computer, copier and phone" },
+        "text": {
+          "sv": "På Östgötagatan 10 vid Medborgarplatsen kan du träffa en socialsekreterare utan att boka tid, få råd i sociala frågor och stöd i kontakten med socialtjänsten och andra myndigheter. Där finns dator, kopiator och telefon att använda.",
+          "en": "At Östgötagatan 10 by Medborgarplatsen you can meet a social worker without an appointment, get advice on social matters and support in contacting social services and other authorities. There is a computer, copier and phone to use."
+        },
+        "kontakt": "medborgarkontoret-for-hemlosa-telefon",
+        "intern": "/hjalp/rad/",
+        "kalla": "https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      }
+    ]
+  },
+  {
+    "id": "legitimation-och-bank",
+    "rubrik": { "sv": "Legitimation och bankkonto", "en": "ID and bank account" },
+    "steg": [
+      {
+        "id": "id-kort-skatteverket",
+        "rubrik": { "sv": "Id-kort från Skatteverket: 400 kronor, boka tid på ett servicekontor", "en": "ID card from the Tax Agency: 400 kronor, book a time at a service office" },
+        "text": {
+          "sv": "Du kan få Skatteverkets id-kort om du är folkbokförd i Sverige, har personnummer, är minst 13 år och kan styrka vem du är med en godkänd id-handling eller en godkänd intygsgivare. Avgiften 400 kronor betalas före besöket, ta med kvitto. Du bokar tid på ett servicekontor, fotot tas där, och kortet är klart på ungefär två veckor. Hämta det personligen inom två månader. Från 1 december 2026 ska den som kan i stället ansöka hos Polisen.",
+          "en": "You can get the Tax Agency's ID card if you are registered in Sweden, have a personal identity number, are at least 13 and can prove who you are with an approved ID document or an approved witness. The fee of 400 kronor is paid before the visit, bring the receipt. You book a time at a service office, the photo is taken there, and the card is ready in about two weeks. Collect it in person within two months. From 1 December 2026, those who can should apply to the Police instead."
+        },
+        "kalla": "https://www.skatteverket.se/privat/folkbokforing/skatteverketsidkort/saharansokerduomochfornyaridkort.4.7da1d2e118be03f8e4f6185.html",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "id-kort-polisen",
+        "rubrik": { "sv": "Från 1 december 2026 utfärdar Polisen id-kort, även till den som inte är svensk medborgare", "en": "From 1 December 2026 the Police issue ID cards, also to non-citizens" },
+        "text": {
+          "sv": "Polisen skriver att de från den 1 december 2026 utfärdar id-kort till folkbokförda utan svenskt medborgarskap. Kravet är att du är folkbokförd i Sverige och kan styrka din identitet. Kortet innehåller e-legitimationen SverigeID. Svenska medborgare ansöker om nationellt id-kort eller pass hos Polisen. Sista dag att ansöka om Skatteverkets id-kort är enligt Polisen i slutet av januari 2027.",
+          "en": "The Police write that from 1 December 2026 they issue ID cards to people registered in Sweden without Swedish citizenship. The requirement is that you are registered in Sweden and can prove your identity. The card contains the e-ID SverigeID. Swedish citizens apply for a national ID card or passport at the Police. According to the Police, the last day to apply for the Tax Agency's ID card is at the end of January 2027."
+        },
+        "kalla": "https://polisen.se/tjanster-tillstand/pass-och-nationellt-id-kort/id-kort-for-folkbokforda-utan-svenskt-medborgarskap/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "betalkonto",
+        "rubrik": { "sv": "Du har rätt till ett bankkonto, även med betalningsanmärkningar", "en": "You have the right to a bank account, even with payment defaults" },
+        "text": {
+          "sv": "Alla konsumenter som kan visa att de är bosatta inom EES har rätt att öppna ett betalkonto med grundläggande funktioner hos en bank. Banken får bara neka om det strider mot penningtvättslagen eller om det finns särskilda skäl; betalningsanmärkningar räknas inte som sådana skäl, och att du saknar personnummer är inte ensamt ett skäl. Banken ska svara inom tio bankdagar efter en fullständig ansökan. Blir du nekad kan du vända dig till bankens klagomålsansvarige och därefter till Allmänna reklamationsnämnden.",
+          "en": "All consumers who can show that they are resident in the EEA have the right to open a payment account with basic features at a bank. The bank may only refuse if it would breach anti-money-laundering law or if there are special reasons; payment defaults do not count as such reasons, and lacking a personal identity number is not a reason on its own. The bank must answer within ten banking days of a complete application. If refused, you can turn to the bank's complaints officer and then to the National Board for Consumer Disputes (ARN)."
+        },
+        "kalla": "https://konsumenternasbankochfinansbyra.se/konsumentstod/lag-ratt/vad-sager-lagen/ratt-till-betalkonto-med-grundlaggande-funktioner",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      }
+    ]
+  },
+  {
+    "id": "vard-och-trygghet",
+    "rubrik": { "sv": "Vård och trygghet", "en": "Health care and safety" },
+    "steg": [
+      {
+        "id": "vard",
+        "rubrik": { "sv": "Vård utan tidsbokning för dig i hemlöshet, och 1177 dygnet runt", "en": "Health care without an appointment for people in homelessness, and 1177 around the clock" },
+        "text": {
+          "sv": "Pelarbacken på Östgötagatan 10 har drop-in alla vardagar för dig som lever i akut hemlöshet: primärvård, psykiatri och beroendevård. Ring 1177 för sjukvårdsrådgivning dygnet runt. Kategorin Vård visar fler mottagningar, även för dig som är papperslös.",
+          "en": "Pelarbacken at Östgötagatan 10 has drop-in every weekday for people in acute homelessness: primary care, psychiatry and addiction care. Call 1177 for health advice around the clock. The Health care category lists more clinics, including for undocumented people."
+        },
+        "kontakt": "1177",
+        "intern": "/hjalp/vard/",
+        "kalla": "https://www.1177.se/hitta-vard/kontaktkort/Capio-Vard-for-hemlosa-Pelarbacken-oppenvard-Sodermalm/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "vald",
+        "rubrik": { "sv": "Utsatt för hot eller våld: Kvinnofridslinjen 116 016, gratis och dygnet runt", "en": "Threatened or subjected to violence: Kvinnofridslinjen 116 016, free and around the clock" },
+        "text": {
+          "sv": "Kvinnofridslinjen är en stödtelefon för dig som utsatts för hot eller våld, öppen dygnet runt. Samtalet är gratis och du kan vara anonym. Vid akut fara: ring 112. Skyddat boende ordnas via socialtjänsten eller socialjouren.",
+          "en": "Kvinnofridslinjen is a helpline for people who have been threatened or subjected to violence, open around the clock. The call is free and you can stay anonymous. In acute danger: call 112. Sheltered housing is arranged through social services or the social emergency service."
+        },
+        "kontakt": "kvinnofridslinjen",
+        "intern": "/ser-nagon/",
+        "kalla": "https://kvinnofridslinjen.se/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      },
+      {
+        "id": "prata",
+        "rubrik": { "sv": "Någon att prata med på natten", "en": "Someone to talk to at night" },
+        "text": {
+          "sv": "Jourhavande medmänniska svarar alla nätter klockan 21.00–06.00 på 08-702 16 80. Det är anonymt och under tystnadslöfte.",
+          "en": "Jourhavande medmänniska answers every night 21.00–06.00 on 08-702 16 80. It is anonymous and confidential."
+        },
+        "kontakt": "jourhavande-medmanniska",
+        "kalla": "https://www.jourhavande-medmanniska.se/",
+        "senastKontrollerad": "2026-11-06",
+        "status": "ej verifierad"
+      }
+    ]
+  }
+]

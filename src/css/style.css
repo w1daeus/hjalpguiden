@@ -117,6 +117,17 @@ ul, ol { padding-left: 1.2rem; }
 .sokform { display: flex; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .kat-badge { background: var(--ljus-hover); }
+.guide-lank { margin: 0.8rem 0 0; }
+.guide-lank .kort { display: block; font-size: 0.9rem; color: var(--text-svag); }
+.guide-inne ol { margin: 0.4rem 0 0; padding-left: 1.4rem; }
+.guide-inne li { margin: 0.2rem 0; }
+.guide-inne a { display: inline-block; padding: 0.3rem 0; }
+.guide-steg { list-style: none; padding: 0; margin: 0.6rem 0; counter-reset: steg; }
+.guide-steg > li { border: 2px solid var(--kant); border-radius: var(--radie); padding: 0.9rem 1rem 0.9rem 3.1rem; margin-bottom: 0.8rem; position: relative; background: var(--yta); }
+.guide-steg > li::before { counter-increment: steg; content: counter(steg); position: absolute; left: 0.9rem; top: 0.9rem; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--mork); color: var(--mork-text); font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.guide-steg h3 { font-size: 1.05rem; margin: 0.1rem 0 0.4rem; }
+.guide-tel { margin: 0.5rem 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.6rem; }
+.guide-steg .lankar:empty { display: none; }
 .sprakhint { margin: 0; padding: 0.4rem 1rem; background: var(--ljus); display: flex; justify-content: center; align-items: center; gap: 0.8rem; font-size: 0.95rem; }
 .sprakhint a { padding: 0.5rem 0; font-weight: 600; }
 .sprakhint .stang { background: none; border: 0; color: var(--text); font-size: 1.4rem; line-height: 1; min-width: var(--tryck); min-height: var(--tryck); cursor: pointer; }
@@ -222,7 +233,7 @@ ul, ol { padding-left: 1.2rem; }
   .top, .varning, .foot, .filter, .sokform, .sprakhint, .dela, .noprint, .lank, .knapp, .crumb, .nod, .status, [data-inga], .skip { display: none !important; }
   body { font-size: 11pt; color: #000; }
   .wrap { max-width: none; padding: 0; }
-  .plats, .kontakt, .org { border: 1px solid #000; break-inside: avoid; }
+  .plats, .kontakt, .org, .guide-steg > li { border: 1px solid #000; break-inside: avoid; }
   .plats[hidden] { display: block !important; }
   a { color: #000; text-decoration: none; }
   .badge { border: 1px solid #000; }

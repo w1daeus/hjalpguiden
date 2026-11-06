@@ -177,3 +177,47 @@ När du kontrollerat en post: sätt `status` till `verifierad` och `senastKontro
 - **Unizon (riksförbund för kvinnojourer)** (unizon) – ☐ EJ VERIFIERAD, telefon: 08-642 64 01, källa: https://www.unizonjourer.se
 - **Roks (Riksorganisationen för kvinnojourer och tjejjourer)** (roks) – ☐ EJ VERIFIERAD, telefon: 08-442 99 30, källa: https://www.roks.se
 - **Vinternatt/Sommarnatt – härbärge för EU-medborgare (Ny Gemenskap)** (vinternatt-ny-gemenskap) – ☐ EJ VERIFIERAD, telefon: 072-284 12 41, källa: https://nygemenskap.org/vinternatt-sommarnatt/
+
+## Guiden "Nyss blivit hemlös" (21 steg)
+
+Läs källan och kontrollera att texten återger den rätt. Sätt sedan `status` och `senastKontrollerad` på steget.
+
+### Tak över huvudet i natt
+
+- **Dagtid: ring socialtjänsten i den stadsdel där du senast var skriven** (stadsdel) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/stod-till-hemlosa/
+- **Kväll, natt och helg: ring socialjouren** (socialjouren) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/skadligt-bruk-och-beroende/tak-over-huvudet-garantin/
+- **Tak över huvudet-garantin: nattlogi för enstaka nätter** (tak-over-huvudet) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/skadligt-bruk-och-beroende/tak-over-huvudet-garantin/
+- **Ingen kontakt med en stadsdelsförvaltning på två år? Gå till Område hemlöshet** (omrade-hemloshet) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/stod-till-hemlosa/
+- **EU-medborgare: härbärge via inskrivning och ett eget uppsökarteam** (eu-medborgare) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/, anteckning: Stadens sida är daterad 2020-11-10. Inskrivningstider kan ha ändrats.
+- **Under 18 år? Ring Bris, dygnet runt** (under-18) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.bris.se/for-barn-och-unga/prata-med-oss/
+
+### Pengar till mat och det nödvändigaste
+
+- **Ekonomiskt bistånd: ring stadsdelsförvaltningen, akut hjälp kan ges samma dag** (ekonomiskt-bistand) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/ekonomi-och-pengar/ekonomiskt-bistand/
+- **Mat i dag utan papper** (mat-nu) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/stod-till-hemlosa/dagverksamheter-for-hemlosa/
+- **Skulder: gratis budget- och skuldrådgivning med sekretess** (skuldradgivning) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/stod-till-hemlosa/
+
+### Om du riskerar att vräkas
+
+- **Hyresskuld: betalar du inom tre veckor från kravbrevet får du oftast behålla bostaden** (betala-tre-veckor) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://kronofogden.se/nagon-har-krav-mot-dig/du-har-fatt-ett-krav-forelaggande/hyresvarden-vill-vraka-dig
+- **Kontakta socialtjänsten tidigt, de ska redan ha fått veta** (socialtjansten-vid-vrakning) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://kronofogden.se/nagon-har-krav-mot-dig/du-har-fatt-ett-krav-forelaggande/hyresvarden-vill-vraka-dig
+
+### Post, adress och folkbokföring
+
+- **Gör flyttanmälan till Skatteverket även om du saknar bostad** (flyttanmalan) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.skatteverket.se/privat/folkbokforing/flyttanmalan/folkbokfordparattadress.4.5b35a6251761e691420599d.html
+- **Folkbokförd på kommunen? Anmäl en särskild postadress så att du får din post** (sarskild-postadress) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.skatteverket.se/privat/folkbokforing/flyttanmalan/folkbokfordpakommunen.4.6e8a1495181dad5408414f3.html
+- **Postadress att få brev till** (co-adress) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.situationsthlm.se/var-verksamhet/
+- **Medborgarkontoret för hemlösa: hjälp med myndigheter, dator, kopiator och telefon** (medborgarkontoret) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/
+
+### Legitimation och bankkonto
+
+- **Id-kort från Skatteverket: 400 kronor, boka tid på ett servicekontor** (id-kort-skatteverket) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.skatteverket.se/privat/folkbokforing/skatteverketsidkort/saharansokerduomochfornyaridkort.4.7da1d2e118be03f8e4f6185.html
+- **Från 1 december 2026 utfärdar Polisen id-kort, även till den som inte är svensk medborgare** (id-kort-polisen) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://polisen.se/tjanster-tillstand/pass-och-nationellt-id-kort/id-kort-for-folkbokforda-utan-svenskt-medborgarskap/
+- **Du har rätt till ett bankkonto, även med betalningsanmärkningar** (betalkonto) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://konsumenternasbankochfinansbyra.se/konsumentstod/lag-ratt/vad-sager-lagen/ratt-till-betalkonto-med-grundlaggande-funktioner
+
+### Vård och trygghet
+
+- **Vård utan tidsbokning för dig i hemlöshet, och 1177 dygnet runt** (vard) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.1177.se/hitta-vard/kontaktkort/Capio-Vard-for-hemlosa-Pelarbacken-oppenvard-Sodermalm/
+- **Utsatt för hot eller våld: Kvinnofridslinjen 116 016, gratis och dygnet runt** (vald) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://kvinnofridslinjen.se/
+- **Någon att prata med på natten** (prata) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06, källa: https://www.jourhavande-medmanniska.se/
+

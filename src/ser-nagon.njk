@@ -39,6 +39,7 @@ eleventyComputed:
   <h3>{{ 'ser.tips.rubrik' | t(lang) }}</h3>
   <ul class="tips">
   {% for tip in 'ser.tips.lista' | t(lang) %}<li>{{ tip }}</li>{% endfor %}
+  <li><a href="{{ '/guide/' | langPath(lang) }}">{{ 'nav.guide' | t(lang) }} →</a></li>
   </ul>
 </section>
 

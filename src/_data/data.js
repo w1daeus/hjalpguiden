@@ -13,7 +13,9 @@ export default function () {
     .map((p) => ({ ...p, org: orgById[p.organisation] }))
     .sort((a, b) => a.namn.localeCompare(b.namn, "sv"));
   const kontakter = las("kontakter.json");
+  const guide = las("guide.json");
   const kontaktById = Object.fromEntries(kontakter.map((k) => [k.id, k]));
-  const ejVerifierade = [...platser, ...organisationer, ...kontakter].filter((x) => x.status !== "verifierad").length;
-  return { platser, organisationer, kontakter, kontaktById, ejVerifierade };
+  const ejVerifierade = [...platser, ...organisationer, ...kontakter].filter((x) => x.status !== "verifierad").length
+    + guide.flatMap((d) => d.steg).filter((s) => s.status !== "verifierad").length;
+  return { platser, organisationer, kontakter, kontaktById, guide, ejVerifierade };
 }

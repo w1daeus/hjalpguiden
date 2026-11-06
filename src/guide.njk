@@ -1,0 +1,45 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ '/guide/' | langPath(lang) }}"
+layout: layout.njk
+eleventyComputed:
+  title: "{{ 'guide.rubrik' | t(lang) }}"
+---
+<nav class="crumb" aria-label="{{ 'site.tillbaka' | t(lang) }}"><a href="{{ '/' | langPath(lang) }}">← {{ 'nav.hem' | t(lang) }}</a></nav>
+<h1>🧭 {{ 'guide.rubrik' | t(lang) }}</h1>
+<p>{{ 'guide.intro' | t(lang) }}</p>
+<p class="info">{{ 'guide.kallor' | t(lang) }}</p>
+
+<nav class="guide-inne" aria-label="{{ 'guide.innehall' | t(lang) }}">
+  <ol>
+  {% for del in data.guide %}<li><a href="#{{ del.id }}">{{ del.rubrik[lang] or del.rubrik.sv }}</a></li>{% endfor %}
+  </ol>
+</nav>
+
+{% for del in data.guide %}
+<section class="guide-del" aria-labelledby="{{ del.id }}">
+  <h2 id="{{ del.id }}">{{ del.rubrik[lang] or del.rubrik.sv }}</h2>
+  <ol class="guide-steg">
+  {% for steg in del.steg %}
+    <li id="{{ steg.id }}">
+      <h3>{{ steg.rubrik[lang] or steg.rubrik.sv }}</h3>
+      <p>{{ steg.text[lang] or steg.text.sv }}</p>
+      {% set kontakt = data.kontaktById[steg.kontakt] %}
+      {% if kontakt and kontakt.telefon %}
+      <p class="guide-tel"><span class="kontakt-namn">{{ kontakt.namn }}</span> <span class="tel stor">{{ kontakt.telefon }}</span> <a class="lank" href="{{ kontakt.telefon | telHref }}">{{ 'plats.ring' | t(lang) }}</a></p>
+      {% endif %}
+      <p class="lankar">
+        {% if steg.intern %}<a class="knapp sekundar" href="{{ steg.intern | langPath(lang) }}">{{ 'guide.visaPlatser' | t(lang) }} →</a>{% endif %}
+        {% if steg.lank %}<a class="knapp sekundar" href="{{ steg.lank.url }}" rel="noopener">{{ steg.lank.text[lang] or steg.lank.text.sv }} ↗</a>{% endif %}
+      </p>
+      <p class="kontroll">{% if steg.status != 'verifierad' %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span> {% else %}<span class="badge ok">✓ {{ 'plats.verifierad' | t(lang) }}</span> {% endif %}{{ 'plats.senastKontrollerad' | t(lang) }}: <time datetime="{{ steg.senastKontrollerad }}">{{ steg.senastKontrollerad }}</time> · <a href="{{ steg.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a></p>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+<p class="info">{{ 'guide.slut' | t(lang) }} <a href="{{ '/ser-nagon/' | langPath(lang) }}">{{ 'nav.ser' | t(lang) }} →</a></p>

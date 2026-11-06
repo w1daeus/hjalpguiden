@@ -54,6 +54,27 @@ Allt innehåll om platser, organisationer och telefonnummer ligger här. Sajten 
 | `status` | `verifierad` eller `ej verifierad` |
 | `anteckning` | internt, visas inte på sajten. Skriv gärna vad källan säger ordagrant om tiderna. |
 
+## guide.json – guiden "Nyss blivit hemlös"
+
+En lista av delar, varje del har `id`, `rubrik {sv, en}` och `steg`. Varje steg:
+
+```json
+{
+  "id": "socialjouren",
+  "rubrik": { "sv": "Kväll, natt och helg: ring socialjouren", "en": "" },
+  "text": { "sv": "Socialjouren är bemannad dygnet runt ...", "en": "" },
+  "kontakt": "socialjouren",
+  "intern": "/hjalp/sova/",
+  "lank": { "url": "https://...", "text": { "sv": "Hitta din stadsdelsförvaltning", "en": "" } },
+  "kalla": "https://socialtstod.stockholm/...",
+  "senastKontrollerad": "2026-11-06",
+  "status": "ej verifierad",
+  "anteckning": ""
+}
+```
+
+`kontakt` (valfritt) är ett id i `kontakter.json` och visar numret med ringknapp. `intern` (valfritt) är en sökväg på sajten. `lank` (valfritt) är en extern länk. Texten ska återge källan, inte tolka den; skriv "enligt staden" eller "Skatteverket skriver" när det är deras uppgift.
+
 ## organisations.json
 
 ```json
