@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 // Strategi: sidor (HTML) nätverk först med cache som reserv; övrigt cache först, uppdateras i bakgrunden.
 const VERSION = "hg-{{ build.tid }}";
 const BAS = "{{ '/' | url }}";
-const FORHAND = [BAS, BAS + "css/style.css", BAS + "js/app.js", BAS + "js/opening-hours.js"];
+const FORHAND = [BAS, BAS + "css/style.css", BAS + "js/app.js", BAS + "js/opening-hours.js", BAS + "js/helgdagar.js"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(FORHAND)).then(() => self.skipWaiting()));

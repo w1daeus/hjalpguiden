@@ -1,0 +1,27 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ '/sok/' | langPath(lang) }}"
+layout: layout.njk
+eleventyComputed:
+  title: "{{ 'sok.rubrik' | t(lang) }}"
+---
+{% set platser = data.platser %}
+{% set visaKategorier = true %}
+<nav class="crumb" aria-label="{{ 'site.tillbaka' | t(lang) }}"><a href="{{ '/' | langPath(lang) }}">← {{ 'nav.hem' | t(lang) }}</a></nav>
+<h1>🔍 {{ 'sok.rubrik' | t(lang) }}</h1>
+<p>{{ 'sok.intro' | t(lang) }}</p>
+
+<form class="filter" data-filter role="search" method="get">
+  <label class="sokfalt"><span class="sr">{{ 'sok.rubrik' | t(lang) }}</span><input type="search" name="q" data-sok placeholder="{{ 'sok.placeholder' | t(lang) }}" autocomplete="off"></label>
+  <label class="check"><input type="checkbox" data-oppet-nu> {{ 'plats.filterOppetNu' | t(lang) }}</label>
+  <span class="antal" data-antal aria-live="polite"></span>
+</form>
+<noscript><p class="info">{{ 'sok.utanJs' | t(lang) }}</p></noscript>
+<p class="info" data-inga hidden>{{ 'plats.ingaOppna' | t(lang) }}</p>
+<p class="info" data-inga-traffar hidden>{{ 'plats.ingaTraffar' | t(lang) }}</p>
+<ul class="platser" data-platser>
+{% for plats in platser %}{% include "platskort.njk" %}{% endfor %}
+</ul>

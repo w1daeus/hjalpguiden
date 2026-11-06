@@ -75,6 +75,11 @@ ul, ol { padding-left: 1.2rem; }
 .check { display: inline-flex; align-items: center; gap: 0.5rem; min-height: var(--tryck); font-weight: 600; cursor: pointer; }
 .check input { width: 1.5rem; height: 1.5rem; accent-color: var(--mork); }
 .antal { font-size: 0.9rem; color: var(--stangt); }
+.sokfalt { display: block; flex: 1 1 14rem; }
+.sokfalt input { width: 100%; min-height: var(--tryck); padding: 0.5rem 0.8rem; font: inherit; border: 2px solid var(--mork); border-radius: var(--radie); background: #fff; }
+.sokform { display: flex; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.kat-badge { background: #e8eef7; }
 .info { background: var(--ljus); padding: 0.7rem 0.9rem; border-radius: var(--radie); }
 
 .platser { list-style: none; padding: 0; margin: 0.8rem 0; }
@@ -149,7 +154,7 @@ ul, ol { padding-left: 1.2rem; }
 }
 
 @media print {
-  .top, .varning, .foot, .filter, .noprint, .lank, .knapp, .crumb, .nod, .status, [data-inga], .skip { display: none !important; }
+  .top, .varning, .foot, .filter, .sokform, .noprint, .lank, .knapp, .crumb, .nod, .status, [data-inga], .skip { display: none !important; }
   body { font-size: 11pt; color: #000; }
   .wrap { max-width: none; padding: 0; }
   .plats, .kontakt, .org { border: 1px solid #000; break-inside: avoid; }

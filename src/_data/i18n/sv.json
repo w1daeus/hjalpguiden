@@ -15,7 +15,8 @@
     "hem": "Start",
     "behover": "Jag behöver hjälp",
     "ser": "Jag ser någon som behöver hjälp",
-    "hjalpa": "Jag vill hjälpa till"
+    "hjalpa": "Jag vill hjälpa till",
+    "sok": "Sök plats"
   },
   "start": {
     "nod": "Livsfara? Ring 112.",
@@ -85,8 +86,8 @@
     "pris": "Pris: {pris}",
     "organisation": "Drivs av",
     "filterOppetNu": "Visa bara det som är öppet nu",
-    "antal": "{n} platser",
-    "antalOppna": "{n} öppna just nu",
+    "antal": "{n} plats|{n} platser",
+    "antalOppna": "{n} öppen just nu|{n} öppna just nu",
     "ingaOppna": "Inget i den här kategorin är öppet just nu. Bocka ur filtret för att se när platserna öppnar.",
     "ingaPlatser": "Vi har inga platser i den här kategorin än.",
     "utanJs": "Din webbläsare kör inte JavaScript, så vi kan inte filtrera på vad som är öppet just nu. Här är alla platser med sina öppettider.",
@@ -128,7 +129,16 @@
     },
     "undantag": "Avvikande tider",
     "helgdagIdag": "Helgdag i dag ({namn})",
-    "helgdagOsaker": "Helgdag i dag ({namn}). Tiderna kan avvika, ring först."
+    "helgdagOsaker": "Helgdag i dag ({namn}). Tiderna kan avvika, ring först.",
+    "traffar": "{n} träff|{n} träffar",
+    "ingaTraffar": "Inga platser matchar sökningen. Prova ett kortare ord."
+  },
+  "sok": {
+    "rubrik": "Sök plats",
+    "intro": "Sök bland alla platser oavsett kategori. Skriv till exempel ett namn, en gata eller en stadsdel.",
+    "placeholder": "Namn, gata, stadsdel…",
+    "knapp": "Sök",
+    "utanJs": "Din webbläsare kör inte JavaScript, så sökfältet fungerar inte. Här är alla platser i bokstavsordning."
   },
   "ser": {
     "rubrik": "Jag ser någon som behöver hjälp",

@@ -14,12 +14,14 @@ eleventyComputed:
 <h1><span aria-hidden="true">{{ combo.kat.ikon }}</span> {{ title | safe }}</h1>
 
 {% if platser.length %}
-<form class="filter" data-filter hidden>
+<form class="filter" data-filter method="get" hidden>
+  <label class="sokfalt"><span class="sr">{{ 'sok.rubrik' | t(lang) }}</span><input type="search" name="q" data-sok placeholder="{{ 'sok.placeholder' | t(lang) }}" autocomplete="off"></label>
   <label class="check"><input type="checkbox" data-oppet-nu checked> {{ 'plats.filterOppetNu' | t(lang) }}</label>
   <span class="antal" data-antal aria-live="polite"></span>
 </form>
 <noscript><p class="info">{{ 'plats.utanJs' | t(lang) }}</p></noscript>
 <p class="info" data-inga hidden>{{ 'plats.ingaOppna' | t(lang) }}</p>
+<p class="info" data-inga-traffar hidden>{{ 'plats.ingaTraffar' | t(lang) }}</p>
 <ul class="platser" data-platser>
 {% for plats in platser %}{% include "platskort.njk" %}{% endfor %}
 </ul>

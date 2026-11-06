@@ -11,6 +11,11 @@ eleventyComputed:
 <p class="nod"><a href="tel:112">{{ 'start.nod' | t(lang) }}</a></p>
 <h1 class="slogan">{{ 'site.slogan' | t(lang) }}</h1>
 
+<form class="sokform" action="{{ '/sok/' | langPath(lang) }}" method="get" role="search">
+  <label class="sokfalt"><span class="sr">{{ 'sok.rubrik' | t(lang) }}</span><input type="search" name="q" placeholder="{{ 'sok.placeholder' | t(lang) }}" autocomplete="off"></label>
+  <button class="knapp" type="submit">{{ 'sok.knapp' | t(lang) }}</button>
+</form>
+
 <section class="ingang" aria-labelledby="h-behover">
   <h2 id="h-behover">{{ 'nav.behover' | t(lang) }}</h2>
   <p>{{ 'start.behoverText' | t(lang) }}</p>

@@ -18,6 +18,7 @@ export function t(nyckel, lang = "sv", vars) {
   let v = slaUpp(i18n[lang], nyckel);
   if (v === undefined || v === "" || (Array.isArray(v) && v.length === 0)) v = slaUpp(i18n.sv, nyckel);
   if (v === undefined) return `[${nyckel}]`;
+  if (typeof v === "string" && v.includes("|") && vars && "n" in vars) v = v.split("|")[vars.n === 1 ? 0 : 1] ?? v;
   if (typeof v === "string" && vars) v = v.replace(/\{(\w+)\}/g, (_, k) => (vars[k] ?? `{${k}}`));
   return v;
 }
@@ -74,10 +75,15 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sprakNamn", (koder, lang) =>
     (koder || []).map((k) => { const n = t(`sprakNamn.${k}`, lang); return n.startsWith("[") ? k : n; }).join(", "));
   eleventyConfig.addFilter("jsTexter", (lang) => {
-    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker"];
+    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker", "traffar"];
     return { ...Object.fromEntries(nycklar.map((k) => [k, t(`plats.${k}`, lang)])), dagKort: t("plats.dagKort", lang), helgdag: t("helgdag", lang), inaktuellEfterDagar: site.inaktuellEfterDagar };
   });
   eleventyConfig.addFilter("katNamn", (katId, lang) => t(`kat.${katId}.namn`, lang));
+  // Text som sökfältet matchar mot utöver kortets egen text: namn, organisation, adress och kategorinamn (aktuellt språk + svenska)
+  eleventyConfig.addFilter("sokText", (plats, lang) => [...new Set([
+    plats.namn, plats.org?.namn, plats.adress?.gata, plats.adress?.ort,
+    ...(plats.kategorier || []).flatMap((k) => [t(`kat.${k}.namn`, lang), t(`kat.${k}.namn`, "sv")]),
+  ].filter(Boolean))].join(" "));
 
   return {
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },

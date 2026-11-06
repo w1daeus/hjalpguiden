@@ -15,7 +15,8 @@
     "hem": "Start",
     "behover": "I need help",
     "ser": "I see someone who needs help",
-    "hjalpa": "I want to help"
+    "hjalpa": "I want to help",
+    "sok": "Search places"
   },
   "start": {
     "nod": "Life in danger? Call 112.",
@@ -85,7 +86,7 @@
     "pris": "Price: {pris}",
     "organisation": "Run by",
     "filterOppetNu": "Only show what is open now",
-    "antal": "{n} places",
+    "antal": "{n} place|{n} places",
     "antalOppna": "{n} open right now",
     "ingaOppna": "Nothing in this category is open right now. Untick the filter to see when places open.",
     "ingaPlatser": "We have no places in this category yet.",
@@ -128,7 +129,16 @@
     },
     "undantag": "Special hours",
     "helgdagIdag": "Public holiday today ({namn})",
-    "helgdagOsaker": "Public holiday today ({namn}). Hours may differ, call first."
+    "helgdagOsaker": "Public holiday today ({namn}). Hours may differ, call first.",
+    "traffar": "{n} match|{n} matches",
+    "ingaTraffar": "No places match your search. Try a shorter word."
+  },
+  "sok": {
+    "rubrik": "Search places",
+    "intro": "Search all places regardless of category. Try a name, a street or a district.",
+    "placeholder": "Name, street, district…",
+    "knapp": "Search",
+    "utanJs": "Your browser is not running JavaScript, so the search field does not work. Here are all places in alphabetical order."
   },
   "ser": {
     "rubrik": "I see someone who needs help",

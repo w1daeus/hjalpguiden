@@ -1,9 +1,10 @@
 {# Förväntar sig: plats, lang #}
-<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong, helgdagar: plats.helgdagar, undantag: plats.undantag } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}">
+<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong, helgdagar: plats.helgdagar, undantag: plats.undantag } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}" data-sok="{{ plats | sokText(lang) }}">
   <h3 class="plats-namn">{{ plats.namn }}</h3>
   <p class="status" data-status></p>
   <p class="badges">
     {% if plats.status == 'verifierad' %}<span class="badge ok">✓ {{ 'plats.verifierad' | t(lang) }}</span>{% else %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span>{% endif %}
+    {% if visaKategorier %}{% for k in plats.kategorier %}<span class="badge kat-badge">{{ k | katNamn(lang) }}</span>{% endfor %}{% endif %}
     <span class="badge">{{ ('plats.malgrupp.' + plats.villkor.malgrupp) | t(lang) }}</span>
     {% if plats.villkor.kraverId %}<span class="badge">{{ 'plats.kraverId' | t(lang) }}</span>{% endif %}
     {% if plats.villkor.pris and plats.villkor.pris != 'gratis' %}<span class="badge">{{ 'plats.pris' | t(lang, { pris: plats.villkor.pris }) }}</span>{% elif plats.villkor.pris == 'gratis' %}<span class="badge">{{ 'plats.gratis' | t(lang) }}</span>{% endif %}
