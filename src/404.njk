@@ -1,0 +1,17 @@
+---
+permalink: 404.html
+layout: layout.njk
+lang: sv
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ 'site.saknas' | t('sv') }}"
+---
+<h1>{{ 'site.saknas' | t('sv') }}</h1>
+<p>{{ 'site.saknasText' | t('sv') }}</p>
+<p><a class="knapp" href="/">{{ 'site.tillbaka' | t('sv') }}</a></p>
+
+<section lang="en">
+  <h2>{{ 'site.saknas' | t('en') }}</h2>
+  <p>{{ 'site.saknasText' | t('en') }}</p>
+  <p><a class="knapp sekundar" href="/en/">{{ 'site.tillbaka' | t('en') }}</a></p>
+</section>

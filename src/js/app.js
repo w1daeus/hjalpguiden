@@ -147,6 +147,82 @@ function initPlatser() {
   document.addEventListener("visibilitychange", () => { if (!document.hidden) uppdatera(); });
 }
 
+/** Startsidan: räknar hur många platser per kategori som är öppna just nu. */
+function initStart() {
+  const el = document.getElementById("hg-oppet");
+  if (!el) return;
+  let platser;
+  try { platser = JSON.parse(el.textContent); } catch { return; }
+  function rakna() {
+    const nu = new Date(), antal = {};
+    for (const p of platser) {
+      const s = status({ oppettider: p.o, sasong: p.s, helgdagar: p.h, undantag: p.u }, nu);
+      if (s.lage === "oppet") for (const k of p.k) antal[k] = (antal[k] || 0) + 1;
+    }
+    for (const span of document.querySelectorAll("[data-oppna-kat]")) {
+      const n = antal[span.dataset.oppnaKat] || 0;
+      span.textContent = n ? t("oppnaNu", { n }) : t("ingetOppetNu");
+      span.dataset.n = n;
+    }
+  }
+  rakna();
+  setInterval(rakna, 60 * 1000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) rakna(); });
+}
+
+/** Föreslår sidan på webbläsarens språk om det finns och inte är det aktuella. Inget lagras utom ett "stäng" för sessionen. */
+function initSprak() {
+  const nav = document.querySelector(".langs");
+  if (!nav) return;
+  try { if (sessionStorage.getItem("hg-sprakhint") === "nej") return; } catch { /* privat läge: visa ändå */ }
+  const onskade = (navigator.languages || [navigator.language || ""]).map((l) => String(l).toLowerCase().split("-")[0]);
+  const lankar = [...nav.querySelectorAll("a[hreflang]")];
+  for (const o of onskade) {
+    if (o === LANG.toLowerCase()) return;
+    const a = lankar.find((x) => x.hreflang === o);
+    if (!a) continue;
+    const p = document.createElement("p");
+    p.className = "sprakhint";
+    p.lang = a.hreflang;
+    const l = document.createElement("a");
+    l.href = a.href;
+    l.textContent = a.dataset.hint || a.textContent;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "stang";
+    b.textContent = "×";
+    b.setAttribute("aria-label", a.dataset.stang || "×");
+    b.addEventListener("click", () => { p.remove(); try { sessionStorage.setItem("hg-sprakhint", "nej"); } catch { /* ok */ } });
+    p.append(l, b);
+    document.querySelector("header.top")?.insertAdjacentElement("afterend", p);
+    return;
+  }
+}
+
+/** Dela ett kort: systemets delningsmeny om den finns, annars kopieras länken. */
+function initDela() {
+  const knappar = document.querySelectorAll("[data-dela]");
+  if (!knappar.length) return;
+  const kan = !!(navigator.share || navigator.clipboard?.writeText);
+  for (const b of knappar) {
+    b.hidden = !kan;
+    b.addEventListener("click", async () => {
+      const kort = b.closest("[data-plats]");
+      const url = location.origin + location.pathname + "#" + kort.id;
+      const titel = kort.querySelector(".plats-namn")?.textContent || document.title;
+      try {
+        if (navigator.share) await navigator.share({ title: titel, url });
+        else {
+          await navigator.clipboard.writeText(url);
+          const g = b.textContent;
+          b.textContent = t("kopierad");
+          setTimeout(() => { b.textContent = g; }, 2000);
+        }
+      } catch { /* avbrutet av användaren */ }
+    });
+  }
+}
+
 function initOffline() {
   if (!("serviceWorker" in navigator) || location.protocol !== "https:" && location.hostname !== "localhost") return;
   const bas = document.querySelector('meta[name="hg-base"]')?.content || "/";
@@ -154,4 +230,7 @@ function initOffline() {
 }
 
 initPlatser();
+initStart();
+initSprak();
+initDela();
 initOffline();

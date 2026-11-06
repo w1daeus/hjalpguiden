@@ -25,10 +25,12 @@ eleventyComputed:
       <span class="ikon" aria-hidden="true">{{ k.ikon }}</span>
       <span class="namn">{{ ('kat.' + k.id + '.namn') | t(lang) }}</span>
       <span class="kort">{{ ('kat.' + k.id + '.kort') | t(lang) }}</span>
+      <span class="oppna" data-oppna-kat="{{ k.id }}"></span>
     </a></li>
   {% endfor %}
   </ul>
 </section>
+<script type="application/json" id="hg-oppet">{{ data.platser | platserKompakt | json | safe }}</script>
 
 <section class="ingang" aria-labelledby="h-ser">
   <h2 id="h-ser"><a class="stor-lank" href="{{ '/ser-nagon/' | langPath(lang) }}">{{ 'nav.ser' | t(lang) }} →</a></h2>

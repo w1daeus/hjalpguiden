@@ -10,6 +10,15 @@
 <link rel="stylesheet" href="/css/style.css">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+{% if site.url %}<link rel="canonical" href="{{ site.url }}{{ page.url.slice(1) }}">
+{% for s in site.sprak %}{% if s.aktiv %}<link rel="alternate" hreflang="{{ s.kod }}" href="{{ site.url }}{{ (page.url | langSwap(lang, s.kod)).slice(1) }}">
+{% endif %}{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ (page.url | langSwap(lang, 'sv')).slice(1) }}">
+<meta property="og:title" content="{{ title | safe }} – {{ 'site.namn' | t(lang) }}">
+<meta property="og:description" content="{{ 'site.beskrivning' | t(lang) }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url.slice(1) }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ 'sv_SE' if lang == 'sv' else 'en_GB' }}">{% endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 <a class="skip" href="#main">{{ 'site.hoppaTill' | t(lang) }}</a>
@@ -19,7 +28,7 @@
     {% if langs.length > 1 %}
     <nav class="langs" aria-label="{{ 'site.sprak' | t(lang) }}">
       {% for s in site.sprak %}{% if s.aktiv %}
-        {% if s.kod == lang %}<span aria-current="true">{{ s.namn }}</span>{% else %}<a href="{{ page.url | langSwap(lang, s.kod) }}" lang="{{ s.kod }}" hreflang="{{ s.kod }}">{{ s.namn }}</a>{% endif %}
+        {% if s.kod == lang %}<span aria-current="true">{{ s.namn }}</span>{% else %}<a href="{{ page.url | langSwap(lang, s.kod) }}" lang="{{ s.kod }}" hreflang="{{ s.kod }}" data-hint="{{ 'site.sprakHint' | t(s.kod) }}" data-stang="{{ 'site.stang' | t(s.kod) }}">{{ s.namn }}</a>{% endif %}
       {% endif %}{% endfor %}
     </nav>
     {% endif %}

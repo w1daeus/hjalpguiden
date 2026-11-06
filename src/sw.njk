@@ -7,6 +7,23 @@ eleventyExcludeFromCollections: true
 const VERSION = "hg-{{ build.tid }}";
 const BAS = "{{ '/' | url }}";
 const FORHAND = [BAS, BAS + "css/style.css", BAS + "js/app.js", BAS + "js/opening-hours.js", BAS + "js/helgdagar.js"];
+// Kärnsidor per språk. Hämtas i bakgrunden första gången en sida på det språket besöks, så att
+// kategorierna och "Jag ser någon" finns offline även om användaren bara öppnat startsidan.
+const KARNA = { {% for kod, sidor in karna %}"{{ kod }}": [{% for p in sidor %}BAS + "{{ p }}"{% if not loop.last %}, {% endif %}{% endfor %}]{% if not loop.last %}, {% endif %}{% endfor %} };
+
+function sprakFor(url) {
+  const basPath = new URL(BAS, self.location.origin).pathname;
+  const forsta = new URL(url).pathname.slice(basPath.length).split("/")[0];
+  return KARNA[forsta] ? forsta : "sv";
+}
+
+async function varmUpp(url) {
+  const lang = sprakFor(url);
+  const c = await caches.open(VERSION);
+  const markor = BAS + "__varm-" + lang;
+  if (await c.match(markor)) return;
+  try { await c.addAll(KARNA[lang] || []); await c.put(markor, new Response("1")); } catch { /* offline eller fel: försök igen nästa gång */ }
+}
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(FORHAND)).then(() => self.skipWaiting()));
@@ -22,6 +39,7 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
   if (req.mode === "navigate" || req.headers.get("accept")?.includes("text/html")) {
+    if (req.mode === "navigate") e.waitUntil(varmUpp(req.url));
     e.respondWith(
       fetch(req)
         .then((svar) => { const kopia = svar.clone(); caches.open(VERSION).then((c) => c.put(req, kopia)); return svar; })

@@ -9,7 +9,11 @@
     "byggd": "Sidan uppdaterades",
     "omSidan": "Sidan har inga konton, inga cookies och ingen spårning. Den fungerar utan internet när du besökt den en gång.",
     "kalla": "Källkod och felanmälan",
-    "tillbaka": "Tillbaka till start"
+    "tillbaka": "Tillbaka till start",
+    "sprakHint": "Läs sidan på svenska →",
+    "stang": "Stäng",
+    "saknas": "Sidan finns inte",
+    "saknasText": "Adressen kan vara felskriven eller så har sidan flyttats. Gå till startsidan och leta därifrån."
   },
   "nav": {
     "hem": "Start",
@@ -140,7 +144,11 @@
     "avstandKm": "{km} km",
     "anmal": "Stämmer inte? Anmäl",
     "anmalRubrik": "Fel i uppgifterna om {namn}",
-    "anmalText": "Beskriv vad som inte stämmer (adress, tider, telefon, villkor) och gärna varifrån du vet det."
+    "anmalText": "Beskriv vad som inte stämmer (adress, tider, telefon, villkor) och gärna varifrån du vet det.",
+    "oppnaNu": "{n} öppen nu|{n} öppna nu",
+    "ingetOppetNu": "inget öppet just nu",
+    "dela": "Dela",
+    "kopierad": "Länk kopierad"
   },
   "sok": {
     "rubrik": "Sök plats",

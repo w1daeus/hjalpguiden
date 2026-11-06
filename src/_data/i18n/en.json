@@ -9,7 +9,11 @@
     "byggd": "Page updated",
     "omSidan": "This site has no accounts, no cookies and no tracking. It works without internet once you have visited it.",
     "kalla": "Source code and error reports",
-    "tillbaka": "Back to start"
+    "tillbaka": "Back to start",
+    "sprakHint": "Read this page in English →",
+    "stang": "Close",
+    "saknas": "Page not found",
+    "saknasText": "The address may be misspelled or the page has moved. Go to the start page and look from there."
   },
   "nav": {
     "hem": "Start",
@@ -140,7 +144,11 @@
     "avstandKm": "{km} km",
     "anmal": "Something wrong? Report",
     "anmalRubrik": "Error in the details for {namn}",
-    "anmalText": "Describe what is wrong (address, hours, phone, conditions) and, if you can, how you know."
+    "anmalText": "Describe what is wrong (address, hours, phone, conditions) and, if you can, how you know.",
+    "oppnaNu": "{n} open now",
+    "ingetOppetNu": "nothing open right now",
+    "dela": "Share",
+    "kopierad": "Link copied"
   },
   "sok": {
     "rubrik": "Search places",

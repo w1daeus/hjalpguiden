@@ -44,7 +44,7 @@ export function tiderRader(oppettider, lang = "sv") {
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
-  eleventyConfig.addPassthroughCopy({ "src/css": "css", "src/js": "js", "lib/opening-hours.js": "js/opening-hours.js", "lib/helgdagar.js": "js/helgdagar.js", "src/manifest.webmanifest": "manifest.webmanifest", "src/icon.svg": "icon.svg" });
+  eleventyConfig.addPassthroughCopy({ "src/css": "css", "src/js": "js", "lib/opening-hours.js": "js/opening-hours.js", "lib/helgdagar.js": "js/helgdagar.js", "src/manifest.webmanifest": "manifest.webmanifest", "src/icon.svg": "icon.svg", "src/icons": "icons" });
   eleventyConfig.addWatchTarget("data/");
   eleventyConfig.addWatchTarget("lib/");
 
@@ -76,11 +76,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sprakNamn", (koder, lang) =>
     (koder || []).map((k) => { const n = t(`sprakNamn.${k}`, lang); return n.startsWith("[") ? k : n; }).join(", "));
   eleventyConfig.addFilter("jsTexter", (lang) => {
-    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker", "traffar", "naraSoker", "naraKlar", "naraFel", "avstandM", "avstandKm"];
+    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker", "traffar", "naraSoker", "naraKlar", "naraFel", "avstandM", "avstandKm", "oppnaNu", "ingetOppetNu", "kopierad"];
     return { ...Object.fromEntries(nycklar.map((k) => [k, t(`plats.${k}`, lang)])), dagKort: t("plats.dagKort", lang), helgdag: t("helgdag", lang), inaktuellEfterDagar: site.inaktuellEfterDagar };
   });
   // QR-kod som inline-SVG, genererad vid bygget utan extern tjänst (lib/qr.js)
   eleventyConfig.addFilter("qrSvg", (text) => toSvg(encodeText(String(text), "M"), { modul: 1, marginal: 4 }));
+  // Kompakt lista för startsidans "x öppna nu": bara det "Öppet nu"-logiken behöver
+  eleventyConfig.addFilter("platserKompakt", (platser) => platser.map((p) => ({ k: p.kategorier, o: p.oppettider, s: p.sasong, h: p.helgdagar, u: p.undantag })));
   eleventyConfig.addFilter("katNamn", (katId, lang) => t(`kat.${katId}.namn`, lang));
   // Länk till ett förifyllt ärende i repot: "Stämmer inte? Anmäl". Kräver GitHub-konto, men ingen inloggning på sajten.
   eleventyConfig.addFilter("felUrl", (post, lang, typ = "plats") => {
