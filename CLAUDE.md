@@ -12,7 +12,7 @@ Planen finns i `PLAN.md`. Datamodellen finns i `data/README.md`.
 4. Ingen inloggning, inga konton, inga cookies, ingen spårning, inga externa skript eller typsnitt. Kartor är vanliga länkar, aldrig inbäddade.
 5. Grundinnehållet ska fungera utan JavaScript. JS används bara för "Öppet nu"-filtret och offline-cache.
 6. Under 100 KB per sida. Mobil först. WCAG AA: minst 44 px tryckytor, kontrast 4.5:1, status aldrig bara via färg.
-7. All UI-text ligger i `src/_data/i18n/<språk>.json`. Skriv aldrig text direkt i mallarna. Svenska (`sv`) är komplett och fallback. Engelska (`en`) och rumänska (`ro`) är översatta och aktiva i `site.json`; nya nycklar läggs till i alla tre. Platsernas fritext (`erbjuder`, `villkor.ovrigt`, kontakternas `beskrivning` och `oppet`) har också `sv`, `en` och `ro`; tom sträng faller tillbaka till svenska.
+7. All UI-text ligger i `src/_data/i18n/<språk>.json`. Skriv aldrig text direkt i mallarna. Svenska (`sv`) är komplett och fallback. Engelska (`en`) är översatt och aktiv i `site.json`; nya nycklar läggs till i båda. Platsernas fritext (`erbjuder`, `villkor.ovrigt`, kontakternas `beskrivning` och `oppet`) har `sv` och `en`; tom sträng faller tillbaka till svenska. Fler språk läggs till med en ny fil i `i18n/`, en rad i `site.json` och koden i listan i `eleventy.config.js`.
 8. "Öppet nu" räknas i tidszonen Europe/Stockholm i `lib/opening-hours.js`. Ändringar där kräver tester i `test/`.
 
 ## Stack

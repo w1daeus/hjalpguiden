@@ -4,7 +4,7 @@ import { HtmlBasePlugin } from "@11ty/eleventy";
 const site = JSON.parse(readFileSync(new URL("./src/_data/site.json", import.meta.url), "utf8"));
 
 const i18n = {};
-for (const kod of ["sv", "en", "ro"]) {
+for (const kod of ["sv", "en"]) {
   i18n[kod] = JSON.parse(readFileSync(new URL(`./src/_data/i18n/${kod}.json`, import.meta.url), "utf8"));
 }
 const DAGAR = ["man", "tis", "ons", "tor", "fre", "lor", "son"];

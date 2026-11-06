@@ -10,11 +10,6 @@
       "kod": "en",
       "namn": "English",
       "aktiv": true
-    },
-    {
-      "kod": "ro",
-      "namn": "Română",
-      "aktiv": true
     }
   ],
   "kategorier": [
