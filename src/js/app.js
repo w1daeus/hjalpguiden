@@ -18,6 +18,12 @@ function beskrivning(s) {
   return t("oppnar", { dag: texter.dagKort?.[s.oppnar.dag] ?? s.oppnar.dag, tid: s.oppnar.tid });
 }
 
+function helgdagText(s) {
+  if (!s.helgdag) return "";
+  const namn = texter.helgdag?.[s.helgdag] ?? s.helgdag;
+  return " · " + t(s.helgdagOsaker ? "helgdagOsaker" : "helgdagIdag", { namn });
+}
+
 const ORDNING = { oppet: 0, okant: 1, stangt: 2, "utanfor-sasong": 3 };
 
 function initPlatser() {
@@ -41,7 +47,7 @@ function initPlatser() {
       const st = el.querySelector("[data-status]");
       if (st) {
         const prefix = s.lage === "oppet" ? t("oppetNu") + ". " : s.lage === "stangt" ? t("stangt") + ". " : "";
-        st.textContent = prefix + beskrivning(s);
+        st.textContent = prefix + beskrivning(s) + helgdagText(s);
         st.className = "status status-" + s.lage;
       }
       if (s.lage === "oppet") oppna++;

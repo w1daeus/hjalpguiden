@@ -129,17 +129,18 @@ test("flera pass samma dag", () => {
   assert.equal(isOpenAt(p, utc(2026, 11, 10, 11, 0)), false); // 12:00
   assert.equal(isOpenAt(p, utc(2026, 11, 10, 16, 0)), true);  // 17:00
   const s = status(p, utc(2026, 11, 10, 11, 0));
-  assert.deepEqual(s.oppnar, { dag: "tis", tid: "16:00", omDagar: 0 });
+  assert.deepEqual(s.oppnar, { dag: "tis", tid: "16:00", omDagar: 0, datum: "2026-11-10" });
 });
 
 test("nästa öppning: samma dag, imorgon, efter helg, aldrig", () => {
   const vardagar = Object.fromEntries(["man", "tis", "ons", "tor", "fre"].map((d) => [d, [{ fran: "08:00", till: "15:00" }]]));
-  assert.deepEqual(nastaOppning({ ...tomVecka(), ...vardagar }, 0, 7 * 60), { dag: "man", tid: "08:00", omDagar: 0 });
-  assert.deepEqual(nastaOppning({ ...tomVecka(), ...vardagar }, 1, 16 * 60), { dag: "ons", tid: "08:00", omDagar: 1 });
-  assert.deepEqual(nastaOppning({ ...tomVecka(), ...vardagar }, 4, 16 * 60), { dag: "man", tid: "08:00", omDagar: 3 });
-  assert.equal(nastaOppning(tomVecka(), 0, 0), null);
+  // 2026-11-09 är en måndag
+  assert.deepEqual(nastaOppning(plats(vardagar), "2026-11-09", 7 * 60), { dag: "man", tid: "08:00", omDagar: 0, datum: "2026-11-09" });
+  assert.deepEqual(nastaOppning(plats(vardagar), "2026-11-10", 16 * 60), { dag: "ons", tid: "08:00", omDagar: 1, datum: "2026-11-11" });
+  assert.deepEqual(nastaOppning(plats(vardagar), "2026-11-13", 16 * 60), { dag: "man", tid: "08:00", omDagar: 3, datum: "2026-11-16" });
+  assert.equal(nastaOppning(plats({}), "2026-11-09", 0), null);
   // Öppet en dag i veckan: nästa öppning är samma veckodag om 7 dagar
-  assert.deepEqual(nastaOppning(plats({ ons: [{ fran: "12:00", till: "14:00" }] }).oppettider, 2, 15 * 60), { dag: "ons", tid: "12:00", omDagar: 7 });
+  assert.deepEqual(nastaOppning(plats({ ons: [{ fran: "12:00", till: "14:00" }] }), "2026-11-11", 15 * 60), { dag: "ons", tid: "12:00", omDagar: 7, datum: "2026-11-18" });
 });
 
 test("dagarSedan räknar hela dagar i lokal tid", () => {

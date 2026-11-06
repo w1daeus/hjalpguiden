@@ -101,6 +101,9 @@ ul, ol { padding-left: 1.2rem; }
 .tider { list-style: none; padding: 0; margin: 0; }
 .tider .dagar { display: inline-block; min-width: 5.2rem; }
 .sasong { display: block; font-size: 0.9rem; color: var(--varning-text); }
+.tillagg { display: block; font-size: 0.9rem; margin-top: 0.2rem; }
+.undantag { font-size: 0.9rem; }
+.undantag .dagar { min-width: 10.5rem; }
 .tel { font-variant-numeric: tabular-nums; user-select: all; -webkit-user-select: all; }
 .tel.stor { font-size: 1.4rem; font-weight: 700; }
 .lank { display: inline-block; padding: 0.35rem 0.6rem; margin: 0.1rem 0; border: 2px solid var(--lank); border-radius: 6px; text-decoration: none; font-weight: 600; min-height: 2.4rem; }

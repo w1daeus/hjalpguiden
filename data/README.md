@@ -26,6 +26,8 @@ Allt innehåll om platser, organisationer och telefonnummer ligger här. Sajten 
     "tis": [], "ons": [], "tor": [], "fre": [], "lor": [], "son": []
   },
   "sasong": null,
+  "helgdagar": null,
+  "undantag": [],
   "villkor": { "malgrupp": "kvinnor", "kraverId": false, "pris": "gratis", "ovrigt": { "sv": "", "en": "" } },
   "sprak": ["sv", "en"],
   "telefon": "",
@@ -43,6 +45,8 @@ Allt innehåll om platser, organisationer och telefonnummer ligger här. Sajten 
 | `oppettider` | objekt med alla sju dagar `man tis ons tor fre lor son`, varje dag en lista av pass `{fran, till}` i `HH:MM`. Tom lista = stängt. `null` på hela objektet = okända tider. |
 | Pass över midnatt | `till` mindre än eller lika med `fran`, t.ex. `21:00`–`07:00`, betyder till nästa dag. `24:00` = midnatt. Dygnet runt = `00:00`–`24:00`. |
 | `sasong` | `null` eller `{ "fran": "MM-DD", "till": "MM-DD" }`, får gå över nyår |
+| `helgdagar` | vad som gäller på helgdagar: `null` = okänt (sajten visar veckoschemat med en varning på helgdagar), `"stangt"`, `"som-sondag"` (söndagens pass gäller) eller `"ordinarie"` (veckodagens pass gäller). Helgdagarna räknas i `lib/helgdagar.js`: röda dagar plus midsommarafton, julafton och nyårsafton. |
+| `undantag` | lista med avvikande tider för enskilda datum, t.ex. `[{ "fran": "2026-12-24", "till": "2026-12-26", "pass": [] }]`. Tom `pass` = stängt. Går före både `helgdagar` och veckoschemat. Tom lista om inga. |
 | `villkor.malgrupp` | `alla`, `kvinnor`, `man`, `unga`, `familjer`, `eu-medborgare`, `papperslosa` |
 | `villkor.pris` | `gratis` eller fritext, t.ex. `"20 kr"` |
 | `sprak` | ISO-koder för språk personalen talar, tom lista om okänt |

@@ -22,7 +22,7 @@ eleventyComputed:
     {% if erbjuder %}<span>{{ erbjuder }}</span>{% endif %}
     {% if plats.adress and plats.adress.gata %}<span>{{ 'plats.adress' | t(lang) }}: {{ plats.adress | adressText }}</span>{% endif %}
     {% set rader = plats.oppettider | tiderRader(lang) %}
-    <span>{{ 'plats.oppettider' | t(lang) }}: {% if rader.length %}{% for r in rader %}{{ r.dagar }} {{ r.tider }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}{{ 'plats.okant' | t(lang) }}{% endif %}{% if plats.sasong %}. {{ 'plats.sasong' | t(lang, { fran: plats.sasong.fran, till: plats.sasong.till }) }}{% endif %}</span>
+    <span>{{ 'plats.oppettider' | t(lang) }}: {% if rader.length %}{% for r in rader %}{{ r.dagar }} {{ r.tider }}{% if not loop.last %}; {% endif %}{% endfor %}{% else %}{{ 'plats.okant' | t(lang) }}{% endif %}{% if plats.sasong %}. {{ 'plats.sasong' | t(lang, { fran: plats.sasong.fran, till: plats.sasong.till }) }}{% endif %}{% if plats.helgdagar %}. {{ 'plats.helgdagar' | t(lang) }}: {{ ('plats.helgdagRegel.' + plats.helgdagar) | t(lang) }}{% endif %}{% set undantag = plats.undantag | undantagRader(lang, build.datum) %}{% if undantag.length %}. {{ 'plats.undantag' | t(lang) }}: {% for u in undantag %}{{ u.datum }} {{ u.tider }}{% if not loop.last %}; {% endif %}{% endfor %}{% endif %}</span>
     {% if plats.telefon %}<span>{{ 'plats.telefon' | t(lang) }}: {{ plats.telefon }}</span>{% endif %}
     {% set ovrigt = plats.villkor.ovrigt[lang] or plats.villkor.ovrigt.sv %}
     {% if ovrigt %}<span>{{ 'plats.villkor' | t(lang) }}: {{ ovrigt }}</span>{% endif %}

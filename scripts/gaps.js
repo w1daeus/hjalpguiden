@@ -32,6 +32,7 @@ for (const p of platser) {
   if (tomt(p.webb)) luckor.push("webb");
   if (tomt(p.erbjuder?.sv)) luckor.push("erbjuder");
   if (tomt(p.sprak)) luckor.push("språk");
+  if (p.helgdagar === null || p.helgdagar === undefined) luckor.push("helgdagar (stängt, som söndag eller ordinarie?)");
   rader.push(`- **${p.namn}** (${p.id}) – ${stat(p)}, kontrollerad ${p.senastKontrollerad}`);
   rader.push(`  - källa: ${p.kalla || "SAKNAS"}`);
   if (luckor.length) rader.push(`  - saknas: ${luckor.join(", ")}`);

@@ -42,7 +42,7 @@ export function tiderRader(oppettider, lang = "sv") {
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
-  eleventyConfig.addPassthroughCopy({ "src/css": "css", "src/js": "js", "lib/opening-hours.js": "js/opening-hours.js", "src/manifest.webmanifest": "manifest.webmanifest", "src/icon.svg": "icon.svg" });
+  eleventyConfig.addPassthroughCopy({ "src/css": "css", "src/js": "js", "lib/opening-hours.js": "js/opening-hours.js", "lib/helgdagar.js": "js/helgdagar.js", "src/manifest.webmanifest": "manifest.webmanifest", "src/icon.svg": "icon.svg" });
   eleventyConfig.addWatchTarget("data/");
   eleventyConfig.addWatchTarget("lib/");
 
@@ -55,6 +55,12 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("iKategori", (platser, kat) => platser.filter((p) => p.kategorier.includes(kat)));
   eleventyConfig.addFilter("tiderRader", tiderRader);
   eleventyConfig.addFilter("json", (v) => JSON.stringify(v));
+  // Undantag som inte passerat: [{ datum: "2026-12-24" eller "2026-12-28–2027-01-03", tider: "09:00–12:00" eller "stängt" }]
+  eleventyConfig.addFilter("undantagRader", (undantag, lang, fran) =>
+    (undantag || []).filter((u) => !fran || u.till >= fran).sort((a, b) => (a.fran < b.fran ? -1 : 1)).map((u) => ({
+      datum: u.fran === u.till ? u.fran : `${u.fran}–${u.till}`,
+      tider: (u.pass || []).map((p) => `${p.fran}–${p.till}`).join(", ") || t("plats.stangtDag", lang),
+    })));
   eleventyConfig.addFilter("telHref", (tel) => {
     const siffror = String(tel).replace(/[^\d+]/g, "");
     return "tel:" + (siffror.startsWith("0") ? "+46" + siffror.slice(1) : siffror);
@@ -68,8 +74,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sprakNamn", (koder, lang) =>
     (koder || []).map((k) => { const n = t(`sprakNamn.${k}`, lang); return n.startsWith("[") ? k : n; }).join(", "));
   eleventyConfig.addFilter("jsTexter", (lang) => {
-    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal"];
-    return { ...Object.fromEntries(nycklar.map((k) => [k, t(`plats.${k}`, lang)])), dagKort: t("plats.dagKort", lang), inaktuellEfterDagar: site.inaktuellEfterDagar };
+    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker"];
+    return { ...Object.fromEntries(nycklar.map((k) => [k, t(`plats.${k}`, lang)])), dagKort: t("plats.dagKort", lang), helgdag: t("helgdag", lang), inaktuellEfterDagar: site.inaktuellEfterDagar };
   });
   eleventyConfig.addFilter("katNamn", (katId, lang) => t(`kat.${katId}.namn`, lang));
 

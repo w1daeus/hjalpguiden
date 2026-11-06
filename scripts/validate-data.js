@@ -17,6 +17,15 @@ const TID = /^([01]\d|2[0-4]):[0-5]\d$/;
 
 const fel = [];
 const kolla = (ok, msg) => { if (!ok) fel.push(msg); };
+const HELGDAGAR = [null, "stangt", "som-sondag", "ordinarie"];
+
+function kollaPass(pass, v, var_) {
+  kolla(Array.isArray(pass), `${v}: ${var_} måste vara en lista av pass (tom lista = stängt)`);
+  for (const s of pass || []) {
+    kolla(TID.test(s.fran) && TID.test(s.till), `${v}: ${var_} har ogiltig tid "${s.fran}–${s.till}"`);
+    kolla(s.fran !== "24:00", `${v}: ${var_} kan inte börja 24:00`);
+  }
+}
 
 const platser = las("places.json");
 const orgs = las("organisations.json");
@@ -49,16 +58,15 @@ for (const p of platser) {
   }
   if (p.oppettider !== null && p.oppettider !== undefined) {
     kolla(typeof p.oppettider === "object", `${v}: oppettider måste vara objekt eller null`);
-    for (const d of DAGAR) {
-      const pass = p.oppettider[d];
-      kolla(Array.isArray(pass), `${v}: oppettider.${d} saknas (tom lista = stängt)`);
-      for (const s of pass || []) {
-        kolla(TID.test(s.fran) && TID.test(s.till), `${v}: oppettider.${d} har ogiltig tid "${s.fran}–${s.till}"`);
-        kolla(s.fran !== "24:00", `${v}: oppettider.${d} kan inte börja 24:00`);
-      }
-    }
+    for (const d of DAGAR) kollaPass(p.oppettider[d], v, `oppettider.${d}`);
     const extra = Object.keys(p.oppettider).filter((k) => !DAGAR.includes(k));
     kolla(extra.length === 0, `${v}: okända dagar i oppettider: ${extra.join(", ")}`);
+  }
+  kolla("helgdagar" in p && HELGDAGAR.includes(p.helgdagar), `${v}: helgdagar måste vara null (okänt), "stangt", "som-sondag" eller "ordinarie"`);
+  kolla(Array.isArray(p.undantag), `${v}: undantag måste vara en lista (tom om inga)`);
+  for (const u of p.undantag || []) {
+    kolla(DATUM.test(u.fran || "") && DATUM.test(u.till || "") && u.fran <= u.till, `${v}: undantag måste ha fran och till som ÅÅÅÅ-MM-DD, fran <= till`);
+    kollaPass(u.pass, v, `undantag ${u.fran}`);
   }
 }
 

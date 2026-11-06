@@ -63,6 +63,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "man",
       "kraverId": false,
@@ -164,6 +166,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "man",
       "kraverId": false,
@@ -245,6 +249,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "kvinnor",
       "kraverId": false,
@@ -326,6 +332,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "kvinnor",
       "kraverId": false,
@@ -404,6 +412,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -462,6 +472,8 @@
       "fran": "08-28",
       "till": "12-18"
     },
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -533,6 +545,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -605,6 +619,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -643,6 +659,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "eu-medborgare",
       "kraverId": false,
@@ -734,6 +752,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "eu-medborgare",
       "kraverId": true,
@@ -806,6 +826,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -875,6 +897,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -954,6 +978,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1008,6 +1034,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "papperslosa",
       "kraverId": false,
@@ -1062,6 +1090,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1151,6 +1181,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1187,6 +1219,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1267,6 +1301,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1336,6 +1372,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "eu-medborgare",
       "kraverId": false,
@@ -1396,6 +1434,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1466,6 +1506,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1541,6 +1583,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1619,6 +1663,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1655,6 +1701,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1740,6 +1788,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1820,6 +1870,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "papperslosa",
       "kraverId": false,
@@ -1857,6 +1909,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -1937,6 +1991,8 @@
       ]
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -2006,6 +2062,8 @@
       "son": []
     },
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -2042,6 +2100,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -2081,6 +2141,8 @@
       "fran": "11-17",
       "till": "03-31"
     },
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -2117,6 +2179,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,
@@ -2153,6 +2217,8 @@
     "koordinater": null,
     "oppettider": null,
     "sasong": null,
+    "helgdagar": null,
+    "undantag": [],
     "villkor": {
       "malgrupp": "alla",
       "kraverId": false,

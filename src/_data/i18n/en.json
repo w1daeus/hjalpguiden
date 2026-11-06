@@ -119,7 +119,16 @@
       "lor": "Sat",
       "son": "Sun"
     },
-    "dygnetRunt": "Open 24 hours"
+    "dygnetRunt": "Open 24 hours",
+    "helgdagar": "Public holidays",
+    "helgdagRegel": {
+      "stangt": "closed",
+      "som-sondag": "as on Sundays",
+      "ordinarie": "normal hours"
+    },
+    "undantag": "Special hours",
+    "helgdagIdag": "Public holiday today ({namn})",
+    "helgdagOsaker": "Public holiday today ({namn}). Hours may differ, call first."
   },
   "ser": {
     "rubrik": "I see someone who needs help",
@@ -216,5 +225,23 @@
     "tr": "Turkish",
     "bg": "Bulgarian",
     "uk": "Ukrainian"
+  },
+  "helgdag": {
+    "nyarsdagen": "New Year's Day",
+    "trettondedag-jul": "Epiphany",
+    "langfredagen": "Good Friday",
+    "paskdagen": "Easter Sunday",
+    "annandag-pask": "Easter Monday",
+    "forsta-maj": "May Day",
+    "kristi-himmelsfardsdag": "Ascension Day",
+    "pingstdagen": "Whit Sunday",
+    "nationaldagen": "National Day",
+    "midsommarafton": "Midsummer Eve",
+    "midsommardagen": "Midsummer Day",
+    "alla-helgons-dag": "All Saints' Day",
+    "julafton": "Christmas Eve",
+    "juldagen": "Christmas Day",
+    "annandag-jul": "Boxing Day",
+    "nyarsafton": "New Year's Eve"
   }
 }

@@ -1,5 +1,5 @@
 {# Förväntar sig: plats, lang #}
-<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}">
+<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong, helgdagar: plats.helgdagar, undantag: plats.undantag } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}">
   <h3 class="plats-namn">{{ plats.namn }}</h3>
   <p class="status" data-status></p>
   <p class="badges">
@@ -24,6 +24,10 @@
       <ul class="tider">{% for r in rader %}<li><span class="dagar">{{ r.dagar }}</span> <span class="tid">{{ r.tider }}</span></li>{% endfor %}</ul>
       {% else %}{{ 'plats.okant' | t(lang) }}{% endif %}
       {% if plats.sasong %}<span class="sasong">{{ 'plats.sasong' | t(lang, { fran: plats.sasong.fran, till: plats.sasong.till }) }}</span>{% endif %}
+      {% if plats.helgdagar %}<span class="tillagg">{{ 'plats.helgdagar' | t(lang) }}: {{ ('plats.helgdagRegel.' + plats.helgdagar) | t(lang) }}</span>{% endif %}
+      {% set undantag = plats.undantag | undantagRader(lang, build.datum) %}
+      {% if undantag.length %}<span class="tillagg">{{ 'plats.undantag' | t(lang) }}:</span>
+      <ul class="tider undantag">{% for u in undantag %}<li><span class="dagar">{{ u.datum }}</span> <span class="tid">{{ u.tider }}</span></li>{% endfor %}</ul>{% endif %}
     </dd>
     {% if plats.telefon %}
     <dt>{{ 'plats.telefon' | t(lang) }}</dt>

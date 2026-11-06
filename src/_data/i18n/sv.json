@@ -119,7 +119,16 @@
       "lor": "lör",
       "son": "sön"
     },
-    "dygnetRunt": "Öppet dygnet runt"
+    "dygnetRunt": "Öppet dygnet runt",
+    "helgdagar": "Helgdagar",
+    "helgdagRegel": {
+      "stangt": "stängt",
+      "som-sondag": "som söndag",
+      "ordinarie": "ordinarie tider"
+    },
+    "undantag": "Avvikande tider",
+    "helgdagIdag": "Helgdag i dag ({namn})",
+    "helgdagOsaker": "Helgdag i dag ({namn}). Tiderna kan avvika, ring först."
   },
   "ser": {
     "rubrik": "Jag ser någon som behöver hjälp",
@@ -216,5 +225,23 @@
     "tr": "turkiska",
     "bg": "bulgariska",
     "uk": "ukrainska"
+  },
+  "helgdag": {
+    "nyarsdagen": "Nyårsdagen",
+    "trettondedag-jul": "Trettondedag jul",
+    "langfredagen": "Långfredagen",
+    "paskdagen": "Påskdagen",
+    "annandag-pask": "Annandag påsk",
+    "forsta-maj": "Första maj",
+    "kristi-himmelsfardsdag": "Kristi himmelsfärdsdag",
+    "pingstdagen": "Pingstdagen",
+    "nationaldagen": "Nationaldagen",
+    "midsommarafton": "Midsommarafton",
+    "midsommardagen": "Midsommardagen",
+    "alla-helgons-dag": "Alla helgons dag",
+    "julafton": "Julafton",
+    "juldagen": "Juldagen",
+    "annandag-jul": "Annandag jul",
+    "nyarsafton": "Nyårsafton"
   }
 }
