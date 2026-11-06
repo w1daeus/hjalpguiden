@@ -6,5 +6,5 @@
   {% if b %}<span class="kontakt-text">{{ b }}</span>{% endif %}
   {% set o = kontakt.oppet[lang] or kontakt.oppet.sv %}
   {% if o %}<span class="kontakt-text">{{ 'ser.oppet' | t(lang) }}: {{ o }}</span>{% endif %}
-  <span class="kontroll">{% if kontakt.status != 'verifierad' %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span> {% endif %}{% if kontakt.webb %}<a href="{{ kontakt.webb }}" rel="noopener">{{ 'plats.webb' | t(lang) }} ↗</a> · {% endif %}<a href="{{ kontakt.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a></span>
+  <span class="kontroll">{% if kontakt.status != 'verifierad' %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span> {% endif %}{% if kontakt.webb %}<a href="{{ kontakt.webb }}" rel="noopener">{{ 'plats.webb' | t(lang) }} ↗</a> · {% endif %}<a href="{{ kontakt.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a> · <a href="{{ kontakt | felUrl(lang, 'kontakt') }}" rel="noopener">{{ 'plats.anmal' | t(lang) }} ↗</a></span>
 </li>

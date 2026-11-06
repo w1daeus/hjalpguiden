@@ -27,6 +27,20 @@ function helgdagText(s) {
 }
 
 const ORDNING = { oppet: 0, okant: 1, stangt: 2, "utanfor-sasong": 3 };
+const LANG = document.documentElement.lang || "sv";
+
+/** Avstånd i meter mellan två punkter (haversine). */
+function avstandMeter(a, b) {
+  const R = 6371000, rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad, dLon = (b.lon - a.lon) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+function avstandText(m) {
+  if (m < 1000) return t("avstandM", { m: Math.max(10, Math.round(m / 10) * 10) });
+  return t("avstandKm", { km: (m / 1000).toLocaleString(LANG, { maximumFractionDigits: 1 }) });
+}
 
 // Gemener utan diakritiska tecken, så att "soder" matchar "Söder" och tvärtom.
 const normalisera = (s) => String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -40,6 +54,9 @@ function initPlatser() {
   const antal = document.querySelector("[data-antal]");
   const inga = document.querySelector("[data-inga]");
   const ingaTraffar = document.querySelector("[data-inga-traffar]");
+  const naraKnapp = document.querySelector("[data-nara]");
+  const naraStatus = document.querySelector("[data-nara-status]");
+  let position = null; // sätts bara efter att användaren tryckt "Nära mig"; lagras aldrig
   const sokIndex = new WeakMap();
   if (sok) {
     const q = new URLSearchParams(location.search).get("q");
@@ -53,8 +70,17 @@ function initPlatser() {
     const kort = [...lista.querySelectorAll("[data-plats]")];
     let oppna = 0;
     for (const el of kort) {
-      let s;
-      try { s = status(JSON.parse(el.dataset.plats), nu); } catch { s = { lage: "okant" }; }
+      let s, plats;
+      try { plats = JSON.parse(el.dataset.plats); s = status(plats, nu); } catch { plats = {}; s = { lage: "okant" }; }
+      const avstandEl = el.querySelector("[data-avstand]");
+      if (position && plats.koordinater) {
+        const m = avstandMeter(position, plats.koordinater);
+        el.dataset.avstand = String(Math.round(m));
+        if (avstandEl) { avstandEl.textContent = "📍 " + avstandText(m); avstandEl.hidden = false; }
+      } else {
+        delete el.dataset.avstand;
+        if (avstandEl) avstandEl.hidden = true;
+      }
       el.dataset.lage = s.lage;
       const st = el.querySelector("[data-status]");
       if (st) {
@@ -67,7 +93,8 @@ function initPlatser() {
       const dagar = dagarSedan(el.dataset.kontrollerad, nu);
       if (gammal) gammal.hidden = !(dagar !== null && dagar > gransDagar);
     }
-    kort.sort((a, b) => ORDNING[a.dataset.lage] - ORDNING[b.dataset.lage]).forEach((el) => lista.appendChild(el));
+    const nyckel = (el) => (el.dataset.avstand === undefined ? Infinity : Number(el.dataset.avstand));
+    kort.sort((a, b) => ORDNING[a.dataset.lage] - ORDNING[b.dataset.lage] || nyckel(a) - nyckel(b)).forEach((el) => lista.appendChild(el));
     const baraOppna = kryss ? kryss.checked : false;
     const ord = sok ? normalisera(sok.value).split(/\s+/).filter(Boolean) : [];
     let traffar = 0, oppnaTraffar = 0;
@@ -98,6 +125,23 @@ function initPlatser() {
     history.replaceState(null, "", url);
   });
   filter?.addEventListener("submit", (e) => { e.preventDefault(); uppdatera(); sok?.blur(); });
+  if (naraKnapp && "geolocation" in navigator) {
+    naraKnapp.hidden = false;
+    naraKnapp.addEventListener("click", () => {
+      if (naraStatus) naraStatus.textContent = t("naraSoker");
+      naraKnapp.disabled = true;
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          position = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+          naraKnapp.disabled = false;
+          if (naraStatus) naraStatus.textContent = t("naraKlar");
+          uppdatera();
+        },
+        () => { naraKnapp.disabled = false; if (naraStatus) naraStatus.textContent = t("naraFel"); },
+        { enableHighAccuracy: false, timeout: 15000, maximumAge: 60000 }
+      );
+    });
+  }
   uppdatera();
   setInterval(uppdatera, 60 * 1000);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) uppdatera(); });

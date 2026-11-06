@@ -1,0 +1,27 @@
+---
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ '/affisch/' | langPath(lang) }}"
+layout: print.njk
+eleventyComputed:
+  title: "{{ 'affisch.rubrik' | t(lang) }}"
+---
+<p class="noprint"><a href="{{ '/hjalpa-till/' | langPath(lang) }}">← {{ 'nav.hjalpa' | t(lang) }}</a> <button type="button" class="knapp" onclick="window.print()">🖨 {{ 'affisch.knapp' | t(lang) }}</button></p>
+<p class="noprint info">{{ 'affisch.sattUpp' | t(lang) }}</p>
+
+<div class="affisch">
+  <p class="affisch-nod">{{ 'start.nod' | t(lang) }}</p>
+  <h1 class="affisch-namn">{{ 'site.namn' | t(lang) }}</h1>
+  <p class="affisch-slogan">{{ 'site.slogan' | t(lang) }}</p>
+  <div class="affisch-qr" role="img" aria-label="{{ 'affisch.qrAlt' | t(lang) }}">{{ site.url | qrSvg | safe }}</div>
+  <p class="affisch-skanna">{{ 'affisch.skanna' | t(lang) }}</p>
+  <p class="affisch-url">{{ site.url | replace("https://", "") }}</p>
+  <ul class="affisch-ingangar">
+    <li><strong>{{ 'nav.behover' | t(lang) }}</strong> {{ 'affisch.behover' | t(lang) }}</li>
+    <li><strong>{{ 'nav.ser' | t(lang) }}</strong> {{ 'start.serText' | t(lang) }}</li>
+    <li><strong>{{ 'nav.hjalpa' | t(lang) }}</strong> {{ 'start.hjalpaText' | t(lang) }}</li>
+  </ul>
+  <p class="affisch-fot">{{ 'affisch.fot' | t(lang) }} {{ 'site.byggd' | t(lang) }} {{ build.datum }}.</p>
+</div>

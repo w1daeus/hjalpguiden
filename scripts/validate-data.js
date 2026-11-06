@@ -62,6 +62,12 @@ for (const p of platser) {
     const extra = Object.keys(p.oppettider).filter((k) => !DAGAR.includes(k));
     kolla(extra.length === 0, `${v}: okända dagar i oppettider: ${extra.join(", ")}`);
   }
+  if (p.koordinater !== null && p.koordinater !== undefined) {
+    const k = p.koordinater;
+    kolla(typeof k.lat === "number" && typeof k.lon === "number", `${v}: koordinater måste vara null eller {lat, lon}`);
+    kolla(k.lat > 58.9 && k.lat < 60.1 && k.lon > 17.3 && k.lon < 19.3, `${v}: koordinater ligger utanför Stockholmsområdet`);
+    kolla(!("status" in k) || STATUS.includes(k.status), `${v}: koordinater.status måste vara ${STATUS.join(" eller ")}`);
+  }
   kolla("helgdagar" in p && HELGDAGAR.includes(p.helgdagar), `${v}: helgdagar måste vara null (okänt), "stangt", "som-sondag" eller "ordinarie"`);
   kolla(Array.isArray(p.undantag), `${v}: undantag måste vara en lista (tom om inga)`);
   for (const u of p.undantag || []) {

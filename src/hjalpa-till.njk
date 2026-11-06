@@ -53,6 +53,12 @@ eleventyComputed:
   </ul>
 </section>
 
+<section aria-labelledby="h-sprid">
+  <h2 id="h-sprid">{{ 'affisch.sprid.rubrik' | t(lang) }}</h2>
+  <p>{{ 'affisch.sprid.text' | t(lang) }}</p>
+  <p><a class="knapp sekundar" href="{{ '/affisch/' | langPath(lang) }}">🖨 {{ 'affisch.sprid.lank' | t(lang) }}</a></p>
+</section>
+
 <section class="kommer" aria-labelledby="h-behov">
   <h2 id="h-behov">{{ 'hjalpa.behovstavla.rubrik' | t(lang) }}</h2>
   <p>{{ 'hjalpa.behovstavla.text' | t(lang) }}</p>

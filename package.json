@@ -9,7 +9,9 @@
     "build": "node scripts/validate-data.js && eleventy",
     "test": "node scripts/validate-data.js && node --test \"test/**/*.test.js\"",
     "validate": "node scripts/validate-data.js",
-    "gaps": "node scripts/gaps.js"
+    "gaps": "node scripts/gaps.js",
+    "links": "node scripts/check-links.js",
+    "geocode": "node scripts/geocode.js"
   },
   "engines": {
     "node": ">=18"

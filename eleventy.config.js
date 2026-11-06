@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { HtmlBasePlugin } from "@11ty/eleventy";
+import { encodeText, toSvg } from "./lib/qr.js";
 
 const site = JSON.parse(readFileSync(new URL("./src/_data/site.json", import.meta.url), "utf8"));
 
@@ -75,10 +76,22 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("sprakNamn", (koder, lang) =>
     (koder || []).map((k) => { const n = t(`sprakNamn.${k}`, lang); return n.startsWith("[") ? k : n; }).join(", "));
   eleventyConfig.addFilter("jsTexter", (lang) => {
-    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker", "traffar"];
+    const nycklar = ["oppetNu", "stangt", "okant", "utanforSasong", "stanger", "stangerSnart", "oppnarIdag", "oppnarImorgon", "oppnar", "oppnarInte", "dygnetRunt", "antal", "antalOppna", "gammal", "helgdagIdag", "helgdagOsaker", "traffar", "naraSoker", "naraKlar", "naraFel", "avstandM", "avstandKm"];
     return { ...Object.fromEntries(nycklar.map((k) => [k, t(`plats.${k}`, lang)])), dagKort: t("plats.dagKort", lang), helgdag: t("helgdag", lang), inaktuellEfterDagar: site.inaktuellEfterDagar };
   });
+  // QR-kod som inline-SVG, genererad vid bygget utan extern tjänst (lib/qr.js)
+  eleventyConfig.addFilter("qrSvg", (text) => toSvg(encodeText(String(text), "M"), { modul: 1, marginal: 4 }));
   eleventyConfig.addFilter("katNamn", (katId, lang) => t(`kat.${katId}.namn`, lang));
+  // Länk till ett förifyllt ärende i repot: "Stämmer inte? Anmäl". Kräver GitHub-konto, men ingen inloggning på sajten.
+  eleventyConfig.addFilter("felUrl", (post, lang, typ = "plats") => {
+    if (!site.repo) return "";
+    const p = new URLSearchParams({
+      title: t("plats.anmalRubrik", lang, { namn: post.namn }),
+      labels: "data",
+      body: [`${typ}: ${post.namn} (${post.id})`, `Källa: ${post.kalla}`, `Senast kontrollerad: ${post.senastKontrollerad}`, "", t("plats.anmalText", lang), ""].join("\n"),
+    });
+    return `${site.repo}/issues/new?${p}`;
+  });
   // Text som sökfältet matchar mot utöver kortets egen text: namn, organisation, adress och kategorinamn (aktuellt språk + svenska)
   eleventyConfig.addFilter("sokText", (plats, lang) => [...new Set([
     plats.namn, plats.org?.namn, plats.adress?.gata, plats.adress?.ort,

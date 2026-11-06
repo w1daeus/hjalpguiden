@@ -43,5 +43,6 @@
     }
   ],
   "inaktuellEfterDagar": 90,
-  "repo": "https://github.com/w1daeus/hjalpguiden"
+  "repo": "https://github.com/w1daeus/hjalpguiden",
+  "url": "https://w1daeus.github.io/hjalpguiden/"
 }

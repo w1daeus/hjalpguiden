@@ -131,7 +131,16 @@
     "helgdagIdag": "Public holiday today ({namn})",
     "helgdagOsaker": "Public holiday today ({namn}). Hours may differ, call first.",
     "traffar": "{n} match|{n} matches",
-    "ingaTraffar": "No places match your search. Try a shorter word."
+    "ingaTraffar": "No places match your search. Try a shorter word.",
+    "nara": "Near me",
+    "naraSoker": "Getting your location…",
+    "naraKlar": "Sorted by distance from you",
+    "naraFel": "Could not get your location. Check that location services are on.",
+    "avstandM": "{m} m",
+    "avstandKm": "{km} km",
+    "anmal": "Something wrong? Report",
+    "anmalRubrik": "Error in the details for {namn}",
+    "anmalText": "Describe what is wrong (address, hours, phone, conditions) and, if you can, how you know."
   },
   "sok": {
     "rubrik": "Search places",
@@ -253,5 +262,19 @@
     "juldagen": "Christmas Day",
     "annandag-jul": "Boxing Day",
     "nyarsafton": "New Year's Eve"
+  },
+  "affisch": {
+    "rubrik": "Poster to print",
+    "knapp": "Print the poster",
+    "sattUpp": "Print on A4 and put it up where it helps: shelters, libraries, churches, health centres, waiting rooms, stairwells. The poster links to the site with a QR code.",
+    "skanna": "Scan the code with your phone camera, or type the address:",
+    "qrAlt": "QR code leading to the site",
+    "behover": "Where you can sleep, eat, shower, charge your phone and get care and advice. Shows what is open right now.",
+    "fot": "Free. No accounts, no cookies. Works without internet after the first visit. Swedish and English.",
+    "sprid": {
+      "rubrik": "Spread the word",
+      "text": "Print a poster with a QR code and put it up where people who need help can see it.",
+      "lank": "Poster to print"
+    }
   }
 }

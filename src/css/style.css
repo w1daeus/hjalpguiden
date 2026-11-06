@@ -76,10 +76,38 @@ ul, ol { padding-left: 1.2rem; }
 .check input { width: 1.5rem; height: 1.5rem; accent-color: var(--mork); }
 .antal { font-size: 0.9rem; color: var(--stangt); }
 .sokfalt { display: block; flex: 1 1 14rem; }
+.nara { display: inline-flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.nara .knapp { padding: 0.5rem 0.9rem; }
+.avstand { margin: -0.3rem 0 0.4rem; font-weight: 600; color: var(--mork); }
+.avstand[hidden] { display: none; }
 .sokfalt input { width: 100%; min-height: var(--tryck); padding: 0.5rem 0.8rem; font: inherit; border: 2px solid var(--mork); border-radius: var(--radie); background: #fff; }
 .sokform { display: flex; gap: 0.5rem; margin: 0.8rem 0 1.2rem; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .kat-badge { background: #e8eef7; }
+
+/* Affisch (A4) */
+.affisch { max-width: 36rem; margin: 1rem auto; padding: 1.5rem; border: 2px solid var(--mork); border-radius: var(--radie); text-align: center; }
+.affisch-nod { display: inline-block; background: var(--nod); color: #fff; font-weight: 700; font-size: 1.3rem; padding: 0.5rem 1.2rem; border-radius: var(--radie); margin: 0 0 1rem; }
+.affisch-namn { font-size: 2.4rem; margin: 0.2rem 0; color: var(--mork); }
+.affisch-slogan { font-size: 1.4rem; font-weight: 600; margin: 0 0 1rem; }
+.affisch-qr { width: 55%; max-width: 20rem; margin: 0 auto; }
+.affisch-qr svg { display: block; width: 100%; height: auto; }
+.affisch-skanna { font-size: 1.1rem; margin: 0.8rem 0 0.2rem; }
+.affisch-url { font-size: 1.5rem; font-weight: 700; word-break: break-all; margin: 0 0 1.2rem; }
+.affisch-ingangar { list-style: none; padding: 0; margin: 0 0 1rem; text-align: left; font-size: 1.05rem; }
+.affisch-ingangar li { margin: 0.5rem 0; }
+.affisch-ingangar strong { display: block; }
+.affisch-fot { font-size: 0.9rem; color: var(--stangt); margin: 0; }
+@media print {
+  @page { size: A4; margin: 12mm; }
+  .affisch { max-width: none; margin: 0; padding: 8mm; border-width: 1mm; min-height: 265mm; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; }
+  .affisch-namn { font-size: 34pt; }
+  .affisch-slogan { font-size: 20pt; }
+  .affisch-qr { width: 85mm; max-width: none; }
+  .affisch-url { font-size: 20pt; }
+  .affisch-ingangar { font-size: 13pt; }
+  .affisch-nod { font-size: 16pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
 .info { background: var(--ljus); padding: 0.7rem 0.9rem; border-radius: var(--radie); }
 
 .platser { list-style: none; padding: 0; margin: 0.8rem 0; }

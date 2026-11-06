@@ -17,6 +17,7 @@ eleventyComputed:
 <form class="filter" data-filter method="get" hidden>
   <label class="sokfalt"><span class="sr">{{ 'sok.rubrik' | t(lang) }}</span><input type="search" name="q" data-sok placeholder="{{ 'sok.placeholder' | t(lang) }}" autocomplete="off"></label>
   <label class="check"><input type="checkbox" data-oppet-nu checked> {{ 'plats.filterOppetNu' | t(lang) }}</label>
+  <span class="nara"><button type="button" class="knapp sekundar" data-nara hidden>📍 {{ 'plats.nara' | t(lang) }}</button> <span class="antal" data-nara-status aria-live="polite"></span></span>
   <span class="antal" data-antal aria-live="polite"></span>
 </form>
 <noscript><p class="info">{{ 'plats.utanJs' | t(lang) }}</p></noscript>

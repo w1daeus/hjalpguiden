@@ -1,0 +1,55 @@
+name: Länkkoll
+
+# Kontrollerar varje måndag att alla käll- och webblänkar i data/ fortfarande svarar.
+# Om någon inte gör det öppnas (eller uppdateras) ett ärende med etiketten "lankkoll".
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  kolla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Kontrollera länkar
+        id: kolla
+        run: |
+          set +e
+          node scripts/check-links.js > rapport.md
+          echo "kod=$?" >> "$GITHUB_OUTPUT"
+          cat rapport.md
+      - name: Öppna eller uppdatera ärende
+        if: steps.kolla.outputs.kod == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh label create lankkoll --description "Automatisk länkkoll av data/" --color D93F0B --force
+          antal=$(grep -oE '[0-9]+ svarar inte' rapport.md | head -1)
+          titel="Länkkoll: $antal"
+          befintligt=$(gh issue list --label lankkoll --state open --json number --jq '.[0].number')
+          if [ -n "$befintligt" ]; then
+            gh issue edit "$befintligt" --title "$titel"
+            gh issue comment "$befintligt" --body-file rapport.md
+          else
+            gh issue create --title "$titel" --label lankkoll --body-file rapport.md
+          fi
+      - name: Stäng ärende om allt svarar
+        if: steps.kolla.outputs.kod == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          befintligt=$(gh issue list --label lankkoll --state open --json number --jq '.[0].number')
+          if [ -n "$befintligt" ]; then
+            gh issue close "$befintligt" --comment "Alla länkar svarar igen."
+          fi

@@ -17,7 +17,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.33515,
+      "lon": 18.02641,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -100,7 +106,13 @@
       "postnummer": "116 20",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3172,
+      "lon": 18.07684,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -203,7 +215,13 @@
       "postnummer": "118 26",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31606,
+      "lon": 18.06903,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -286,7 +304,13 @@
       "postnummer": "118 26",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31606,
+      "lon": 18.06903,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -367,7 +391,13 @@
       "postnummer": "111 52",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3313,
+      "lon": 18.06265,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -448,7 +478,13 @@
       "postnummer": "111 52",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3313,
+      "lon": 18.06265,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [],
       "tis": [
@@ -509,7 +545,13 @@
       "postnummer": "124 54",
       "ort": "Bandhagen"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.26343,
+      "lon": 18.04152,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -583,7 +625,13 @@
       "postnummer": "113 27",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.34303,
+      "lon": 18.04558,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -656,7 +704,13 @@
       "postnummer": "112 38",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.33343,
+      "lon": 18.03073,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": null,
     "helgdagar": null,
@@ -706,7 +760,13 @@
       "postnummer": "168 67",
       "ort": "Bromma"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.35556,
+      "lon": 17.96157,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -790,7 +850,13 @@
       "postnummer": "117 33",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31608,
+      "lon": 18.03334,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -861,7 +927,13 @@
       "postnummer": "114 50",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.34118,
+      "lon": 18.08149,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -932,7 +1004,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3322,
+      "lon": 18.06403,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1013,7 +1091,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.32868,
+      "lon": 18.05402,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [],
       "tis": [],
@@ -1069,7 +1153,13 @@
       "postnummer": "111 37",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3371,
+      "lon": 18.05921,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [],
       "tis": [],
@@ -1125,7 +1215,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31662,
+      "lon": 18.07527,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1216,7 +1312,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.33515,
+      "lon": 18.02641,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": null,
     "helgdagar": null,
@@ -1255,7 +1357,13 @@
       "postnummer": "118 48",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31761,
+      "lon": 18.06206,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1336,7 +1444,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3425,
+      "lon": 18.06408,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1408,7 +1522,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.32894,
+      "lon": 18.03725,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1470,7 +1590,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.34255,
+      "lon": 18.06403,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1543,7 +1669,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31939,
+      "lon": 18.06303,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1622,7 +1754,13 @@
       "postnummer": "126 30",
       "ort": "Hägersten"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.29157,
+      "lon": 18.01384,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1698,7 +1836,13 @@
       "postnummer": "116 25",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31662,
+      "lon": 18.07527,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": null,
     "helgdagar": null,
@@ -1736,7 +1880,13 @@
       "postnummer": "116 25",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31662,
+      "lon": 18.07527,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1823,7 +1973,13 @@
       "postnummer": "104 25",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3381,
+      "lon": 18.00771,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -1945,7 +2101,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31432,
+      "lon": 18.06592,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -2026,7 +2188,13 @@
       "postnummer": "",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3322,
+      "lon": 18.06403,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": {
       "man": [
         {
@@ -2097,7 +2265,13 @@
       "postnummer": "111 52",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3313,
+      "lon": 18.06265,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": null,
     "helgdagar": null,
@@ -2135,7 +2309,13 @@
       "postnummer": "111 52",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3313,
+      "lon": 18.06265,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": {
       "fran": "11-17",
@@ -2176,7 +2356,13 @@
       "postnummer": "113 22",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.3433,
+      "lon": 18.05349,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": null,
     "helgdagar": null,
@@ -2214,7 +2400,13 @@
       "postnummer": "118 26",
       "ort": "Stockholm"
     },
-    "koordinater": null,
+    "koordinater": {
+      "lat": 59.31461,
+      "lon": 18.07298,
+      "kalla": "nominatim",
+      "datum": "2026-11-06",
+      "status": "ej verifierad"
+    },
     "oppettider": null,
     "sasong": null,
     "helgdagar": null,

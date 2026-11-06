@@ -131,7 +131,16 @@
     "helgdagIdag": "Helgdag i dag ({namn})",
     "helgdagOsaker": "Helgdag i dag ({namn}). Tiderna kan avvika, ring först.",
     "traffar": "{n} träff|{n} träffar",
-    "ingaTraffar": "Inga platser matchar sökningen. Prova ett kortare ord."
+    "ingaTraffar": "Inga platser matchar sökningen. Prova ett kortare ord.",
+    "nara": "Nära mig",
+    "naraSoker": "Hämtar din position…",
+    "naraKlar": "Sorterat efter avstånd från dig",
+    "naraFel": "Kunde inte hämta din position. Kontrollera att platstjänster är på.",
+    "avstandM": "{m} m",
+    "avstandKm": "{km} km",
+    "anmal": "Stämmer inte? Anmäl",
+    "anmalRubrik": "Fel i uppgifterna om {namn}",
+    "anmalText": "Beskriv vad som inte stämmer (adress, tider, telefon, villkor) och gärna varifrån du vet det."
   },
   "sok": {
     "rubrik": "Sök plats",
@@ -253,5 +262,19 @@
     "juldagen": "Juldagen",
     "annandag-jul": "Annandag jul",
     "nyarsafton": "Nyårsafton"
+  },
+  "affisch": {
+    "rubrik": "Affisch att skriva ut",
+    "knapp": "Skriv ut affischen",
+    "sattUpp": "Skriv ut i A4 och sätt upp där den gör nytta: härbärgen, bibliotek, kyrkor, vårdcentraler, väntrum, trapphus. Affischen länkar till sajten med en QR-kod.",
+    "skanna": "Skanna koden med mobilens kamera, eller skriv in adressen:",
+    "qrAlt": "QR-kod som leder till sajten",
+    "behover": "Var du kan sova, äta, duscha, ladda mobilen och få vård och råd. Visar vad som är öppet just nu.",
+    "fot": "Gratis. Inga konton, inga cookies. Fungerar utan internet efter första besöket. Svenska och engelska.",
+    "sprid": {
+      "rubrik": "Sprid sidan",
+      "text": "Skriv ut en affisch med QR-kod och sätt upp den där människor som behöver hjälp kan se den.",
+      "lank": "Affisch att skriva ut"
+    }
   }
 }

@@ -1,7 +1,8 @@
 {# Förväntar sig: plats, lang #}
-<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong, helgdagar: plats.helgdagar, undantag: plats.undantag } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}" data-sok="{{ plats | sokText(lang) }}">
+<li class="plats" id="{{ plats.id }}" data-plats='{{ { oppettider: plats.oppettider, sasong: plats.sasong, helgdagar: plats.helgdagar, undantag: plats.undantag, koordinater: ((plats.koordinater and { lat: plats.koordinater.lat, lon: plats.koordinater.lon }) or null) } | json | safe }}' data-kontrollerad="{{ plats.senastKontrollerad }}" data-sok="{{ plats | sokText(lang) }}">
   <h3 class="plats-namn">{{ plats.namn }}</h3>
   <p class="status" data-status></p>
+  <p class="avstand" data-avstand hidden></p>
   <p class="badges">
     {% if plats.status == 'verifierad' %}<span class="badge ok">✓ {{ 'plats.verifierad' | t(lang) }}</span>{% else %}<span class="badge ej">{{ 'plats.ejVerifierad' | t(lang) }}</span>{% endif %}
     {% if visaKategorier %}{% for k in plats.kategorier %}<span class="badge kat-badge">{{ k | katNamn(lang) }}</span>{% endfor %}{% endif %}
@@ -43,5 +44,5 @@
     <dd>{% if plats.webb or plats.org.webb %}<a href="{{ plats.webb or plats.org.webb }}" rel="noopener">{{ plats.org.namn }} ↗</a>{% else %}{{ plats.org.namn }}{% endif %}</dd>
     {% endif %}
   </dl>
-  <p class="kontroll">{{ 'plats.senastKontrollerad' | t(lang) }}: <time datetime="{{ plats.senastKontrollerad }}">{{ plats.senastKontrollerad }}</time> <span class="gammal" hidden>· {{ 'plats.gammal' | t(lang) }}</span> · <a href="{{ plats.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a></p>
+  <p class="kontroll">{{ 'plats.senastKontrollerad' | t(lang) }}: <time datetime="{{ plats.senastKontrollerad }}">{{ plats.senastKontrollerad }}</time> <span class="gammal" hidden>· {{ 'plats.gammal' | t(lang) }}</span> · <a href="{{ plats.kalla }}" rel="noopener">{{ 'plats.kalla' | t(lang) }} ↗</a> · <a href="{{ plats | felUrl(lang) }}" rel="noopener">{{ 'plats.anmal' | t(lang) }} ↗</a></p>
 </li>

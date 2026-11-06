@@ -8,135 +8,135 @@ När du kontrollerat en post: sätt `status` till `verifierad` och `senastKontro
 
 - **BoCenter – akutboende för män** (bocenter-akutboende) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.stadsmissionen.se/fa-stod/boende/akutboende/akutboende-for-man
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Öppettider: Dygnet runt'. Postnummer anges inte på sidan; hitta-till-oss-sidan anger 112 45 för Fleminggatan 113 (folkhögskolan/Rusta och matcha i samma hus). Pris ej angivet.
 - **BoCenter – dagverksamhet för män** (bocenter-dagverksamhet) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.stadsmissionen.se/fa-stod/stod-vid-hemloshet/dagverksamheter/dagverksamhet-for-man
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Måndag, onsdag, fredag-söndag: kl. 8.30-12.30 / stängt 12.30-13.30 / kl.13.30-15.30. Tisdag och torsdag: kl. 8.30-12.30'. MOTSÄGELSE: sidan anger besöksadress Högbergsgatan 20 men intro-texten säger 'Vår öppna dagverksamhet på Fleminggatan'; BoKlara-sidan hänvisar män till 'BoCenter på Fleminggatan 115'; akutboendet BoCenter ligger på Fleminggatan 113. Adressen måste kontrolleras. Pris ej angivet.
 - **BoKlara – akutboende för kvinnor** (boklara-akutboende) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.stadsmissionen.se/fa-stod/boende/akutboende/akutboende-for-kvinnor
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Öppettider: Dygnet runt'. Två telefonnummer anges: 08-684 232 19 och 08-684 232 18. Pris ej angivet.
 - **BoKlara – dagverksamhet för kvinnor** (boklara-dagverksamhet) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.stadsmissionen.se/fa-stod/stod-vid-hemloshet/dagverksamheter/dagverksamhet-for-kvinnor
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Måndag–söndag 8.15-15.00 (stänger kl. 13.00 på tisdagar)'. Namnet Klaragården förekommer inte på stadsmissionen.se – verksamheten heter nu BoKlara. E-post boklara@stadsmissionen.se. Pris ej angivet.
 - **Café Clara (S:ta Clara kyrka)** (cafe-clara) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://clarakyrka.se/kalender/
-  - saknas: telefon, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: telefon, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Cafésidan säger 'öppet varje vardag och lördag' och hänvisar till kalendern för tider; tiderna ovan är tagna från kalendern. Pris för kaffe anges inte. Sommarcafé 1–31 juli mån–fre 11–15 utanför Lillkyrkan.
 - **Citydiakoni i S:ta Clara kyrka** (citydiakoni-sta-clara) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.svenskakyrkan.se/stockholmsdomkyrkoforsamling/citydiakoni
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Citydiakoni finns i St:a Clara kyrka, tisdag 12.00-15.00, fredag 11.00-14.00 (28/8 t.o.m. 18/12, uppehåll 27/10)'. Årtal anges inte. Gatuadressen är hämtad från clarakyrka.se/kontakta-oss/ (diakonisidan anger ingen gatuadress). Telefon är diakon Pernilla Landin.
 - **Convictus Högdalen (Bryggan Vantör)** (convictus-hogdalen) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://convictus.org/convictus_vara_verksamheter_serviceverksamheter
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Måndag till fredag, kl. 09.00-15.00'. Sidan anger 'Skebokvarnsvägen 341, Högdalens centrum'; postnummer/ort från kontaktsidan. Ligger utanför innerstan (Högdalen).
 - **Convictus Odenplan** (convictus-odenplan) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://convictus.org/convictus_kontakt
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan (serviceverksamheter): 'Måndag till fredag, kl. 09.00-15.00'. MOTSÄGELSE: kontaktsidan https://convictus.org/convictus_kontakt anger mån–tis 09.00–15.00, ons–tor 09.00–14.00, fre 09.00–13.00. Postnummer från kontaktsidan. Namnet 'Bryggan City' förekommer inte på convictus.org. | Andra insamlingen (https://convictus.org/convictus_kontakt): Kontaktsidan: 'måndag-tisdag kl 09.00-15.00, onsdag-torsdag kl 09.00-14.00, fredag kl 09.00-13.00'. Verksamhetssidan säger i stället 'Måndag till fredag, kl. 09.00-15.00' – motsägelse. Pris för dusch/tvätt anges inte; frukost gratis.
 - **Frälsningsarméns EU-center** (fa-eu-center) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.fralsningsarmen.se/eu-center/
-  - saknas: öppettider okända, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Sidan säger bara 'på vardagar' utan klockslag, därför oppettider null. Översiktssidan center-med-dagverksamhet anger ett annat telefonnummer: 08-128 288 00. Adressen skrivs 'St Göransgatan 61'. E-post eucenter@fralsningsarmen.se.
 - **EU-härbärget Bromma – akutboende (Frälsningsarmén)** (fa-eu-harbarget-bromma) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.fralsningsarmen.se/eu-harbarget-bromma/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Våra öppettider är 19.30–07.00 måndag-söndag, årets samtliga dagar.' Telefon bemannad 19:30–07:15. MOTSÄGELSE: översiktssidan boenden-for-personer-i-hemloshet säger att platserna 'lottas ut varje dag klockan 11 i Korskyrkan' och anger tel 0764-18 44 81; härbärgets egen sida säger intag mån–fre 10.00–11.30 utan lotteri. Ligger i Bromma men intaget sker i innerstan.
 - **Frälsningsarméns Sociala center, Hornstull** (fa-sociala-centret-hornstull) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.fralsningsarmen.se/sociala-centret-stockholm/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Måndag till fredag kl 9:00–13:00.' Postnummer anges som 11733 på centrets sida men 117 38 på översiktssidan center-med-dagverksamhet (117 38 är postadressen Bergsunds Strand 51). Centret har eget Swish 1234578126 och plusgiro 860765-7. E-post soccent.sthlm@fralsningsarmen.se.
 - **Kafé i Gemenskap, Templet (Frälsningsarmén)** (fa-templet-kafe-i-gemenskap) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.fralsningsarmen.se/templet-stockholm/det-sociala-arbetet-pa-templet/kafe-i-gemenskap/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Öppet måndag - fredag kl. 9.00-12.00', serveringen slutar 11.45. Språkkafé onsdagar 14–16. Översiktssidan anger telefon 073-98 212 67 för Templets sociala arbete.
 - **Kulturbiblioteket, Kulturhuset** (kulturbiblioteket-kulturhuset) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://kulturhusetstadsteatern.se/bibliotek/kulturbiblioteket
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Måndag–fredag: 11–19:30', 'Lördag–söndag: 11–17', undantag 'Onsdag 18 november: 12–19:30'. Datorer/wifi från biblioteket.stockholm.se/bibliotek/kulturbiblioteket, telefon från dess /kontakt-sida. Eluttag nämns inte. Gatuadress saknas på sidorna.
 - **Läkare i Världen – mottagning Stockholm (Serafen)** (lakare-i-varlden-stockholm) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://lakareivarlden.se/vara-mottagningar/stockholm/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: onsdagar 18:00–20:00, torsdagar 18:00–21:00. Målgrupp 'papperslosa' är tolkning – sidan säger inte papperslösa/EU-medborgare uttryckligen, bara 'hinder i tillgången till vård'. Avgift och språk anges inte. Serafen på Kungsholmen.
 - **LP Stockholm City (Citykyrkan)** (lp-stockholm-city) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.lp-verksamheten.se/lp-center/stockholm-city/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Torsdag: 16:00 – 19:00', 'Fredag: 16:00 – 18:00'. Telefontid 'Mån-Tors 09.00 – 12.00'. Mat/dusch/kläder nämns inte. Pris anges inte.
 - **Medborgarkontoret för personer i hemlöshet** (medborgarkontoret-for-hemlosa) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://socialtstod.stockholm/stod-till-hemlosa/medborgarkontor-for-hemlosa/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: måndag 10.00–12.00, 13.00–16.00; tis–tor 09.00–12.00, 13.00–16.00; fredag 09.00–12.00, 13.00–15.30. Fredagar ojämna veckor öppet eftermiddag 13.00–15.30 (oklart om fredagseftermiddag gäller alla veckor). Telefon vardagar 08.30–12.00 samt 13.00–16.00. E-post medborgarkontoret.for.hemlosa@stockholm.se. Pris 'gratis' är antagande (kommunal service), källan säger inget.
 - **Mobilt råd och stöd** (mobilt-rad-och-stod) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://stadsmissionen.se/motesplats-city
-  - saknas: öppettider okända, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Sidan anger bara telefontider: 'måndag, onsdag och fredag kl. 9 – 12'. Inga besökstider. URL:en motesplats-city visar sidan 'Mobilt råd och stöd'; kortet 'EU-medborgare eller tredjelandsmedborgare?' på fa-stod/stod-och-rattigheter länkar hit. E-post radochstod@stadsmissionen.se. | Andra insamlingen (https://www.stadsmissionen.se/mobilt-rad-och-stod): Telefontid: 'måndag, onsdag och fredag kl. 9 – 12'. Inga besökstider; teamet kan mötas på plats som passar. Pris anges inte uttryckligen (tolkat som gratis). Postnummer saknas.
 - **Mötesplats Mariatorget** (motesplats-mariatorget) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.stadsmissionen.se/motesplats-mariatorget
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Måndag: 8:00-14:30 Tisdag-Fredag: 08:00-17:00 Lördag: 09:00-17:00 Söndag: 11:00-16:00'. Telefon visas som 0868423310, telefontid vardagar 9-12. Gatuadress hämtad från https://www.stadsmissionen.se/hitta-till-oss (verksamhetssidan saknar adress). Dusch/tvätt/kläder nämns inte.
 - **Natthärbärge för utsatta EU-medborgare – inskrivning (Korskyrkan)** (nattharbarge-eu-inskrivning-korskyrkan) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://socialtstod.stockholm/skadligt-bruk-och-beroende/stod-till-utsatta-eu-medborgare/
-  - saknas: telefon, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: telefon, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: inskrivningskontor Korskyrkan, Birger Jarlsgatan 66, måndag–fredag 10.00–11.30. Sidan markerade kontoret som 'stängt' vid hämtningen – oklart om det betyder stängt just nu eller nedlagt. Härbärgets egen adress, tider och pris anges inte. Ordet 'Vinternatt' används inte på sidan. Extra lokaler öppnas särskilt kalla vinternätter.
 - **Café Kungsholmen (Ny Gemenskap / Den Öppna Dörren)** (ng-cafe-kungsholmen) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://nygemenskap.org/cafe-kungsholmen/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'öppet mellan kl 13-17 måndagar, onsdagar och fredagar varje vecka'. Telefonnumret tillhör Den Öppna Dörren (även 072-332 84 17). Pris anges inte. Postnummer saknas. | Andra insamlingen (https://nygemenskap.org/cafe-kungsholmen/): Källan: 'öppet mellan kl 13-17 måndagar, onsdagar och fredagar varje vecka'. Telefon 08-650 84 17 är partnern Den Öppna Dörren (enligt nygemenskap.org/kontakta-oss/). Pris anges inte.
 - **Café Norrmalm (Ny Gemenskap)** (ng-cafe-norrmalm) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://nygemenskap.org/cafe-norrmalm/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'måndag– fredag kl 9-12.00'. Ligger i Korskyrkans lokaler. Postnummer saknas på sidan. 'Gratis' bygger på organisationens uppgift att alla caféer serverar gratis frukost (vara-verksamheter-sidan). | Andra insamlingen (https://nygemenskap.org/cafe-norrmalm/): Källan: 'Vi serverar frukost måndag– fredag kl 9-12.00'. Toaletter renoveras 23 nov–18 dec (årtal ej angivet). Postnummer anges inte.
 - **Café Södermalm (Ny Gemenskap)** (ng-cafe-sodermalm) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://nygemenskap.org/cafe-sodermalm/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'måndag– fredag kl 9-12.00' samt 'Musikcafé med livemusik och gratis fika kl. 13-16' torsdagar. I Söderhöjdskyrkans lokal nära Mariatorget. Postnummer saknas. Pris för frukost anges inte på sidan; 'gratis' enligt organisationens generella uppgift. | Andra insamlingen (https://nygemenskap.org/cafe-sodermalm/): Källan: 'Vi serverar frukost måndag– fredag kl 9-12.00'; musikcafé 'Torsdagar 13:00-16:00'. Svenska kyrkan Södermalms sida (svenskakyrkan.se/sodermalm/kafe-i-gemenskap) anger musikkafé 'kl. 13.15-15.30' – motsägelse. Postnummer anges inte.
 - **Västberga gård (Ny Gemenskap)** (ng-vastberga-gard) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://nygemenskap.org/vastberga-gard/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Öppettider-avsnittet: 'Måndag – fredag kl 9.00-14.00', 'Lördag stängt', 'Söndag 12.00-14.30'. MOTSÄGELSE på samma sida (FAQ): 'Onsdag 9.00-12.00', 'Söndag kl 12-15.00', lunch 15 kr. Ligger utanför innerstan (Hägersten). Ny Gemenskaps huvudverksamhet; Kammakargatan nämns inte längre på webbplatsen. | Andra insamlingen (https://nygemenskap.org/vastberga-gard/): Ligger utanför innerstan. Källan: 'Måndag – fredag kl 9.00-14.00', 'Lördag stängt', 'Söndag 12.00-14.30' – men FAQ på samma sida säger 'Söndag kl 12-15.00'. Lunchpris 20 kr i huvudtext, 15 kr i FAQ. Motsägelser att kontrollera.
 - **Område hemlöshet (Enheten för hemlösa), socialförvaltningen** (omrade-hemloshet-socialforvaltningen) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://socialtstod.stockholm/stod-till-hemlosa/
-  - saknas: öppettider okända, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Sidan kallar enheten 'område hemlöshet' vid socialförvaltningen. Inga öppettider anges på sidan. Pris 'gratis' är antagande (myndighet).
 - **Capio Vård för hemlösa Pelarbacken** (pelarbacken) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.1177.se/hitta-vard/kontaktkort/Capio-Vard-for-hemlosa-Pelarbacken-oppenvard-Sodermalm/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Tiderna är drop-in-tider enligt 1177. Telefontider: mån–ons 08.00–16.00, tor 08.00–22.00, fre 08.00–15.00. Drivs av Capio på uppdrag av Region Stockholm. Avgift framgår inte. Tandvård nämns inte.
 - **Röda Korsets vårdförmedling, Kungsholmen** (roda-korset-vardformedling-kungsholmen) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.rodakorset.se/var-hjalp-i-sverige/vard-och-behandling/vard-for-papperslosa/stockholm/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: drop-in måndag–torsdag 09.00–12.00 och 13.00–16.00; telefon måndag–fredag 09.00–12.00. Äldre folder angav 020-21 10 00 (samma nummer) och Hornsgatan 54 (gammal adress). Avgift anges inte.
 - **Situation Sthlm – stöd till försäljare** (situation-sthlm) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://www.situationsthlm.se/var-verksamhet/
-  - saknas: öppettider okända, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, språk, koordinater, helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Inga öppettider på sidan (nämner 'kvällsöppet' utan schema). Dusch nämns inte. Oklart om verksamheten är öppen för andra än försäljare.
 - **Socialjouren Stockholms stad** (socialjouren-stockholm) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://socialtstod.stockholm/socialtjansten-finns-nar-du-behover/kontakta-socialtjansten/
-  - saknas: språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan: 'Stockholm stads socialjour är öppen dygnet runt' och 'vid akuta sociala situationer som inträffar kvällar, nätter eller helger'. Tiderna är telefonjourens – oklart om besöksadressen är öppen för besök dygnet runt. E-post funktion.sof.socialjouren@stockholm.se. Ligger i kategori 'sova' eftersom socialjouren är vägen till akutboende kvällar/nätter/helger, inte för att man sover där.
 - **S:ta Clara kyrka – Kaffevagn på Sergels torg (Plattan)** (sta-clara-kaffevagn-sergels-torg) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://clarakyrka.se/kalender/
-  - saknas: telefon, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: telefon, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Kalendern: 'Sergels torg – Plattan (kaffevagn)', 'varje vardag 13.30-14.30'. Vad som delas ut utöver kaffe framgår inte.
 - **S:ta Clara kyrka – Matutdelning och sopplunch** (sta-clara-matutdelning) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://clarakyrka.se/matutdelning/
-  - saknas: öppettider okända, telefon, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, telefon, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Källan anger bara starttider: 'varje torsdag kl 10.30' (matkassar) och 'varje tisdag kl 14.00' (sopplunch i Lillkyrkan). Inga sluttider, därför oppettider null. Pris 'gratis' är tolkning – sidan säger utdelning till behövande, inget pris nämns.
 - **S:ta Clara kyrka – Nattöppen kyrka** (sta-clara-nattoppen-kyrka) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://clarakyrka.se/kalender/
-  - saknas: öppettider okända, telefon, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, telefon, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Kalendern listar 'Nattöppen kyrka' måndag kväll/natt '17 nov-31 mars' utan klockslag. Oklart om man får sova där – en äldre TV4-artikel säger att sovplatserna stoppats. Kategori 'sova' är osäker, måste kontrolleras.
 - **Stadsbiblioteket Spelbomskan** (stadsbiblioteket-spelbomskan) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://biblioteket.stockholm.se/bibliotek/stadsbiblioteket-spelbomskan
-  - saknas: öppettider okända, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Stadsbiblioteket Odengatan 53 är stängt för renovering, återöppning 'början av 2028'. Sidan visade bara 'Öppet idag: 10:00–17:00'; veckotider laddas med javascript och gick inte att läsa. Eluttag nämns inte. Telefon från /kontakt-sidan.
 - **Tranströmerbiblioteket (Medborgarplatsen)** (transtromerbiblioteket) – ☐ EJ VERIFIERAD, kontrollerad 2026-11-06
   - källa: https://biblioteket.stockholm.se/bibliotek/transtromerbiblioteket
-  - saknas: öppettider okända, språk, helgdagar (stängt, som söndag eller ordinarie?)
+  - saknas: öppettider okända, språk, koordinater (automatiskt från adressen, stickprova i GEOKODNING-filen), helgdagar (stängt, som söndag eller ordinarie?)
   - anteckning: Sidan visade bara 'Öppet idag: 10:00–17:00' (PUNKT 12:00–17:00); veckotider laddas med javascript och gick inte att läsa. Eluttag nämns inte. Telefon från /kontakt-sidan. Det finns inget bibliotek som heter 'Medborgarplatsens bibliotek' i stadsbibliotekets lista – Tranströmerbiblioteket är biblioteket vid Medborgarplatsen.
 
 ## Organisationer (16)
